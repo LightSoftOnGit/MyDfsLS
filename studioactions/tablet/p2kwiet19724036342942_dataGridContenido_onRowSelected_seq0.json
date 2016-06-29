@@ -1,0 +1,18 @@
+{
+    "p2kwiet19724036342942_dataGridContenido_onRowSelected_seq0": {
+        "id": "p2kwiet19724036342942_dataGridContenido_onRowSelected_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "customcode_onRowSelected_669511972403634184",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "verSaldosMovimientosDetalle",
+            "display": "verSaldosMovimientosDetalle",
+            "inputparams": []
+        }]
+    }
+}

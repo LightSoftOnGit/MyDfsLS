@@ -1,0 +1,18 @@
+{
+    "p2kwiet19724036342942_btnSiguiente_onClick_seq0": {
+        "id": "p2kwiet19724036342942_btnSiguiente_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "customcode_onClick_9170519724036348934",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "saldosMovimientosSiguiente",
+            "display": "saldosMovimientosSiguiente",
+            "inputparams": []
+        }]
+    }
+}

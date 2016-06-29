@@ -1,0 +1,21 @@
+{
+    "p2kwiet19724036342873_txtrepetcontrasena_onTextChange_seq0": {
+        "id": "p2kwiet19724036342873_txtrepetcontrasena_onTextChange_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }, {
+            "name": "changedtext",
+            "value": "changedtext"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "customcode_onTextChange_7494919724036341505",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "checkContraseniaRegistroEmpresa",
+            "display": "checkContraseniaRegistroEmpresa",
+            "inputparams": []
+        }]
+    }
+}

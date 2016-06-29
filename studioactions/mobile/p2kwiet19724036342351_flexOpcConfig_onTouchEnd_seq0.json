@@ -1,0 +1,30 @@
+{
+    "p2kwiet19724036342351_flexOpcConfig_onTouchEnd_seq0": {
+        "id": "p2kwiet19724036342351_flexOpcConfig_onTouchEnd_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }, {
+            "name": "x",
+            "value": "x"
+        }, {
+            "name": "y",
+            "value": "y"
+        }, {
+            "name": "contextInfo",
+            "value": "contextInfo"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "navigation_onTouchEnd_3127019724036349138",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmConstruccion",
+            "formKUID": "p2kwiet19724036341799",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "enableMappingEditor": true
+        }]
+    }
+}

@@ -1,0 +1,61 @@
+{
+  "android": {
+    "font_name": "CorpoS"
+  },
+  "background_color": "ffffffff",
+  "bg_type": "one",
+  "border_color": "000000ff",
+  "border_style": "plain",
+  "border_type": 0,
+  "border_width": 1,
+  "desktopweb": {
+    "font_name": "Helvetica"
+  },
+  "font_color": "000000ff",
+  "font_name": "",
+  "font_size": 100,
+  "font_style": "normal",
+  "font_weight": "normal",
+  "ipad": {
+    "font_name": "CorpoS"
+  },
+  "iphone": {
+    "font_name": "CorpoS"
+  },
+  "isDefaultSkin": false,
+  "kiosk": {
+    "font_name": "GenericMonospace"
+  },
+  "kuid": "s588a34b528e46c8b4fbe678a269b149",
+  "spaan": {
+    "font_name": "Helvetica"
+  },
+  "spaandroidtablet": {
+    "font_name": "Helvetica"
+  },
+  "spabb": {
+    "font_name": "Helvetica"
+  },
+  "spaip": {
+    "font_name": "Helvetica"
+  },
+  "spaipad": {
+    "font_name": "Helvetica"
+  },
+  "spawindowstablet": {
+    "font_name": "Helvetica"
+  },
+  "spawinphone8": {
+    "font_name": "Helvetica"
+  },
+  "tabrcandroid": {
+    "font_name": "CorpoS"
+  },
+  "wType": "TextField",
+  "windows8": {
+    "font_name": "CorpoS"
+  },
+  "winphone8": {
+    "font_name": "CorpoS"
+  }
+}

@@ -1,0 +1,55 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "5%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s5e6404acb074732b0a3a000625a5153",
+    "_text_": "Código de Verificación:",
+    "_top_": {
+        "type": "string",
+        "value": "5%"
+    },
+    "_width_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_wrapping_": 2,
+    "annotationId": "9fd50045039e4b01ab533eb2141c4668",
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 4,
+    "enabled": false,
+    "id": "CopyrichTextContrato0c9649c40732a49",
+    "info": null,
+    "isvisible": true,
+    "kuid": "70c9572dd25546a589a94fac9b54ca02",
+    "name": "kony.ui.RichText",
+    "parent": "CopyflexTextField03ee38539a4ec40",
+    "pf": "loginRegistroEmpresa",
+    "wType": "RichText",
+    "widgetalignment": 5,
+    "zindex": 1
+}

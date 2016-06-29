@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "11%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        23,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s4a538b2054d4be681e6fee881dac65e",
+    "_text_": "Distribuidores",
+    "_top_": {
+        "type": "string",
+        "value": "35.50%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerId": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "disabledSkins": {},
+    "displaytext": true,
+    "focusskin": "s75191afabd141adb53a3ebb838cc36e",
+    "id": "lblDistribuidores",
+    "info": null,
+    "isSegmentChild": false,
+    "isvisible": true,
+    "kuid": "a1a27bb731194776a9b1eb459d08f4c6",
+    "name": "kony.ui.Button",
+    "onclick": "AS_Button_4dd9b5e471fc41fdaf9fd8175c2bca77",
+    "paddinginpixel": false,
+    "parent": "menuContainer",
+    "pf": "hamburguerTemplate",
+    "wType": "Button"
+}

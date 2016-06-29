@@ -1,0 +1,32 @@
+{
+    "AS_FlexContainer_adecc1a720f54ce09121ba1d3927f4a5": {
+        "id": "AS_FlexContainer_adecc1a720f54ce09121ba1d3927f4a5",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmContacto",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f2d72e30364343ce9d2a70f31c13dfd2"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___6f09622f768f4223b6dca8c6e20b2ec5",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "contactoTelefono",
+            "display": "contactoTelefono",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

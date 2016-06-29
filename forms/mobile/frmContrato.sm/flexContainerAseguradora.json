@@ -1,0 +1,61 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "25%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s1d39ab32f0b4f04a9778b7b4e68613f",
+    "_top_": {
+        "type": "string",
+        "value": "70.50%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "children": [
+        "CopylblBanco041da8348124447",
+        "CopylblBancoNombre058b4a971eb834a",
+        "CopylblCuenta0f585157314424e",
+        "CopylblTitular0f3d3aaafa2be4b",
+        "CopyImage0bf9c7375f9154b"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "enabled": false,
+    "enablescrolling": true,
+    "id": "flexContainerAseguradora",
+    "info": null,
+    "isvisible": true,
+    "kuid": "3ff4699f3f0a4b5b853e25453fe367a7",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "orientation": 6,
+    "parent": "FlexScrollContainer067543de505e445",
+    "percent": true,
+    "pf": "frmContrato",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1
+}

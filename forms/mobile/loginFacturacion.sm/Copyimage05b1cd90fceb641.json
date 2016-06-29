@@ -1,0 +1,105 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_base64_": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_enabled_": false,
+    "_height_": {
+        "type": "string",
+        "value": "5.0%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s077754818cf416c96cd3253eca3a03d",
+    "_src_": "rayanegra.png",
+    "_text_": "raya.png",
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "android": {
+        "@class": "com.kony.gen.viz.model.component.property.image2.AndroidImage2Property",
+        "render": true
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 0,
+    "contentalignment": 5,
+    "context": {
+        "channel": "mobile",
+        "formID": "loginFacturacion",
+        "platform": "iphone",
+        "templateType": "forms",
+        "topLevelBox": null
+    },
+    "hexpand": false,
+    "id": "Copyimage05b1cd90fceb641",
+    "imagescalemode": 1,
+    "info": null,
+    "invokedProperty": "src",
+    "iphone": {
+        "@class": "com.kony.gen.viz.model.component.property.image2.IPhoneImage2Property",
+        "psp": {
+            "glossyEffect": 0
+        },
+        "render": true
+    },
+    "isvisible": true,
+    "kuid": "3d50e9956540442da0b3bd8a0ba626ed",
+    "margininpixel": false,
+    "name": "kony.ui.Image2",
+    "paddinginpixel": false,
+    "parent": "flexEstado3",
+    "pf": "loginFacturacion",
+    "spa": {
+        "@class": "com.kony.gen.viz.model.component.property.image2.SPAImage2Property"
+    },
+    "spaan": {
+        "@class": "com.kony.gen.viz.model.component.property.image2.SPAAndroidImage2Property",
+        "render": true
+    },
+    "spabb": {
+        "@class": "com.kony.gen.viz.model.component.property.image2.SPABBImage2Property",
+        "render": false
+    },
+    "spaip": {
+        "@class": "com.kony.gen.viz.model.component.property.image2.SPAIPhoneImage2Property",
+        "render": true
+    },
+    "spawinphone8": {
+        "@class": "com.kony.gen.viz.model.component.property.image2.SPAWinPhone8Image2Property",
+        "render": true
+    },
+    "srcType": 1,
+    "vexpand": false,
+    "wType": "Image",
+    "widgetalignment": 5,
+    "winphone8": {
+        "@class": "com.kony.gen.viz.model.component.property.image2.WinPhone8Image2Property",
+        "psp": {
+            "enableCache": false
+        },
+        "render": true
+    },
+    "zindex": 1
+}

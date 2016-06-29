@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        7,
+        22,
+        0
+    ],
+    "_skin_": "s4c561a30b3a40068e5713c3f9bbed7f",
+    "_text_": "01 800 262 66 66",
+    "_top_": {
+        "type": "string",
+        "value": "5%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "disabledSkins": {
+        "focusSkin": "s92add3f30c247dbb2cfe30d93faba17"
+    },
+    "displaytext": true,
+    "focusskin": "s4c561a30b3a40068e5713c3f9bbed7f",
+    "id": "lblTelefono",
+    "info": null,
+    "isvisible": true,
+    "kuid": "c1f834a7ef204fe6be749787dd5e470d",
+    "name": "kony.ui.Button",
+    "paddinginpixel": false,
+    "parent": "CopyFlexContainer023fa4f12ff484c",
+    "pf": "frmSeguros",
+    "wType": "Button",
+    "zindex": 1
+}

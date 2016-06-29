@@ -1,0 +1,27 @@
+{
+    "p2kwiet19724036341937_CopyFlexContainer023fa4f12ff484c_onTouchStart_seq0": {
+        "id": "p2kwiet19724036341937_CopyFlexContainer023fa4f12ff484c_onTouchStart_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }, {
+            "name": "x",
+            "value": "x"
+        }, {
+            "name": "y",
+            "value": "y"
+        }, {
+            "name": "contextInfo",
+            "value": "contextInfo"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "customcode_onTouchStart_7595319724036349619",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "segurosLlamadaTelefono",
+            "display": "segurosLlamadaTelefono",
+            "inputparams": []
+        }]
+    }
+}

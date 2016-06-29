@@ -1,0 +1,21 @@
+{
+    "p2kwiet19724036342895_scrollTerminos_onScrollEnd_seq0": {
+        "id": "p2kwiet19724036342895_scrollTerminos_onScrollEnd_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "customcode_onScrollEnd_821019724036342367",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "activarBtonAceptar",
+            "display": "activarBtonAceptar",
+            "inputparams": [{
+                "name": "event",
+                "value": "eventobject"
+            }]
+        }]
+    }
+}

@@ -1,0 +1,90 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_enabled_": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "10%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_render_": true,
+    "_skin_": "se39833dd7064d728397ccb069e15650",
+    "_text_": "Encender/Apagar\n",
+    "_top_": {
+        "type": "string",
+        "value": "20%"
+    },
+    "_width_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_wrapping_": 2,
+    "android": {
+        "@class": "com.kony.gen.viz.model.component.property.richtext.AndroidRichTextProperty",
+        "render": true
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "hexpand": true,
+    "id": "richTextUbicacion",
+    "info": null,
+    "iphone": {
+        "@class": "com.kony.gen.viz.model.component.property.richtext.IPhoneRichTextProperty",
+        "_wrapping_": 2,
+        "render": true,
+        "wrapping": 2
+    },
+    "isvisible": true,
+    "kuid": "p2kwiet19724036341646",
+    "margininpixel": false,
+    "name": "kony.ui.RichText",
+    "paddinginpixel": false,
+    "parent": "imgTab",
+    "pf": "frmAjustesParquimetro",
+    "spa": {
+        "@class": "com.kony.gen.viz.model.component.property.richtext.SPARichTextProperty"
+    },
+    "spaan": {
+        "@class": "com.kony.gen.viz.model.component.property.richtext.SPAAndroidRichTextProperty",
+        "render": true
+    },
+    "spabb": {
+        "@class": "com.kony.gen.viz.model.component.property.richtext.SPABBRichTextProperty",
+        "render": false
+    },
+    "spaip": {
+        "@class": "com.kony.gen.viz.model.component.property.richtext.SPAIPhoneRichTextProperty",
+        "render": true
+    },
+    "spawinphone8": {
+        "@class": "com.kony.gen.viz.model.component.property.richtext.SPAWinPhone8RichTextProperty",
+        "render": true
+    },
+    "vexpand": false,
+    "wType": "RichText",
+    "widgetalignment": 5,
+    "winphone8": {
+        "@class": "com.kony.gen.viz.model.component.property.richtext.WinPhone8RichTextProperty",
+        "psp": {
+            "enableCache": false
+        },
+        "render": true
+    },
+    "zindex": 1
+}

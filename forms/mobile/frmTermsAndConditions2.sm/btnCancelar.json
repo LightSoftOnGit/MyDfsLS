@@ -1,0 +1,51 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "6%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "5%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        8,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sf61a9c712cf4d86bd36701bccde7e17",
+    "_text_": "Cancelar",
+    "_top_": {
+        "type": "string",
+        "value": "92%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "40%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "disabledSkins": {},
+    "displaytext": true,
+    "focusskin": "s790512d39fb4490afedf3dc67e7a29a",
+    "id": "btnCancelar",
+    "info": null,
+    "isvisible": true,
+    "kuid": "842617377511498399258e4c46adf641",
+    "name": "kony.ui.Button",
+    "paddinginpixel": false,
+    "parent": "frmTermsAndConditions2",
+    "pf": "frmTermsAndConditions2",
+    "wType": "Button",
+    "zindex": 3
+}

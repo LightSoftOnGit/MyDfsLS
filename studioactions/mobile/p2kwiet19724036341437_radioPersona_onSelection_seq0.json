@@ -1,0 +1,18 @@
+{
+    "p2kwiet19724036341437_radioPersona_onSelection_seq0": {
+        "id": "p2kwiet19724036341437_radioPersona_onSelection_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "customcode_onSelection_4421019724036341170",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "validarPrecioUnidad2",
+            "display": "validarPrecioUnidad2",
+            "inputparams": []
+        }]
+    }
+}

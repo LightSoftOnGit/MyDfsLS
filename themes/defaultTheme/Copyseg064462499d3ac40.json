@@ -1,0 +1,57 @@
+{
+  "android": {
+    "font_name": "CorpoS"
+  },
+  "background_color": "ffffff00",
+  "bg_type": "one",
+  "border_color": "000000ff",
+  "border_style": "plain",
+  "border_type": 0,
+  "border_width": 0,
+  "desktopweb": {
+    "font_name": "Andale Mono"
+  },
+  "font_name": "",
+  "ipad": {
+    "font_name": "AmericanTypewriter"
+  },
+  "iphone": {
+    "font_name": "CorpoS"
+  },
+  "isDefaultSkin": false,
+  "kiosk": {
+    "font_name": "GenericMonospace"
+  },
+  "kuid": "s11866e071574ac49a2f461acf8b0d66",
+  "spaan": {
+    "font_name": "Andale Mono"
+  },
+  "spaandroidtablet": {
+    "font_name": "Andale Mono"
+  },
+  "spabb": {
+    "font_name": "Andale Mono"
+  },
+  "spaip": {
+    "font_name": "Andale Mono"
+  },
+  "spaipad": {
+    "font_name": "Andale Mono"
+  },
+  "spawindowstablet": {
+    "font_name": "Andale Mono"
+  },
+  "spawinphone8": {
+    "font_name": "Andale Mono"
+  },
+  "tabrcandroid": {
+    "font_name": "Corporate A Condensed"
+  },
+  "wType": "Segment",
+  "windows8": {
+    "font_name": "Corporate A Condensed"
+  },
+  "winphone8": {
+    "font_name": "CorpoS"
+  }
+}

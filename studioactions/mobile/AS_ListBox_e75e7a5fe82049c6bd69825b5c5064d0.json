@@ -1,0 +1,26 @@
+{
+    "AS_ListBox_e75e7a5fe82049c6bd69825b5c5064d0": {
+        "id": "AS_ListBox_e75e7a5fe82049c6bd69825b5c5064d0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmDistribuidores",
+            "type": "forms",
+            "platform": "",
+            "KUID": "5e7ef89b66cd403482a407a6870d8bd9"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___787868b08c544f899dc209a98fc9340f",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "gpsObtenerDistribuidorPorEstado",
+            "display": "gpsObtenerDistribuidorPorEstado",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "p2kwiet19724036342012_frmWelcomeScreen2_Android_onDeviceBack_seq0": {
+        "id": "p2kwiet19724036342012_frmWelcomeScreen2_Android_onDeviceBack_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_onDeviceBack_5856119724036349673",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.print(\"nope\");"
+        }]
+    }
+}

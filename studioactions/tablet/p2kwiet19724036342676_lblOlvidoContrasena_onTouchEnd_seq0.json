@@ -1,0 +1,30 @@
+{
+    "p2kwiet19724036342676_lblOlvidoContrasena_onTouchEnd_seq0": {
+        "id": "p2kwiet19724036342676_lblOlvidoContrasena_onTouchEnd_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }, {
+            "name": "x",
+            "value": "x"
+        }, {
+            "name": "y",
+            "value": "y"
+        }, {
+            "name": "contextInfo",
+            "value": "contextInfo"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "navigation_onTouchEnd_7982219724036341276",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "loginRecuperarContrasena",
+            "formKUID": "p2kwiet19724036342829",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "enableMappingEditor": true
+        }]
+    }
+}

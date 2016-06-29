@@ -1,0 +1,26 @@
+{
+    "AS_Button_b753bc0609bc48b58e1ce320f46d5b8a": {
+        "id": "AS_Button_b753bc0609bc48b58e1ce320f46d5b8a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmInformacion",
+            "type": "forms",
+            "platform": "",
+            "KUID": "0d14da1e5dfd4f4fad9f03af7c6e4260"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___7eff107c388a4b9a9f54635a08657365",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "popNavegacionFrm",
+            "display": "popNavegacionFrm",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "p2kwiet19724036342168_loginFacturacionAux_Android_onDeviceBack_seq0": {
+        "id": "p2kwiet19724036342168_loginFacturacionAux_Android_onDeviceBack_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "customcode_onDeviceBack_36219724036349799",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "popNavegacionFrm",
+            "display": "popNavegacionFrm",
+            "inputparams": []
+        }]
+    }
+}

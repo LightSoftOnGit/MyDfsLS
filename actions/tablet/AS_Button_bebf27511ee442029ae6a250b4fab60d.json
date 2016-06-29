@@ -1,0 +1,1 @@
+{"AS_Button_bebf27511ee442029ae6a250b4fab60d":{"id":"AS_Button_bebf27511ee442029ae6a250b4fab60d","type":"ACTION_SEQUENCE","params":[{"datatype":"collection","name":"eventobject"}],"actions":[{"id":"OPEN_URL__5beee1c311d34449997a5d3b4c91a638","type":"OPEN_URL","url":"https://www.google.com.mx","parentId":null,"callbackType":null}]}}

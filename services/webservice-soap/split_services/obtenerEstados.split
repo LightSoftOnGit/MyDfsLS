@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xsObject>
+    <appSmsCode></appSmsCode>
+    <soapservice>
+        <authenticationMode>basic</authenticationMode>
+        <cacheduration></cacheduration>
+        <cacheable>false</cacheable>
+        <includecookies></includecookies>
+        <dataprovider></dataprovider>
+        <dcResponse/>
+        <encryptPwd>true</encryptPwd>
+        <escapeXML>false</escapeXML>
+        <id>obtenerEstados</id>
+        <ignoreProxy>false</ignoreProxy>
+        <inparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>rubro</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>request</source>
+            <srcformatvalue></srcformatvalue>
+            <target></target>
+            <targetdatatype></targetdatatype>
+            <testvalue>A</testvalue>
+            <value></value>
+        </inparam>
+        <intemplate>&lt;soapenv:Envelope xmlns:del="http://delegate.mydfs.ws.daimler.com/" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"&gt;
+   &lt;soapenv:Header/&gt;
+   &lt;soapenv:Body&gt;
+      &lt;del:obtenerEstados&gt;
+         &lt;!--Optional:--&gt;
+         &lt;rubro&gt;$rubro&lt;/rubro&gt;
+      &lt;/del:obtenerEstados&gt;
+   &lt;/soapenv:Body&gt;
+&lt;/soapenv:Envelope&gt;
+</intemplate>
+        <inputStructure>
+            <index>-1</index>
+            <order>0</order>
+            <id>obtenerEstados</id>
+            <params>
+                <accessType></accessType>
+                <format>string</format>
+                <formatValue></formatValue>
+                <jsValue></jsValue>
+                <name>rubro</name>
+                <type>java.lang.String</type>
+                <value></value>
+            </params>
+        </inputStructure>
+        <ntlmDomain></ntlmDomain>
+        <ntlmHost></ntlmHost>
+        <operationname>obtenerEstados</operationname>
+        <outtemplate>&lt;S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"&gt;
+   &lt;S:Body&gt;
+      &lt;ns2:obtenerEstadosResponse xmlns:ns2="http://delegate.mydfs.ws.daimler.com/"&gt;
+         &lt;MyDfsResponse&gt;
+            &lt;codigo&gt;1&lt;/codigo&gt;
+            &lt;contenido&gt;
+               &lt;lstResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:estado"&gt;
+                  &lt;descripcion&gt;Aguascalientes&lt;/descripcion&gt;
+                  &lt;id&gt;1&lt;/id&gt;
+               &lt;/lstResponse&gt;
+               &lt;lstResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:estado"&gt;
+                  &lt;descripcion&gt;Baja California&lt;/descripcion&gt;
+                  &lt;id&gt;3&lt;/id&gt;
+               &lt;/lstResponse&gt;
+               &lt;lstResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:estado"&gt;
+                  &lt;descripcion&gt;Baja California Sur&lt;/descripcion&gt;
+                  &lt;id&gt;2&lt;/id&gt;
+               &lt;/lstResponse&gt;
+               &lt;lstResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:estado"&gt;
+                  &lt;descripcion&gt;Chihuahua&lt;/descripcion&gt;
+                  &lt;id&gt;6&lt;/id&gt;
+               &lt;/lstResponse&gt;
+               &lt;lstResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:estado"&gt;
+                  &lt;descripcion&gt;Coahuila&lt;/descripcion&gt;
+                  &lt;id&gt;7&lt;/id&gt;
+               &lt;/lstResponse&gt;
+               &lt;lstResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:estado"&gt;
+                  &lt;descripcion&gt;Distrito Federal&lt;/descripcion&gt;
+                  &lt;id&gt;9&lt;/id&gt;
+               &lt;/lstResponse&gt;
+               &lt;lstResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:estado"&gt;
+                  &lt;descripcion&gt;Guanajuato&lt;/descripcion&gt;
+                  &lt;id&gt;11&lt;/id&gt;
+               &lt;/lstResponse&gt;
+               &lt;lstResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:estado"&gt;
+                  &lt;descripcion&gt;Hidalgo&lt;/descripcion&gt;
+                  &lt;id&gt;13&lt;/id&gt;
+               &lt;/lstResponse&gt;
+               &lt;lstResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:estado"&gt;
+                  &lt;descripcion&gt;Jalisco&lt;/descripcion&gt;
+                  &lt;id&gt;14&lt;/id&gt;
+               &lt;/lstResponse&gt;
+               &lt;lstResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:estado"&gt;
+                  &lt;descripcion&gt;México&lt;/descripcion&gt;
+                  &lt;id&gt;15&lt;/id&gt;
+               &lt;/lstResponse&gt;
+               &lt;lstResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:estado"&gt;
+                  &lt;descripcion&gt;Michoacán&lt;/descripcion&gt;
+                  &lt;id&gt;16&lt;/id&gt;
+               &lt;/lstResponse&gt;
+               &lt;lstResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:estado"&gt;
+                  &lt;descripcion&gt;Morelos&lt;/descripcion&gt;
+                  &lt;id&gt;17&lt;/id&gt;
+               &lt;/lstResponse&gt;
+               &lt;lstResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:estado"&gt;
+                  &lt;descripcion&gt;Nuevo León&lt;/descripcion&gt;
+                  &lt;id&gt;19&lt;/id&gt;
+               &lt;/lstResponse&gt;
+               &lt;lstResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:estado"&gt;
+                  &lt;descripcion&gt;Puebla&lt;/descripcion&gt;
+                  &lt;id&gt;21&lt;/id&gt;
+               &lt;/lstResponse&gt;
+               &lt;lstResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:estado"&gt;
+                  &lt;descripcion&gt;Querétaro&lt;/descripcion&gt;
+                  &lt;id&gt;22&lt;/id&gt;
+               &lt;/lstResponse&gt;
+               &lt;lstResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:estado"&gt;
+                  &lt;descripcion&gt;Quintana Roo&lt;/descripcion&gt;
+                  &lt;id&gt;23&lt;/id&gt;
+               &lt;/lstResponse&gt;
+               &lt;lstResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:estado"&gt;
+                  &lt;descripcion&gt;San Luis Potosí&lt;/descripcion&gt;
+                  &lt;id&gt;24&lt;/id&gt;
+               &lt;/lstResponse&gt;
+               &lt;lstResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:estado"&gt;
+                  &lt;descripcion&gt;Sinaloa&lt;/descripcion&gt;
+                  &lt;id&gt;25&lt;/id&gt;
+               &lt;/lstResponse&gt;
+               &lt;lstResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:estado"&gt;
+                  &lt;descripcion&gt;Sonora&lt;/descripcion&gt;
+                  &lt;id&gt;26&lt;/id&gt;
+               &lt;/lstResponse&gt;
+               &lt;lstResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:estado"&gt;
+                  &lt;descripcion&gt;Tabasco&lt;/descripcion&gt;
+                  &lt;id&gt;27&lt;/id&gt;
+               &lt;/lstResponse&gt;
+               &lt;lstResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:estado"&gt;
+                  &lt;descripcion&gt;Veracruz&lt;/descripcion&gt;
+                  &lt;id&gt;30&lt;/id&gt;
+               &lt;/lstResponse&gt;
+               &lt;lstResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:estado"&gt;
+                  &lt;descripcion&gt;Yucatán&lt;/descripcion&gt;
+                  &lt;id&gt;31&lt;/id&gt;
+               &lt;/lstResponse&gt;
+            &lt;/contenido&gt;
+         &lt;/MyDfsResponse&gt;
+      &lt;/ns2:obtenerEstadosResponse&gt;
+   &lt;/S:Body&gt;
+&lt;/S:Envelope&gt;
+</outtemplate>
+        <outTemplateHeader>X-Frame-Options: SAMEORIGIN
+Server: Microsoft-IIS/7.5
+Content-Length: 3611
+Date: Tue, 08 Mar 2016 16:08:01 GMT
+Content-Type: text/xml;charset=utf-8
+X-Powered-By: ASP.NET
+</outTemplateHeader>
+        <outputStructure>
+            <index>-1</index>
+            <order>0</order>
+            <id>obtenerEstadosResponse</id>
+            <records>
+                <index>-1</index>
+                <order>0</order>
+                <id>MyDfsResponse</id>
+                <params>
+                    <accessType></accessType>
+                    <format>int</format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>codigo</name>
+                    <type>java.lang.Integer</type>
+                    <value></value>
+                </params>
+                <records>
+                    <index>-1</index>
+                    <order>0</order>
+                    <id>contenido</id>
+                    <params>
+                        <accessType></accessType>
+                        <format>anyType</format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>lstResponse</name>
+                        <type>anyType</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType></accessType>
+                        <format>anyType</format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>response</name>
+                        <type>anyType</type>
+                        <value></value>
+                    </params>
+                </records>
+            </records>
+        </outputStructure>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>codigo</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>//ns2:obtenerEstadosResponse/MyDfsResponse/codigo</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value></value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>lstEstados</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>//ns2:obtenerEstadosResponse/MyDfsResponse/contenido</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value></value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>id</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>lstResponse/id</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>lstEstados</value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>nombre</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>lstResponse/descripcion</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>lstEstados</value>
+        </outparam>
+        <password></password>
+        <postclassname></postclassname>
+        <preclassname></preclassname>
+        <proxyname></proxyname>
+        <proxyport></proxyport>
+        <proxypwd></proxypwd>
+        <proxyuserid></proxyuserid>
+        <responseencoding>UTF-8</responseencoding>
+        <sharePoint>false</sharePoint>
+        <smscode></smscode>
+        <smsenabled>false</smsenabled>
+        <soapaction></soapaction>
+        <timeout></timeout>
+        <url>http://www.qa.mbfs.com.mx/SiteClientes/mydfs/distribuidorGpsWS</url>
+        <urlprovider></urlprovider>
+        <userid></userid>
+        <version>1.1</version>
+        <wsdlurl>http://dfsqa01.cloudapp.net/SiteClientes/mydfs/distribuidorGpsWS?wsdl</wsdlurl>
+    </soapservice>
+    <sharePointRoot>
+        <name>SharePoint Servers</name>
+    </sharePointRoot>
+    <wsdlroot>
+        <wsdltree>
+            <name>Web Services</name>
+        </wsdltree>
+    </wsdlroot>
+</xsObject>

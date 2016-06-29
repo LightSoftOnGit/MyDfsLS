@@ -1,0 +1,1 @@
+{"AS_Button_e3929b10722c44869a3bc2343e76e3be":{"id":"AS_Button_e3929b10722c44869a3bc2343e76e3be","type":"ACTION_SEQUENCE","params":[{"datatype":"collection","name":"eventobject"}],"actions":[{"id":"SEND_SMS__f08b619e52c14fc1b51912a79fbe2fbd","type":"SEND_SMS","phoneNumber":"2721392088","message":"enviado desde kony","parentId":null,"callbackType":null}]}}

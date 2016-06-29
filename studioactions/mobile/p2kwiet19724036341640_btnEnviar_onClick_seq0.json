@@ -1,0 +1,21 @@
+{
+    "p2kwiet19724036341640_btnEnviar_onClick_seq0": {
+        "id": "p2kwiet19724036341640_btnEnviar_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "navigation_onClick_2405219724036346356",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "cotizadorCotizacion2",
+            "formKUID": "p2kwiet19724036341503",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "enableMappingEditor": true
+        }]
+    }
+}

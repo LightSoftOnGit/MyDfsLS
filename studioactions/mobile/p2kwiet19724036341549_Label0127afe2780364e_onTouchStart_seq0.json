@@ -1,0 +1,27 @@
+{
+    "p2kwiet19724036341549_Label0127afe2780364e_onTouchStart_seq0": {
+        "id": "p2kwiet19724036341549_Label0127afe2780364e_onTouchStart_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }, {
+            "name": "x",
+            "value": "x"
+        }, {
+            "name": "y",
+            "value": "y"
+        }, {
+            "name": "contextInfo",
+            "value": "contextInfo"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "customcode_onTouchStart_6006519724036341493",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "seleccionarDistribuidorEnvio2",
+            "display": "seleccionarDistribuidorEnvio2",
+            "inputparams": []
+        }]
+    }
+}

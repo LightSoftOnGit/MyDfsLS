@@ -1,0 +1,30 @@
+{
+    "p2kwiet19724036342471_sliderPlazos_onslide_seq0": {
+        "id": "p2kwiet19724036342471_sliderPlazos_onslide_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }, {
+            "name": "selectedvalue",
+            "value": "selectedvalue"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "customcode_onslide_56351972403634487",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onSliderSelection",
+            "display": "onSliderSelection",
+            "inputparams": [{
+                "name": "selected",
+                "value": "eventobject"
+            }]
+        }, {
+            "id": "customcode_onslide_5356819724036348544",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "validarPrecioUnidad",
+            "display": "validarPrecioUnidad",
+            "inputparams": []
+        }]
+    }
+}

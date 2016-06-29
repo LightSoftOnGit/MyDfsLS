@@ -1,0 +1,111 @@
+{
+    "DNDConfig": null,
+    "_base64_": null,
+    "_enabled_": false,
+    "_height_": {
+        "type": "string",
+        "value": "6.82%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "80.0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s51d2cebea5a47348c0a591430e7c48d",
+    "_src_": "nok.png",
+    "_text_": "nok.png",
+    "_top_": {
+        "type": "string",
+        "value": "30.0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "4.55%"
+    },
+    "android": {
+        "@class": "com.kony.gen.viz.model.component.property.image2.AndroidImage2Property",
+        "render": true
+    },
+    "canUpdateUI": true,
+    "containerweight": 0,
+    "contentalignment": 5,
+    "hexpand": false,
+    "id": "imgmindig",
+    "imagescalemode": 1,
+    "info": null,
+    "ipad": {
+        "@class": "com.kony.gen.viz.model.component.property.image2.IPadImage2Property",
+        "_margin_": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "margin": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "marginInPixel": false,
+        "psp": {
+            "glossyEffect": 0
+        },
+        "render": true
+    },
+    "isvisible": true,
+    "kuid": "p2kwiet19724036342864",
+    "margininpixel": false,
+    "name": "kony.ui.Image2",
+    "paddinginpixel": false,
+    "parent": "flexContainer98044149240430",
+    "pf": "loginRegistroEmpresa",
+    "spa": {
+        "@class": "com.kony.gen.viz.model.component.property.image2.SPAImage2Property"
+    },
+    "spaandroidtablet": {
+        "@class": "com.kony.gen.viz.model.component.property.image2.SPAAndroidTabletImage2Property",
+        "render": true
+    },
+    "spaipad": {
+        "@class": "com.kony.gen.viz.model.component.property.image2.SPAIPadImage2Property",
+        "render": true
+    },
+    "spawindowstablet": {
+        "@class": "com.kony.gen.viz.model.component.property.image2.SPAWindowsTabletImage2Property",
+        "render": true
+    },
+    "srcType": 1,
+    "vexpand": false,
+    "wType": "Image",
+    "widgetalignment": 5,
+    "windows8": {
+        "@class": "com.kony.gen.viz.model.component.property.image2.Windows8Image2Property",
+        "_margin_": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "margin": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "marginInPixel": false,
+        "render": true
+    },
+    "zindex": 1
+}

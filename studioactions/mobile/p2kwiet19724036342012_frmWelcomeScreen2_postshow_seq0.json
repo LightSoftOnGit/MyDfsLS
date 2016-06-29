@@ -1,0 +1,18 @@
+{
+    "p2kwiet19724036342012_frmWelcomeScreen2_postshow_seq0": {
+        "id": "p2kwiet19724036342012_frmWelcomeScreen2_postshow_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "customcode_postshow_698221972403634178",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "runAplication",
+            "display": "runAplication",
+            "inputparams": []
+        }]
+    }
+}

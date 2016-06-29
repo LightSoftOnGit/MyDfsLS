@@ -1,0 +1,75 @@
+{
+    "DNDConfig": null,
+    "_base64_": null,
+    "_enabled_": false,
+    "_margin_": [
+        0,
+        5,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s50339e2f3b346d1ae18737418f68f93",
+    "_src_": "raya.png",
+    "_text_": "raya.png",
+    "android": {
+        "@class": "com.kony.gen.viz.model.component.property.image2.AndroidImage2Property",
+        "render": true
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "hexpand": false,
+    "id": "Image0c849cad382114f",
+    "imagescalemode": 1,
+    "info": null,
+    "iphone": {
+        "@class": "com.kony.gen.viz.model.component.property.image2.IPhoneImage2Property",
+        "psp": {
+            "glossyEffect": 0
+        },
+        "render": true
+    },
+    "isvisible": true,
+    "kuid": "p2kwiet19724036342987",
+    "margininpixel": false,
+    "name": "kony.ui.Image2",
+    "paddinginpixel": false,
+    "parent": "HBox0d74034f0d4934d",
+    "pf": "popupLoginLoyalty",
+    "spa": {
+        "@class": "com.kony.gen.viz.model.component.property.image2.SPAImage2Property"
+    },
+    "spaan": {
+        "@class": "com.kony.gen.viz.model.component.property.image2.SPAAndroidImage2Property",
+        "render": true
+    },
+    "spabb": {
+        "@class": "com.kony.gen.viz.model.component.property.image2.SPABBImage2Property",
+        "render": true
+    },
+    "spaip": {
+        "@class": "com.kony.gen.viz.model.component.property.image2.SPAIPhoneImage2Property",
+        "render": true
+    },
+    "spawinphone8": {
+        "@class": "com.kony.gen.viz.model.component.property.image2.SPAWinPhone8Image2Property",
+        "render": true
+    },
+    "srcType": 1,
+    "vexpand": false,
+    "wType": "Image",
+    "widgetalignment": 2,
+    "winphone8": {
+        "@class": "com.kony.gen.viz.model.component.property.image2.WinPhone8Image2Property",
+        "psp": {
+            "enableCache": false
+        },
+        "render": true
+    }
+}

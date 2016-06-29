@@ -1,0 +1,20 @@
+{
+    "p2kwiet19724036342488_btnTerminos_onClick_seq0": {
+        "id": "p2kwiet19724036342488_btnTerminos_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "navigation_onClick_5275819724036349599",
+            "type": "DISPLAY_POPUP",
+            "popupId": "cotizadorTerminos",
+            "popupKUID": "p2kwiet19724036343050",
+            "mappings": {},
+            "mappingsOrder": [],
+            "enableMappingEditor": true
+        }]
+    }
+}

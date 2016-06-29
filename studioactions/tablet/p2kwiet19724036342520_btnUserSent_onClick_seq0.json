@@ -1,0 +1,18 @@
+{
+    "p2kwiet19724036342520_btnUserSent_onClick_seq0": {
+        "id": "p2kwiet19724036342520_btnUserSent_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "customcode_onClick_1363419724036345736",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onClickCotizacionEnviar",
+            "display": "onClickCotizacionEnviar",
+            "inputparams": []
+        }]
+    }
+}

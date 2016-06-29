@@ -1,0 +1,32 @@
+{
+    "AS_FlexContainer_263bd116128047b1915ba35629069c3e": {
+        "id": "AS_FlexContainer_263bd116128047b1915ba35629069c3e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmContacto",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f2d72e30364343ce9d2a70f31c13dfd2"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___2192269f06d14f6195cc46db83600718",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "contactoDistribuidor",
+            "display": "contactoDistribuidor",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

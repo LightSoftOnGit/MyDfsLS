@@ -1,0 +1,32 @@
+{
+    "AS_Segment_4ae73a72c72e4fc292ea9fb6955b6d19": {
+        "id": "AS_Segment_4ae73a72c72e4fc292ea9fb6955b6d19",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "frmDistribuidoresCotizador",
+            "type": "forms",
+            "platform": "",
+            "KUID": "91db089f9de544d7ae01037e7924a4ba"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___fddaf4560da34137b0c6f6d2dc524c22",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "gpsVerPopUpMenu",
+            "display": "gpsVerPopUpMenu",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

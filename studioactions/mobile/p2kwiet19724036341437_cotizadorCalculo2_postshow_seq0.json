@@ -1,0 +1,18 @@
+{
+    "p2kwiet19724036341437_cotizadorCalculo2_postshow_seq0": {
+        "id": "p2kwiet19724036341437_cotizadorCalculo2_postshow_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "customcode_postshow_2917119724036348513",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "cargarDatosParaCalculo2",
+            "display": "cargarDatosParaCalculo2",
+            "inputparams": []
+        }]
+    }
+}

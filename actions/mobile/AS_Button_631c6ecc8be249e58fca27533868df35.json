@@ -1,0 +1,1 @@
+{"AS_Button_631c6ecc8be249e58fca27533868df35":{"id":"AS_Button_631c6ecc8be249e58fca27533868df35","type":"ACTION_SEQUENCE","params":[{"datatype":"collection","name":"eventobject"}],"actions":[{"id":"OPEN_URL_onClick_1008dcd08caa4ac287c3c3bf686ff6a9","type":"OPEN_URL","url":"https://www.mercedesbenzfinancial.com.mx/SiteClientes/app/autos/contactos/chat.zul","callbackType":null}]}}

@@ -1,0 +1,11 @@
+{
+  "background_image": "texturalogin.png",
+  "bg_type": "image",
+  "border_color": "000000ff",
+  "border_style": "plain",
+  "border_type": 0,
+  "border_width": 0,
+  "isDefaultSkin": false,
+  "kuid": "se92f274bb164df783acfdf0fe7c326d",
+  "wType": "FlexContainer"
+}

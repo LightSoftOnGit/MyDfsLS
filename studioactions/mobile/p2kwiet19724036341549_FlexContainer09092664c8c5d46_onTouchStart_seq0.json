@@ -1,0 +1,29 @@
+{
+    "p2kwiet19724036341549_FlexContainer09092664c8c5d46_onTouchStart_seq0": {
+        "id": "p2kwiet19724036341549_FlexContainer09092664c8c5d46_onTouchStart_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }, {
+            "name": "x",
+            "value": "x"
+        }, {
+            "name": "y",
+            "value": "y"
+        }, {
+            "name": "contextInfo",
+            "value": "contextInfo"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "navigation_onTouchStart_4883419724036345483",
+            "type": "NAVIGATE_TO_FORM",
+            "formKUID": "p2kwiet19724036341903",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "enableMappingEditor": true
+        }]
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "p2kwiet19724036342006_switchUbicacion_onslide_seq0": {
+        "id": "p2kwiet19724036342006_switchUbicacion_onslide_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "customcode_onslide_2420319724036346135",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "infGpsVisibleSwitch",
+            "display": "infGpsVisibleSwitch",
+            "inputparams": []
+        }]
+    }
+}

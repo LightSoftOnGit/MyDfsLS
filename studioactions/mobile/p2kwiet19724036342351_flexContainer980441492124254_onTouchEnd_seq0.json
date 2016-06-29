@@ -1,0 +1,27 @@
+{
+    "p2kwiet19724036342351_flexContainer980441492124254_onTouchEnd_seq0": {
+        "id": "p2kwiet19724036342351_flexContainer980441492124254_onTouchEnd_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }, {
+            "name": "x",
+            "value": "x"
+        }, {
+            "name": "y",
+            "value": "y"
+        }, {
+            "name": "contextInfo",
+            "value": "contextInfo"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "customcode_onTouchEnd_4313197240363419",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "menuVerLogin",
+            "display": "menuVerLogin",
+            "inputparams": []
+        }]
+    }
+}

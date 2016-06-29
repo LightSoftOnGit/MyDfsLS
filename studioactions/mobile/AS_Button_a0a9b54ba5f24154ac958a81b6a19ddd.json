@@ -1,0 +1,26 @@
+{
+    "AS_Button_a0a9b54ba5f24154ac958a81b6a19ddd": {
+        "id": "AS_Button_a0a9b54ba5f24154ac958a81b6a19ddd",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "login",
+            "type": "forms",
+            "platform": "",
+            "KUID": "fa3a2f6d755440d48e35b1194782d575"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___9ff4b73b753f4543b880088f9aadb897",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "validateUser",
+            "display": "validateUser",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

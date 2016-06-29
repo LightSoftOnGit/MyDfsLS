@@ -1,0 +1,112 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_enabled_": false,
+    "_height_": {
+        "type": "string",
+        "value": "9%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "30%"
+    },
+    "_margin_": [
+        2,
+        2,
+        2,
+        2
+    ],
+    "_padding_": [
+        2,
+        2,
+        2,
+        2
+    ],
+    "_render_": true,
+    "_skin_": "sc663333491b490bab5e6905e8056cd8",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "47%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "70%"
+    },
+    "android": {
+        "@class": "com.kony.gen.viz.model.component.property.textarea2.AndroidTextArea2Property",
+        "render": true
+    },
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
+    "canUpdateUI": true,
+    "closebuttontext": "",
+    "containerweight": 100,
+    "contentalignment": 1,
+    "hexpand": true,
+    "id": "txtTelefono",
+    "info": null,
+    "iphone": {
+        "@class": "com.kony.gen.viz.model.component.property.textarea2.IPhoneTextArea2Property",
+        "autoCorrect": false,
+        "psp": {
+            "closeButtonText": "Done",
+            "keyboardActionLabel": 1,
+            "pasteboardType": 1,
+            "showCloseButton": true,
+            "showProgressIndicator": true
+        },
+        "render": true
+    },
+    "isvisible": true,
+    "keyboardactionlabel": "",
+    "keyboardstyle": "A",
+    "keyboardtype": "A",
+    "kuid": "p2kwiet19724036341571",
+    "margininpixel": false,
+    "mode": "A",
+    "name": "kony.ui.TextArea2",
+    "numberofvisiblelines": 3,
+    "paddinginpixel": false,
+    "parent": "FlexContainer008149399daa543",
+    "pf": "cotizadorEnviar2back",
+    "securetextentry": false,
+    "showclosebutton": false,
+    "showoprogressindicator": true,
+    "showprogressindicator": false,
+    "spa": {
+        "@class": "com.kony.gen.viz.model.component.property.textarea2.SPATextArea2Property",
+        "autoCorrect": false
+    },
+    "spaan": {
+        "@class": "com.kony.gen.viz.model.component.property.textarea2.SPAAndroidTextArea2Property",
+        "render": true
+    },
+    "spabb": {
+        "@class": "com.kony.gen.viz.model.component.property.textarea2.SPABBTextArea2Property",
+        "render": false
+    },
+    "spaip": {
+        "@class": "com.kony.gen.viz.model.component.property.textarea2.SPAIPhoneTextArea2Property",
+        "render": true
+    },
+    "spawinphone8": {
+        "@class": "com.kony.gen.viz.model.component.property.textarea2.SPAWinPhone8TextArea2Property",
+        "render": true
+    },
+    "textinputmode": "A",
+    "vexpand": false,
+    "viewtype": "default",
+    "wType": "TextArea",
+    "widgetalignment": 5,
+    "winphone8": {
+        "@class": "com.kony.gen.viz.model.component.property.textarea2.WinPhone8TextArea2Property",
+        "psp": {
+            "enableCache": false
+        },
+        "render": true
+    },
+    "zindex": 1
+}

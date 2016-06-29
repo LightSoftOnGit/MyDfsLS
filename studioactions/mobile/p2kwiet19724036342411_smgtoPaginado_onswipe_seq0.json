@@ -1,0 +1,26 @@
+{
+    "p2kwiet19724036342411_smgtoPaginado_onswipe_seq0": {
+        "id": "p2kwiet19724036342411_smgtoPaginado_onswipe_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "seguiWidget",
+            "value": "seguiWidget"
+        }, {
+            "name": "sectionIndex",
+            "value": "sectionIndex"
+        }, {
+            "name": "rowIndex",
+            "value": "rowIndex"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "customcode_onswipe_2179719724036347951",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "saldosMovimientosSeleccionarPagina",
+            "display": "saldosMovimientosSeleccionarPagina",
+            "inputparams": [{
+                "name": "rowIndex"
+            }]
+        }]
+    }
+}

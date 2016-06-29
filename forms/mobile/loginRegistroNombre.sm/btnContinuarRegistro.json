@@ -1,0 +1,58 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "7%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "80dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sf61a9c712cf4d86bd36701bccde7e17",
+    "_text_": "Continuar",
+    "_top_": {
+        "type": "string",
+        "value": "78%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "28%"
+    },
+    "annotationId": "4744f4adc63a43baa7bad234a11a3331",
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "49.30%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "disabledSkins": {
+        "focusSkin": "scab8deddadf49e3a5eb3af5ee600d68"
+    },
+    "displaytext": true,
+    "focusskin": "s790512d39fb4490afedf3dc67e7a29a",
+    "id": "btnContinuarRegistro",
+    "ide_onClick": "AS_Button_9ce0ce20d8184a5891e47809d418bde7",
+    "info": null,
+    "isvisible": true,
+    "kuid": "e919a35c14394914a07955a57527084b",
+    "name": "kony.ui.Button",
+    "parent": "flexContent",
+    "pf": "loginRegistroNombre",
+    "wType": "Button",
+    "zindex": 3
+}

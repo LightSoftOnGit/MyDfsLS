@@ -1,0 +1,98 @@
+{
+    "DNDConfig": null,
+    "_base64_": null,
+    "_enabled_": false,
+    "_height_": {
+        "type": "string",
+        "value": "80%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "3%"
+    },
+    "_skin_": "s50339e2f3b346d1ae18737418f68f93",
+    "_src_": "imagedrag.png",
+    "_text_": "imagedrag.png",
+    "_width_": {
+        "type": "string",
+        "value": "20%"
+    },
+    "android": {
+        "@class": "com.kony.gen.viz.model.component.property.image2.AndroidImage2Property",
+        "render": true
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "hexpand": false,
+    "id": "imgOpcionMenu",
+    "imagescalemode": 1,
+    "info": null,
+    "ipad": {
+        "@class": "com.kony.gen.viz.model.component.property.image2.IPadImage2Property",
+        "psp": {
+            "glossyEffect": 0
+        },
+        "render": true
+    },
+    "isvisible": true,
+    "kuid": "p2kwiet19724036342438",
+    "margininpixel": false,
+    "name": "kony.ui.Image2",
+    "paddinginpixel": false,
+    "parent": "flexContainer1972403634223",
+    "pf": "flexContainer1972403634223",
+    "spa": {
+        "@class": "com.kony.gen.viz.model.component.property.image2.SPAImage2Property"
+    },
+    "spaandroidtablet": {
+        "@class": "com.kony.gen.viz.model.component.property.image2.SPAAndroidTabletImage2Property",
+        "render": true
+    },
+    "spaipad": {
+        "@class": "com.kony.gen.viz.model.component.property.image2.SPAIPadImage2Property",
+        "render": true
+    },
+    "spawindowstablet": {
+        "@class": "com.kony.gen.viz.model.component.property.image2.SPAWindowsTabletImage2Property",
+        "render": true
+    },
+    "srcType": 1,
+    "vexpand": false,
+    "wType": "Image",
+    "widgetalignment": 5,
+    "windows8": {
+        "@class": "com.kony.gen.viz.model.component.property.image2.Windows8Image2Property",
+        "_margin_": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "margin": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "marginInPixel": false,
+        "render": true
+    },
+    "zindex": 1
+}

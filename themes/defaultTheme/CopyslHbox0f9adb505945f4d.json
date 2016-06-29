@@ -1,0 +1,11 @@
+{
+  "background_image": "ventanapopup.png",
+  "bg_type": "image",
+  "border_color": "000000ff",
+  "border_style": "plain",
+  "border_type": 0,
+  "border_width": 0,
+  "isDefaultSkin": false,
+  "kuid": "s53090d1da164c7e863f7cdb4aff04e1",
+  "wType": "HBox"
+}

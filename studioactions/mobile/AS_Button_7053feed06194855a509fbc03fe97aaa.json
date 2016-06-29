@@ -1,0 +1,29 @@
+{
+    "AS_Button_7053feed06194855a509fbc03fe97aaa": {
+        "id": "AS_Button_7053feed06194855a509fbc03fe97aaa",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "distribuidorTemplate",
+            "type": "templates",
+            "platform": "",
+            "KUID": "0a89526bfc5c403f8df205df5ca43813"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___b66cc518f0534db694280aa3f5fe9ee9",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "gpsVerPaginaWeb",
+            "display": "gpsVerPaginaWeb",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

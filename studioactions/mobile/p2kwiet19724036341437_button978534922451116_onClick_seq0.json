@@ -1,0 +1,18 @@
+{
+    "p2kwiet19724036341437_button978534922451116_onClick_seq0": {
+        "id": "p2kwiet19724036341437_button978534922451116_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "customcode_onClick_5069919724036349819",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "popNavegacionFrm",
+            "display": "popNavegacionFrm",
+            "inputparams": []
+        }]
+    }
+}

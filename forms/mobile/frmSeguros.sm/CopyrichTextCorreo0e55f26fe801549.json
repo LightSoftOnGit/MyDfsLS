@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "20%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s9a9b121cc834fb4bc4f6459adfc3b79",
+    "_text_": "Correo Electrónico:\n",
+    "_top_": {
+        "type": "string",
+        "value": "10%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "_wrapping_": 2,
+    "annotationId": "418009b5ec1c4e55aa844f8958206f7b",
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "disabledSkins": {},
+    "enabled": false,
+    "id": "CopyrichTextCorreo0e55f26fe801549",
+    "info": null,
+    "isvisible": true,
+    "kuid": "b86679eb90d34ba483479070545dcef8",
+    "linkskin": "s5dca0991f8f4c4e891e85bd901b1b12",
+    "name": "kony.ui.RichText",
+    "parent": "FlexContainer0b684055aa4fd43",
+    "pf": "frmSeguros",
+    "wType": "RichText",
+    "widgetalignment": 5,
+    "zindex": 1
+}

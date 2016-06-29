@@ -1,0 +1,60 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "70%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        9,
+        2,
+        0,
+        1
+    ],
+    "_skin_": "s356ac40f0ee4efa9273163bc75e08f6",
+    "_text_": "PAGOS EN LINEA",
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerId": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "disabledSkins": {},
+    "displaytext": true,
+    "focusskin": "sa148785ce0e4fd69278098da49ef6bd",
+    "id": "lblPagosEnLinea",
+    "info": null,
+    "isvisible": false,
+    "kuid": "ecb2a2b7f0b44c5593cf5b4b56dcaadb",
+    "name": "kony.ui.Button",
+    "paddinginpixel": false,
+    "parent": "flexContainerPagos",
+    "pf": "bienvenidaTemplate",
+    "wType": "Button",
+    "zindex": 2
+}

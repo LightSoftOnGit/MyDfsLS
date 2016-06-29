@@ -1,0 +1,26 @@
+{
+    "AS_Button_7c5996c0b4804696b5370b111b22f996": {
+        "id": "AS_Button_7c5996c0b4804696b5370b111b22f996",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmContrato",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f60a45d65344493892cdd9690259f973"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___a3d61e33dc534a91ace92c4f269c155c",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "popNavegacionFrm",
+            "display": "popNavegacionFrm",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "AS_Button_66e49613496f4a7186956d5fbea98d1c": {
+        "id": "AS_Button_66e49613496f4a7186956d5fbea98d1c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "loginRegistroEmpresa",
+            "type": "forms",
+            "platform": "",
+            "KUID": "0fc338ce64c94812823b39242d910a66"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___75055c91c2c841449c0b50fcded65284",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "popNavegacionFrm",
+            "display": "popNavegacionFrm",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

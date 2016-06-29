@@ -1,0 +1,18 @@
+{
+    "p2kwiet19724036342582_gpsDistribuidor_postshow_seq0": {
+        "id": "p2kwiet19724036342582_gpsDistribuidor_postshow_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "customcode_postshow_5319819724036348866",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "gpsValoresOpcionesNav",
+            "display": "gpsValoresOpcionesNav",
+            "inputparams": []
+        }]
+    }
+}

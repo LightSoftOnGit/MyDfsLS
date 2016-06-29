@@ -1,0 +1,109 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "se0179210d33422e9430299fcd6b402b",
+    "_top_": {
+        "type": "string",
+        "value": "14%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "allboxes": [],
+    "allowhorizontalbounce": true,
+    "allowverticalbounce": true,
+    "android": {
+        "@class": "com.kony.gen.viz.model.container.property.scrollflexcontainer.AndroidScrollFlexContainerProperty",
+        "render": true
+    },
+    "bounces": true,
+    "canUpdateUI": true,
+    "children": [
+        "CopyFlexContainer0e3ad81145d5748",
+        "CopyFlexContainer063d324fe82344f",
+        "CopyFlexContainer0230951c8927c4e",
+        "CopyFlexContainer0627ab4bdf0b847",
+        "CopyFlexContainer0810fb0d7535a41",
+        "CopyFlexContainer07e73d6073f3349",
+        "flexValorFinal",
+        "CopyFlexContainer04a9cea79be834d"
+    ],
+    "containerweight": 100,
+    "contentoffset": {},
+    "contentsize": {},
+    "defaultunit": 2,
+    "enablescrolling": true,
+    "horizontalscrollindicator": true,
+    "id": "CopyFlexScrollContainer0eb579be1934946",
+    "iphone": {
+        "@class": "com.kony.gen.viz.model.container.property.scrollflexcontainer.IPhoneScrollFlexContainerProperty",
+        "psp": {
+            "bouncesZoom": true,
+            "maxZoomScale": 1,
+            "minZoomScale": 1,
+            "zoomScale": 1
+        },
+        "render": true
+    },
+    "isvisible": true,
+    "kuid": "p2kwiet19724036341468",
+    "layouttype": 2,
+    "margininpixel": false,
+    "name": "kony.ui.FlexScrollContainer",
+    "paddinginpixel": false,
+    "pagingenabled": false,
+    "parent": "middleContainerCalculadoraDatos",
+    "pf": "cotizadorCotizacion2",
+    "scrolldirection": 2,
+    "spa": {
+        "@class": "com.kony.gen.viz.model.container.property.scrollflexcontainer.SPAScrollFlexContainerProperty"
+    },
+    "spaan": {
+        "@class": "com.kony.gen.viz.model.container.property.scrollflexcontainer.SPAAndroidScrollFlexContainerProperty",
+        "render": true
+    },
+    "spabb": {
+        "@class": "com.kony.gen.viz.model.container.property.scrollflexcontainer.SPABBScrollFlexContainerProperty",
+        "render": false
+    },
+    "spaip": {
+        "@class": "com.kony.gen.viz.model.container.property.scrollflexcontainer.SPAIPhoneScrollFlexContainerProperty",
+        "render": true
+    },
+    "spawinphone8": {
+        "@class": "com.kony.gen.viz.model.container.property.scrollflexcontainer.SPAWinPhone8ScrollFlexContainerProperty",
+        "render": true
+    },
+    "verticalscrollindicator": true,
+    "wType": "FlexScrollContainer",
+    "widgetalignment": 1,
+    "winphone8": {
+        "@class": "com.kony.gen.viz.model.container.property.scrollflexcontainer.WinPhone8ScrollFlexContainerProperty",
+        "psp": {
+            "enableCache": false
+        },
+        "render": true
+    },
+    "zindex": 1
+}

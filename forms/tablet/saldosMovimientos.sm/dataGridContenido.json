@@ -1,0 +1,190 @@
+{
+    "DNDConfig": null,
+    "_enabled_": false,
+    "_height_": {
+        "type": "string",
+        "value": "100.0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "32%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "android": {
+        "@class": "com.kony.gen.viz.model.component.property.table.AndroidTableProperty",
+        "psp": {
+            "gridlineColor": "5c5c5c"
+        },
+        "render": true
+    },
+    "canUpdateUI": true,
+    "cellBorder": "thin solid #5c115c",
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "columnheadersconfig": [
+        {
+            "columnContentAlignment": 5,
+            "columnHeaderText": "Fecha",
+            "columnID": "colFecha",
+            "columnType": "text",
+            "columnWidthInPercentage": 33,
+            "isColumnSortable": false,
+            "kuid": "06bdb3d05c304dba80f59591d606e5e1"
+        },
+        {
+            "columnContentAlignment": 5,
+            "columnHeaderText": "Descripcion",
+            "columnID": "colDescripcion",
+            "columnType": "text",
+            "columnWidthInPercentage": 34,
+            "isColumnSortable": false,
+            "kuid": "b168f9bc9a6c4871bfbfc7ef6ad4f780"
+        },
+        {
+            "columnContentAlignment": 5,
+            "columnHeaderText": "Ultimas transacciones",
+            "columnID": "colTransaccion",
+            "columnType": "text",
+            "columnWidthInPercentage": 33,
+            "isColumnSortable": false,
+            "kuid": "f2ffe8c9bdf94d23bedbd35c40bc3f31"
+        },
+        {
+            "columnContentAlignment": 5,
+            "columnHeaderText": "",
+            "columnID": "colRenta",
+            "columnType": "text",
+            "columnWidthInPercentage": 0,
+            "isColumnSortable": false,
+            "kuid": "columndata98035211416141"
+        },
+        {
+            "columnContentAlignment": 5,
+            "columnHeaderText": "",
+            "columnID": "colCoA",
+            "columnType": "text",
+            "columnWidthInPercentage": 0,
+            "isColumnSortable": false,
+            "kuid": "columndata98035211416143"
+        },
+        {
+            "columnContentAlignment": 5,
+            "columnHeaderText": "",
+            "columnID": "colIdPago",
+            "columnType": "text",
+            "columnWidthInPercentage": 0,
+            "isColumnSortable": false,
+            "kuid": "columndata98035211418076"
+        }
+    ],
+    "columnids": [
+        "col1",
+        "col2",
+        "col3"
+    ],
+    "columntype": [
+        "text",
+        "text",
+        "text"
+    ],
+    "containerweight": 100,
+    "contentalignment": 5,
+    "context": {
+        "channel": "mobile",
+        "formID": "NewForm2013722173539288",
+        "platform": "iphone",
+        "templateType": "forms",
+        "topLevelBox": null
+    },
+    "counter": 5,
+    "focusedindex": null,
+    "focuseditem": null,
+    "gridlinecolor": "5c115c",
+    "gridlinestyle": "solid",
+    "headerskin": "s0662b2282434113b90787a6512180c9",
+    "hexpand": true,
+    "id": "dataGridContenido",
+    "ide_onRowSelected": "p2kwiet19724036342942_dataGridContenido_onRowSelected_seq0",
+    "info": null,
+    "ipad": {
+        "@class": "com.kony.gen.viz.model.component.property.table.IPadTableProperty",
+        "render": true
+    },
+    "ismultiselect": false,
+    "isvisible": true,
+    "kuid": "p2kwiet19724036342938",
+    "margininpixel": false,
+    "name": "kony.ui.DataGrid",
+    "paddinginpixel": false,
+    "parent": "flxscContenido",
+    "pf": "saldosMovimientos",
+    "rowalternateskin": "sdbe53b4aa3d4bdcbb51ea5c3ef6d9a1",
+    "rowcount": 4,
+    "rowfocusskin": "s229afc8f18e4ac28040cc9d684eac67",
+    "rownormalskin": "s9cdfb4c486f417d9a357791b1d4dc3c",
+    "selectedcellindex": null,
+    "selectedcellitem": null,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditem": null,
+    "selecteditems": null,
+    "showcolumnheaders": true,
+    "spa": {
+        "@class": "com.kony.gen.viz.model.component.property.table.SPATableProperty"
+    },
+    "spaandroidtablet": {
+        "@class": "com.kony.gen.viz.model.component.property.table.SPAAndroidTabletTableProperty",
+        "render": true
+    },
+    "spaipad": {
+        "@class": "com.kony.gen.viz.model.component.property.table.SPAIPadTableProperty",
+        "render": true
+    },
+    "spawindowstablet": {
+        "@class": "com.kony.gen.viz.model.component.property.table.SPAWindowsTabletTableProperty",
+        "render": true
+    },
+    "vexpand": false,
+    "wType": "DataGrid",
+    "widgetalignment": 5,
+    "windows8": {
+        "@class": "com.kony.gen.viz.model.component.property.table.Windows8TableProperty",
+        "_margin_": [
+            1,
+            1,
+            1,
+            1
+        ],
+        "margin": [
+            1,
+            1,
+            1,
+            1
+        ],
+        "marginInPixel": true,
+        "render": true
+    },
+    "zindex": 1
+}

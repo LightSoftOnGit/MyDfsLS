@@ -1,0 +1,21 @@
+{
+    "p2kwiet19724036341791_btnCotizacion_onClick_seq0": {
+        "id": "p2kwiet19724036341791_btnCotizacion_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "navigation_onClick_22631972403634433",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmCalculadoraCotizacion",
+            "formKUID": "p2kwiet19724036341747",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "enableMappingEditor": true
+        }]
+    }
+}

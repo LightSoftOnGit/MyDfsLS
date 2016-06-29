@@ -1,0 +1,26 @@
+{
+    "AS_Form_360961f36e974b03b79ef499a34ff580": {
+        "id": "AS_Form_360961f36e974b03b79ef499a34ff580",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmDistribuidores",
+            "type": "forms",
+            "platform": "",
+            "KUID": "5e7ef89b66cd403482a407a6870d8bd9"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___0543c4bd5c0d4376880b88a84e8ad295",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "popNavegacionFrm",
+            "display": "popNavegacionFrm",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "p2kwiet19724036342040_CopybtnRecuperarContrasena04c3512f4daea42_onClick_seq0": {
+        "id": "p2kwiet19724036342040_CopybtnRecuperarContrasena04c3512f4daea42_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "customcode_onClick_947721972403634251",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "init_loginRecuperarContrasena",
+            "display": "init_loginRecuperarContrasena",
+            "inputparams": []
+        }]
+    }
+}

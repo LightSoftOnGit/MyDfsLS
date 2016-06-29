@@ -1,0 +1,32 @@
+{
+    "AS_FlexContainer_c7b125344a254f24bd4fb1fadbcf5833": {
+        "id": "AS_FlexContainer_c7b125344a254f24bd4fb1fadbcf5833",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmSeguros",
+            "type": "forms",
+            "platform": "",
+            "KUID": "deccabb8d3564a5fbf03d53efe81cfee"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___5f98caafe9bf42249554f5289b7d5d45",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "segurosCorreoElectronico",
+            "display": "segurosCorreoElectronico",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

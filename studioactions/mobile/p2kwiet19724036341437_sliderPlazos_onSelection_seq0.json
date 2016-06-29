@@ -1,0 +1,24 @@
+{
+    "p2kwiet19724036341437_sliderPlazos_onSelection_seq0": {
+        "id": "p2kwiet19724036341437_sliderPlazos_onSelection_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }, {
+            "name": "selectedvalue",
+            "value": "selectedvalue"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "customcode_onSelection_9806219724036343139",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onSliderSelection2",
+            "display": "onSliderSelection2",
+            "inputparams": [{
+                "name": "selected",
+                "value": " selectedvalue"
+            }]
+        }]
+    }
+}

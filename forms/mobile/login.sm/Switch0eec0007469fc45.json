@@ -1,0 +1,55 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizSwitch",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "32dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "70%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s93aae0458364eeda345e915e8b8a170",
+    "_top_": {
+        "type": "string",
+        "value": "59%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "14%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "id": "Switch0eec0007469fc45",
+    "info": null,
+    "isvisible": true,
+    "kiosk": {
+        "render": false
+    },
+    "kuid": "e6ac8abc612b44a297c2f955e5b99947",
+    "leftsidetext": "",
+    "name": "kony.ui.Switch",
+    "onslide": null,
+    "osPlatform": "android",
+    "osVersion": "iOS7",
+    "parent": "CopyflexContent058c0354f4a7043",
+    "pf": "login",
+    "rightsidetext": "",
+    "selectedindex": 1,
+    "wType": "Switch",
+    "widgetalignment": 5,
+    "zindex": 2
+}

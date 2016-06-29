@@ -1,0 +1,56 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "6%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "80dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        3,
+        0
+    ],
+    "_skin_": "sf61a9c712cf4d86bd36701bccde7e17",
+    "_text_": "Continuar",
+    "_top_": {
+        "type": "string",
+        "value": "92%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "30%"
+    },
+    "annotationId": "a10116158daa4cecbdaed8841d954bad",
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "disabledSkins": {},
+    "displaytext": true,
+    "focusskin": "s790512d39fb4490afedf3dc67e7a29a",
+    "id": "Button0c18d8aa952004a",
+    "info": null,
+    "isvisible": true,
+    "kuid": "3dc60bd390a74bf3a433b34dcaf9577c",
+    "name": "kony.ui.Button",
+    "paddinginpixel": false,
+    "parent": "flexContent",
+    "pf": "loginCambiarContrasena",
+    "wType": "Button",
+    "zindex": 2
+}

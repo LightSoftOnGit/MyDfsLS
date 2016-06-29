@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xsObject>
+    <appSmsCode></appSmsCode>
+    <soapservice>
+        <authenticationMode>basic</authenticationMode>
+        <cacheduration></cacheduration>
+        <cacheable>false</cacheable>
+        <includecookies></includecookies>
+        <dataprovider></dataprovider>
+        <dcResponse/>
+        <encryptPwd>true</encryptPwd>
+        <escapeXML>false</escapeXML>
+        <id>descargarSaldosMovimientos</id>
+        <ignoreProxy>false</ignoreProxy>
+        <inparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>email</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>request</source>
+            <srcformatvalue></srcformatvalue>
+            <target></target>
+            <targetdatatype></targetdatatype>
+            <testvalue>kurlan.bernal@qacg.com</testvalue>
+            <value></value>
+        </inparam>
+        <intemplate>&lt;soapenv:Envelope xmlns:del="http://delegate.mydfs.ws.daimler.com/" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"&gt;
+   &lt;soapenv:Header/&gt;
+   &lt;soapenv:Body&gt;
+      &lt;del:descargarSaldosMovimientos&gt;
+         &lt;!--Optional:--&gt;
+         &lt;correoElectronico&gt;$email&lt;/correoElectronico&gt;
+      &lt;/del:descargarSaldosMovimientos&gt;
+   &lt;/soapenv:Body&gt;
+&lt;/soapenv:Envelope&gt;
+</intemplate>
+        <inputStructure>
+            <index>-1</index>
+            <order>0</order>
+            <id>descargarSaldosMovimientos</id>
+            <params>
+                <accessType></accessType>
+                <format>string</format>
+                <formatValue></formatValue>
+                <jsValue></jsValue>
+                <name>correoElectronico</name>
+                <type>java.lang.String</type>
+                <value></value>
+            </params>
+        </inputStructure>
+        <ntlmDomain></ntlmDomain>
+        <ntlmHost></ntlmHost>
+        <operationname>descargarSaldosMovimientos</operationname>
+        <outtemplate>&lt;S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"&gt;
+   &lt;S:Body&gt;
+      &lt;ns2:descargarSaldosMovimientosResponse xmlns:ns2="http://delegate.mydfs.ws.daimler.com/"&gt;
+         &lt;documento&gt;JVBERi0xLjQKJeLjz9MKMyAwIG9iaiA8PC9MZW5ndGggMzAzL0ZpbHRlci9GbGF0ZURlY29kZT4+c3RyZWFtCniczVO7bsMwDNz5FRyTJZVsyY/RSdygRVoDsbegk4oECOSlS7+xf1Xq5cYaGo2GYN8BonTE8ZThK2wH4MhomX9ZZziM8PTMkRO7wGo93KAdgAo2gr4Cv65U/w0ZHWX23OkA5w/CT8gZCpHjCLLKLNMTi1G5nYqFGmIxKnuhLfFkDioI6kDmoOCyvJb6YFaaoxyLqjDtl6VlemIxKrtTZrmvMSxGZS50JZ7MQQVBHcgcrKNLa2ly9C/GNIjxPtjkfFHXG5IM4RYm3IS0yP7Vvhm6Hg/te3tqjm1vQs/waoIfXeql/KySnoRk1q2KW6YnFqNyOz6jjsVo8yVDvqQL1h2oIKgDmYN/EstqKWWAEiWvHg6w2TX7n7eXXZc2wX/0BEmKh3rHZtulB+YX734NcAplbmRzdHJlYW0KZW5kb2JqCjEgMCBvYmo8PC9QYXJlbnQgNCAwIFIvQ29udGVudHMgMyAwIFIvVHlwZS9QYWdlL1Jlc291cmNlczw8L1Byb2NTZXQgWy9QREYgL1RleHQgL0ltYWdlQiAvSW1hZ2VDIC9JbWFnZUldL0ZvbnQ8PC9GMSAyIDAgUj4+Pj4vTWVkaWFCb3hbMCAwIDYxMiA3OTJdPj4KZW5kb2JqCjUgMCBvYmpbMSAwIFIvWFlaIDAgODA0IDBdCmVuZG9iagoyIDAgb2JqPDwvQmFzZUZvbnQvSGVsdmV0aWNhL1R5cGUvRm9udC9FbmNvZGluZy9XaW5BbnNpRW5jb2RpbmcvU3VidHlwZS9UeXBlMT4+CmVuZG9iago0IDAgb2JqPDwvVHlwZS9QYWdlcy9Db3VudCAxL0tpZHNbMSAwIFJdPj4KZW5kb2JqCjYgMCBvYmo8PC9OYW1lc1soSlJfUEFHRV9BTkNIT1JfMF8xKSA1IDAgUl0+PgplbmRvYmoKNyAwIG9iajw8L0Rlc3RzIDYgMCBSPj4KZW5kb2JqCjggMCBvYmo8PC9OYW1lcyA3IDAgUi9UeXBlL0NhdGFsb2cvUGFnZXMgNCAwIFI+PgplbmRvYmoKOSAwIG9iajw8L0NyZWF0b3IoSmFzcGVyUmVwb3J0cyBcKHJlcG9ydGVSaFwpKS9Qcm9kdWNlcihpVGV4dDEuMy4xIGJ5IGxvd2FnaWUuY29tIFwoYmFzZWQgb24gaXRleHQtcGF1bG8tMTU0XCkpL01vZERhdGUoRDoyMDE2MDQwNDEyMDMwNS0wNicwMCcpL0NyZWF0aW9uRGF0ZShEOjIwMTYwNDA0MTIwMzA1LTA2JzAwJyk+PgplbmRvYmoKeHJlZgowIDEwCjAwMDAwMDAwMDAgNjU1MzUgZiAKMDAwMDAwMDM4NSAwMDAwMCBuIAowMDAwMDAwNTc1IDAwMDAwIG4gCjAwMDAwMDAwMTUgMDAwMDAgbiAKMDAwMDAwMDY2MiAwMDAwMCBuIAowMDAwMDAwNTQxIDAwMDAwIG4gCjAwMDAwMDA3MTIgMDAwMDAgbiAKMDAwMDAwMDc2NSAwMDAwMCBuIAowMDAwMDAwNzk2IDAwMDAwIG4gCjAwMDAwMDA4NTIgMDAwMDAgbiAKdHJhaWxlcgo8PC9Sb290IDggMCBSL0lEIFs8MTJjYzk4YTJjMWM5OWRmOTJiOTIwZWE0MzMzMjFkZDA+PDEyY2M5OGEyYzFjOTlkZjkyYjkyMGVhNDMzMzIxZGQwPl0vSW5mbyA5IDAgUi9TaXplIDEwPj4Kc3RhcnR4cmVmCjEwNDQKJSVFT0YK&lt;/documento&gt;
+      &lt;/ns2:descargarSaldosMovimientosResponse&gt;
+   &lt;/S:Body&gt;
+&lt;/S:Envelope&gt;
+</outtemplate>
+        <outTemplateHeader>Transfer-Encoding: chunked
+Server: Apache-Coyote/1.1
+Date: Mon, 04 Apr 2016 17:03:05 GMT
+Content-Type: text/xml;charset=utf-8
+</outTemplateHeader>
+        <outputStructure>
+            <index>-1</index>
+            <order>0</order>
+            <id>descargarSaldosMovimientosResponse</id>
+            <params>
+                <accessType></accessType>
+                <format>base64Binary</format>
+                <formatValue></formatValue>
+                <jsValue></jsValue>
+                <name>documento</name>
+                <type>base64Binary</type>
+                <value></value>
+            </params>
+        </outputStructure>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>documento</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>//ns2:descargarSaldosMovimientosResponse/documento</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value></value>
+        </outparam>
+        <password></password>
+        <postclassname></postclassname>
+        <preclassname></preclassname>
+        <proxyname></proxyname>
+        <proxyport></proxyport>
+        <proxypwd></proxypwd>
+        <proxyuserid></proxyuserid>
+        <responseencoding>UTF-8</responseencoding>
+        <sharePoint>false</sharePoint>
+        <smscode></smscode>
+        <smsenabled>false</smsenabled>
+        <soapaction></soapaction>
+        <timeout></timeout>
+        <url>http://www.qa.mbfs.com.mx/SiteClientes/mydfs/obtenerSaldosMovimientosWS</url>
+        <urlprovider></urlprovider>
+        <userid></userid>
+        <version>1.1</version>
+        <wsdlurl>http://10.154.237.121:8180/sitioClientes/mydfs/obtenerSaldosMovimientosWS?wsdl</wsdlurl>
+    </soapservice>
+    <sharePointRoot>
+        <name>SharePoint Servers</name>
+    </sharePointRoot>
+    <wsdlroot>
+        <wsdltree>
+            <name>Web Services</name>
+        </wsdltree>
+    </wsdlroot>
+</xsObject>

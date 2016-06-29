@@ -1,0 +1,127 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_enabled_": false,
+    "_height_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        3,
+        0
+    ],
+    "_right_": {
+        "value": "0"
+    },
+    "_skin_": "s743c99e90a840dead0d7977e375f4b7",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "-5%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "68%"
+    },
+    "android": {
+        "@class": "com.kony.gen.viz.model.component.property.listbox.AndroidListBoxProperty",
+        "dropDownImage": "flechadropdown.png",
+        "placeholder": "Método de Contacto*:",
+        "psp": {
+            "applySkinsToPopup": true,
+            "popupTitle": "Please Select"
+        },
+        "render": true,
+        "tickedImage": "flechadropdown.png",
+        "viewType": 0
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "context": {
+        "channel": "mobile",
+        "formID": "cotizadorEnviar2",
+        "platform": "iphone",
+        "templateType": "forms",
+        "topLevelBox": null
+    },
+    "dropdownimage": "flechadropdown.png",
+    "focusskin": "s422cbdd2a6c4b3888d0c1a0bf38e507",
+    "hexpand": true,
+    "id": "listBoxContacto",
+    "ide_onSelection": "p2kwiet19724036341549_listBoxContacto_onSelection_seq0",
+    "info": null,
+    "iphone": {
+        "@class": "com.kony.gen.viz.model.component.property.listbox.IPhoneListBoxProperty",
+        "dropDownImage": "flechadropdown.png",
+        "placeholder": "Método de Contacto*:",
+        "psp": {
+            "groupCells": false
+        },
+        "render": true,
+        "tickedImage": "flechadropdown.png",
+        "viewType": 0
+    },
+    "isvisible": true,
+    "kuid": "p2kwiet19724036341520",
+    "margininpixel": false,
+    "masterdata": [
+        [
+            "0",
+            "Correo electrónico"
+        ],
+        [
+            "1",
+            "Teléfono"
+        ]
+    ],
+    "name": "kony.ui.ListBox",
+    "paddinginpixel": false,
+    "parent": "flexContVia",
+    "pf": "cotizadorEnviar2",
+    "selectedkey": "0",
+    "selectedkeyvalue": [
+        "0",
+        "Correo electrónico"
+    ],
+    "spa": {
+        "@class": "com.kony.gen.viz.model.component.property.listbox.SPAListBoxProperty"
+    },
+    "spaan": {
+        "@class": "com.kony.gen.viz.model.component.property.listbox.SPAAndroidListBoxProperty",
+        "render": true
+    },
+    "spabb": {
+        "@class": "com.kony.gen.viz.model.component.property.listbox.SPABBListBoxProperty",
+        "render": false
+    },
+    "spaip": {
+        "@class": "com.kony.gen.viz.model.component.property.listbox.SPAIPhoneListBoxProperty",
+        "render": true
+    },
+    "spawinphone8": {
+        "@class": "com.kony.gen.viz.model.component.property.listbox.SPAWinPhone8ListBoxProperty",
+        "render": true
+    },
+    "tickedimage": "flechadropdown.png",
+    "vexpand": false,
+    "wType": "ListBox",
+    "widgetalignment": 5,
+    "winphone8": {
+        "@class": "com.kony.gen.viz.model.component.property.listbox.WinPhone8ListBoxProperty",
+        "placeholder": "Método de Contacto Preferido*:",
+        "psp": {
+            "enableCache": false
+        },
+        "render": true
+    },
+    "zindex": 1
+}

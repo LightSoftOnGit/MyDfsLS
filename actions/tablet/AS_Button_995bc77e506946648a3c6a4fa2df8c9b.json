@@ -1,0 +1,1 @@
+{"AS_Button_995bc77e506946648a3c6a4fa2df8c9b":{"id":"AS_Button_995bc77e506946648a3c6a4fa2df8c9b","type":"ACTION_SEQUENCE","params":[{"datatype":"collection","name":"eventobject"}],"actions":[{"id":"NAVIGATE_TO_FORM___ded62166de014722a475afad188bd34e","type":"NAVIGATE_TO_FORM","formId":"frmRenew","formKUID":"8e120270682440949906cb4c9507d98a","parentId":"","callbackType":null}]}}

@@ -1,0 +1,55 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "30%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        5,
+        5,
+        5,
+        0
+    ],
+    "_skin_": "sfaf612f68c3483da24463301dc24f31",
+    "_text_": "Bienvenido a la aplicación móvil de Mercedes-Benz Financial para continuar, favor de ingresar los siguientes datos tal y como aparecen en su contrato.",
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 1,
+    "enabled": false,
+    "id": "richTextTop",
+    "info": null,
+    "isvisible": true,
+    "kuid": "9e9ce5ef23424171ba72be1a95a8769d",
+    "name": "kony.ui.RichText",
+    "paddinginpixel": false,
+    "parent": "frmMain",
+    "pf": "loginRegistroNombre",
+    "wType": "RichText",
+    "widgetalignment": 5,
+    "zindex": 3
+}

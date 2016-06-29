@@ -1,0 +1,58 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "85%"
+    },
+    "_left_": {
+        "type": "number",
+        "value": "0"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s58ad4c6a8014a57b003dcf3db9fe784",
+    "_text_": "Localiza a tu distribuidor",
+    "_top_": {
+        "type": "string",
+        "value": "8%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "85%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "disabledSkins": {
+        "focusSkin": "scf9e0efff64475c90fe6a1cadd79847"
+    },
+    "displaytext": true,
+    "focusskin": "s964208bae714992bc0f8893293b5b09",
+    "id": "btnUbicacion",
+    "ide_onClick": "AS_Button_7578b82000704057adf33d16a665cb50",
+    "info": null,
+    "isvisible": true,
+    "kuid": "3752e5035ccb4b6db7406e2a1875e3ad",
+    "name": "kony.ui.Button",
+    "paddinginpixel": false,
+    "parent": "flexMiUbicacion",
+    "pf": "frmDistribuidores",
+    "wType": "Button",
+    "zindex": 1
+}

@@ -1,0 +1,18 @@
+{
+    "p2kwiet19724036342973_btnEnvia_onClick_seq0": {
+        "id": "p2kwiet19724036342973_btnEnvia_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "customcode_onClick_7740119724036348110",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "enviarArco",
+            "display": "enviarArco",
+            "inputparams": []
+        }]
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "p2kwiet19724036343190_btnContacto_onClick_seq0": {
+        "id": "p2kwiet19724036343190_btnContacto_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "customcode_onClick_7945019724036346129",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "menuVerContacto",
+            "display": "menuVerContacto",
+            "inputparams": []
+        }]
+    }
+}

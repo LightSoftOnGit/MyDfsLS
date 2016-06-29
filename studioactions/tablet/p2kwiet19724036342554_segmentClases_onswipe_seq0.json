@@ -1,0 +1,27 @@
+{
+    "p2kwiet19724036342554_segmentClases_onswipe_seq0": {
+        "id": "p2kwiet19724036342554_segmentClases_onswipe_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "seguiWidget",
+            "value": "seguiWidget"
+        }, {
+            "name": "sectionIndex",
+            "value": "sectionIndex"
+        }, {
+            "name": "rowIndex",
+            "value": "rowIndex"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "customcode_onswipe_1095619724036344322",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onSwipeCallBack",
+            "display": "onSwipeCallBack",
+            "inputparams": [{
+                "name": "rowIndex",
+                "value": "rowIndex"
+            }]
+        }]
+    }
+}

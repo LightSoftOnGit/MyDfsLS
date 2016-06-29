@@ -1,0 +1,21 @@
+{
+    "p2kwiet19724036342471_txtPrecio_onDone_seq0": {
+        "id": "p2kwiet19724036342471_txtPrecio_onDone_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }, {
+            "name": "changedtext",
+            "value": "changedtext"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "customcode_onDone_634319724036343863",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "validarPrecioUnidad",
+            "display": "validarPrecioUnidad",
+            "inputparams": []
+        }]
+    }
+}

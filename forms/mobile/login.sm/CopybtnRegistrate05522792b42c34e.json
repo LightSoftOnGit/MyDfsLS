@@ -1,0 +1,52 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "42%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s547a1f0def14b678c1708a71fd057a6",
+    "_text_": "Registrate aqui",
+    "_top_": {
+        "type": "string",
+        "value": "81%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "30%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "disabledSkins": {},
+    "displaytext": true,
+    "focusskin": "sdda8f59b8ae473d80d9c777164cf783",
+    "id": "CopybtnRegistrate05522792b42c34e",
+    "ide_onClick": "AS_Button_296103e861644ca0864d8a4430f96f09",
+    "info": null,
+    "isvisible": true,
+    "kuid": "4b7def0654a848bb91ddbbc1d234a566",
+    "name": "kony.ui.Button",
+    "onclick": "AS_Button_2c49c8c4f8354acc81558474b4ae8777",
+    "parent": "CopyflexContent058c0354f4a7043",
+    "pf": "login",
+    "wType": "Button",
+    "zindex": 2
+}

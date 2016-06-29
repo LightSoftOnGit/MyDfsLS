@@ -1,0 +1,121 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_enabled_": false,
+    "_height_": {
+        "type": "string",
+        "value": "5%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "5%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "example@mail.com",
+    "_skin_": "sb8d276b968a4eb3984549397d5111af",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "63%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "260dp"
+    },
+    "android": {
+        "@class": "com.kony.gen.viz.model.component.property.textbox2.AndroidTextBox2Property",
+        "autoFilter": false,
+        "containerHeightMode": 1,
+        "psp": {
+            "keyboardActionLabel": 12
+        },
+        "render": true,
+        "viewType": "default"
+    },
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
+    "canUpdateUI": true,
+    "containerheightmode": 1,
+    "containerheightreference": 1,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "hexpand": true,
+    "id": "txtFieldEmail",
+    "info": null,
+    "iphone": {
+        "@class": "com.kony.gen.viz.model.component.property.textbox2.IPhoneTextBox2Property",
+        "autoCorrect": false,
+        "containerHeightMode": 1,
+        "psp": {
+            "closeButtonText": "Done",
+            "keyboardActionLabel": 1,
+            "pasteboardType": 1,
+            "showClearButton": true,
+            "showCloseButton": true,
+            "showProgressIndicator": true
+        },
+        "render": true,
+        "viewType": "default"
+    },
+    "isvisible": true,
+    "keyboardstyle": "A",
+    "keyboardtype": "A",
+    "kuid": "p2kwiet19724036342123",
+    "margininpixel": false,
+    "mode": "A",
+    "name": "kony.ui.TextBox2",
+    "paddinginpixel": false,
+    "parent": "flexContent",
+    "pf": "loginEstadosCuenta",
+    "placeholderskin": "s357ec5a3eb348608140cb5ec1049bfd",
+    "securetextentry": false,
+    "spa": {
+        "@class": "com.kony.gen.viz.model.component.property.textbox2.SPATextBox2Property",
+        "autoCorrect": false,
+        "containerHeightMode": 1
+    },
+    "spaan": {
+        "@class": "com.kony.gen.viz.model.component.property.textbox2.SPAAndroidTextBox2Property",
+        "render": true
+    },
+    "spabb": {
+        "@class": "com.kony.gen.viz.model.component.property.textbox2.SPABBTextBox2Property",
+        "render": false
+    },
+    "spaip": {
+        "@class": "com.kony.gen.viz.model.component.property.textbox2.SPAIPhoneTextBox2Property",
+        "render": true
+    },
+    "spawinphone8": {
+        "@class": "com.kony.gen.viz.model.component.property.textbox2.SPAWinPhone8TextBox2Property",
+        "render": true
+    },
+    "textinputmode": "A",
+    "vexpand": false,
+    "viewtype": "default",
+    "wType": "TextField",
+    "widgetalignment": 5,
+    "winphone8": {
+        "@class": "com.kony.gen.viz.model.component.property.textbox2.WinPhone8TextBox2Property",
+        "autoFilter": false,
+        "containerHeightMode": 1,
+        "psp": {
+            "enableCache": false
+        },
+        "render": true
+    },
+    "zindex": 1
+}

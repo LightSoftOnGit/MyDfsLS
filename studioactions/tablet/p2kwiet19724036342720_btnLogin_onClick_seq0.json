@@ -1,0 +1,18 @@
+{
+    "p2kwiet19724036342720_btnLogin_onClick_seq0": {
+        "id": "p2kwiet19724036342720_btnLogin_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "customcode_onClick_4836419724036345733",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "cambiarContrasenia",
+            "display": "cambiarContrasenia",
+            "inputparams": []
+        }]
+    }
+}

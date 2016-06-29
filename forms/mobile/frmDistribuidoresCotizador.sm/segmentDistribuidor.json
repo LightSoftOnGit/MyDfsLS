@@ -1,0 +1,137 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        {
+            "lblAutomotriz": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "AUTOMOTRIZ HERMER, SANTA FE"
+            },
+            "lblDireccion1": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "AV. VASCO DE QUIROGA NO 3200 PB"
+            },
+            "lblDireccion2": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "CENTRO DE CIUDAD SANTA FE CP01210"
+            },
+            "lblT": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "TELEFONO"
+            }
+        },
+        {
+            "lblAutomotriz": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "AUTOMOTRIZ HERMER, SANTA FE"
+            },
+            "lblDireccion1": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblDireccion2": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblT": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "annotationId": "af498756a9864be29a7150bfc295e498",
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "01",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segmentDistribuidor",
+    "ide_onRowClick": "AS_Segment_4ae73a72c72e4fc292ea9fb6955b6d19",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "none"
+        }
+    },
+    "isvisible": true,
+    "kuid": "af498756a9864be29a7150bfc295e498",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageOffDot.png",
+    "pageondotimage": "pageOnDot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "FlexContainer0ee09618a4a5b48",
+    "pf": "frmDistribuidoresCotizador",
+    "retainselection": false,
+    "rowTemplateId": "3e2cbcec9c5e4e9c95d142af8dd814bb",
+    "rowcounter": 1,
+    "rowfocusskin": "s579d5e56c384afbac6a1b576ba24649",
+    "rowskin": "sb6f1e5d893948d9bd8c16da4e209019",
+    "rowtemplate": "CopyFlexContainer025c999267ce944",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "sd2ea33ffa944f2c89e722d2deb68dd8",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "64646400",
+    "separatorrequired": true,
+    "separatorthickness": 1,
+    "showscrollbars": true,
+    "viewtype": "tableview",
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "CopyFlexContainer025c999267ce944": "CopyFlexContainer025c999267ce944",
+        "lblAutomotriz": "lblAutomotriz",
+        "lblDireccion1": "lblDireccion1",
+        "lblDireccion2": "lblDireccion2",
+        "lblT": "lblT"
+    }
+}

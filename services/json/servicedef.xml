@@ -1,0 +1,214 @@
+<application desc="" id="myDfsPC" name="" smscode="">
+   <app-config>
+      <config-param name="APP_SMS_HEADER" value="null"/>
+   </app-config>
+   <services>
+      <service cachable="false" cacheduration="" id="getMessageFromServer" passwordencrypted="false" smscode="" smsenabled="false" type="jsonConnector">
+         <service-config>
+            <config-param name="endpointUrl" value="http://www.qa.mbfs.com.mx/chat-servlet/message"/>
+            <config-param name="postprocessorname" value=""/>
+            <config-param name="preprocessorname" value=""/>
+            <config-param name="urlprovider" value=""/>
+            <config-param name="dataprovider" value=""/>
+            <config-param name="sockettimeout" value=""/>
+            <config-param name="includecookies" value=""/>
+            <config-param name="proxyname" value=""/>
+            <config-param name="proxyport" value=""/>
+            <config-param name="proxyusername" value=""/>
+            <config-param name="http.method" value="GET"/>
+            <config-param name="isembedxmlpresent" value="false"/>
+            <config-param name="ignorehttpproxy" value="false"/>
+            <config-param name="responseEncoding" value="UTF-8"/>
+            <config-param name="server.auth.mode" value="basic"/>
+            <config-param name="server.auth.host" value=""/>
+            <config-param name="server.auth.ntlm.domain" value=""/>
+         </service-config>
+         <service-input>
+            <header>
+               <param datatype="string" format="None" formatvalue="" name="userId" sms-name="" src="request" target="" value="0"/>
+               <param datatype="string" format="None" formatvalue="" name="checkpointer" sms-name="" src="request" target="" value="0"/>
+               <param datatype="string" format="None" formatvalue="" name="roomId" sms-name="" src="request" target="" value="0"/>
+            </header>
+         </service-input>
+         <service-output>
+            <param datatype="string" format="None" formatvalue="" name="checkpointer" sms-name="" src="/checkpointer" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="roomId" sms-name="" src="/room/id" target=""/>
+            <dataset id="messages" src="/messages">
+               <param datatype="string" format="None" formatvalue="" name="file" sms-name="" src="/f" target=""/>
+               <param datatype="string" format="None" formatvalue="" name="id" sms-name="" src="/id" target=""/>
+               <param datatype="string" format="None" formatvalue="" name="type" sms-name="" src="/tp" target=""/>
+               <param datatype="string" format="None" formatvalue="" name="timestamp" sms-name="" src="/t" target=""/>
+               <param datatype="string" format="None" formatvalue="" name="message" sms-name="" src="/m" target=""/>
+               <param datatype="string" format="None" formatvalue="" name="user" sms-name="" src="/u/n" target=""/>
+            </dataset>
+            <param datatype="string" format="None" formatvalue="" name="roomStatus" sms-name="" src="/room/status" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="filePath" sms-name="" src="/filePath" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="userId" sms-name="" src="/user/id" target="response"/>
+            <param datatype="number" format="None" formatvalue="" name="opstatus" sms-name="" src="" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="errmsg" sms-name="" src="" target=""/>
+            <param datatype="number" format="None" formatvalue="" name="httpStatusCode" sms-name="" src="" target=""/>
+         </service-output>
+      </service>
+      <service cachable="false" cacheduration="" id="openChat" passwordencrypted="true" smscode="" smsenabled="false" type="jsonConnector">
+         <service-config>
+            <config-param name="endpointUrl" value="http://www.qa.mbfs.com.mx/chat-servlet/chat"/>
+            <config-param name="postprocessorname" value=""/>
+            <config-param name="preprocessorname" value=""/>
+            <config-param name="urlprovider" value=""/>
+            <config-param name="dataprovider" value=""/>
+            <config-param name="sockettimeout" value=""/>
+            <config-param name="includecookies" value=""/>
+            <config-param name="proxyname" value=""/>
+            <config-param name="proxyport" value=""/>
+            <config-param name="proxyusername" value=""/>
+            <config-param name="http.method" value="PUT"/>
+            <config-param name="isembedxmlpresent" value="false"/>
+            <config-param name="ignorehttpproxy" value="false"/>
+            <config-param name="responseEncoding" value="UTF-8"/>
+            <config-param name="server.auth.mode" value="basic"/>
+            <config-param name="server.auth.host" value=""/>
+            <config-param name="server.auth.ntlm.domain" value=""/>
+         </service-config>
+         <service-input>
+            <template-param name="message" value="{    &quot;deviceId&quot;: &quot;$deviceId&quot;,    &quot;osType&quot;: &quot;$osType&quot;,    &quot;sid&quot;: &quot;$sid&quot;,    &quot;ufid&quot;: &quot;$ufid&quot;,    &quot;userType&quot;: &quot;$userType&quot; }"/>
+            <param datatype="string" encode="true" name="deviceId" sms-name="" src="" value=""/>
+            <param datatype="string" encode="true" name="userType" sms-name="" src="" value=""/>
+            <param datatype="string" encode="true" name="ufid" sms-name="" src="" value=""/>
+            <param datatype="string" encode="true" name="sid" sms-name="" src="" value=""/>
+            <param datatype="string" encode="true" name="osType" sms-name="" src="" value=""/>
+         </service-input>
+         <service-output>
+            <param datatype="string" format="None" formatvalue="" name="roomId" sms-name="" src="/room/id" target="response"/>
+            <param datatype="string" format="None" formatvalue="" name="userId" sms-name="" src="/user/id" target=""/>
+            <param datatype="number" format="None" formatvalue="" name="opstatus" sms-name="" src="" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="errmsg" sms-name="" src="" target=""/>
+            <param datatype="number" format="None" formatvalue="" name="httpStatusCode" sms-name="" src="" target=""/>
+         </service-output>
+      </service>
+      <service cachable="false" cacheduration="" id="sendMessageToServer" passwordencrypted="false" smscode="" smsenabled="false" type="jsonConnector">
+         <service-config>
+            <config-param name="endpointUrl" value="http://www.qa.mbfs.com.mx/chat-servlet/message"/>
+            <config-param name="postprocessorname" value=""/>
+            <config-param name="preprocessorname" value=""/>
+            <config-param name="urlprovider" value=""/>
+            <config-param name="dataprovider" value=""/>
+            <config-param name="sockettimeout" value=""/>
+            <config-param name="includecookies" value=""/>
+            <config-param name="proxyname" value=""/>
+            <config-param name="proxyport" value=""/>
+            <config-param name="proxyusername" value=""/>
+            <config-param name="http.method" value="PUT"/>
+            <config-param name="isembedxmlpresent" value="false"/>
+            <config-param name="ignorehttpproxy" value="false"/>
+            <config-param name="responseEncoding" value="UTF-8"/>
+            <config-param name="server.auth.mode" value="basic"/>
+            <config-param name="server.auth.host" value=""/>
+            <config-param name="server.auth.ntlm.domain" value=""/>
+         </service-config>
+         <service-input>
+            <header>
+               <param datatype="string" format="None" formatvalue="" name="roomId" sms-name="" src="" target="" value="0"/>
+            </header>
+            <template-param name="message" value="{      &quot;f&quot;: &quot;$file&quot;,      &quot;id&quot;: &quot;$id&quot;,      &quot;m&quot;: &quot;$message&quot;,      &quot;t&quot;: &quot;$timestamp&quot;,      &quot;tp&quot;: &quot;$type&quot;,      &quot;u&quot;: {&quot;id&quot;: &quot;$userId&quot;} }"/>
+            <param datatype="string" encode="true" name="message" sms-name="" src="request" value=""/>
+            <param datatype="string" encode="true" name="id" sms-name="" src="request" value="0"/>
+            <param datatype="string" encode="true" name="file" sms-name="" src="request" value=""/>
+            <param datatype="string" encode="true" name="timestamp" sms-name="" src="request" value=""/>
+            <param datatype="string" encode="true" name="type" sms-name="" src="request" value=""/>
+            <param datatype="string" encode="true" name="userId" sms-name="" src="request" value="0"/>
+         </service-input>
+         <service-output>
+            <param datatype="string" format="None" formatvalue="" name="result" sms-name="" src="/entity" target=""/>
+            <param datatype="number" format="None" formatvalue="" name="opstatus" sms-name="" src="" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="errmsg" sms-name="" src="" target=""/>
+            <param datatype="number" format="None" formatvalue="" name="httpStatusCode" sms-name="" src="" target=""/>
+         </service-output>
+      </service>
+      <service cachable="false" cacheduration="" id="sendMessageToServerBulk" passwordencrypted="true" smscode="" smsenabled="false" type="jsonConnector">
+         <service-config>
+            <config-param name="endpointUrl" value="http://www.qa.mbfs.com.mx/chat-servlet/message/bulk"/>
+            <config-param name="postprocessorname" value=""/>
+            <config-param name="preprocessorname" value=""/>
+            <config-param name="urlprovider" value=""/>
+            <config-param name="dataprovider" value=""/>
+            <config-param name="sockettimeout" value=""/>
+            <config-param name="includecookies" value=""/>
+            <config-param name="proxyname" value=""/>
+            <config-param name="proxyport" value=""/>
+            <config-param name="proxyusername" value=""/>
+            <config-param name="http.method" value="PUT"/>
+            <config-param name="isembedxmlpresent" value="false"/>
+            <config-param name="ignorehttpproxy" value="false"/>
+            <config-param name="responseEncoding" value="UTF-8"/>
+            <config-param name="server.auth.mode" value="basic"/>
+            <config-param name="server.auth.host" value=""/>
+            <config-param name="server.auth.ntlm.domain" value=""/>
+         </service-config>
+         <service-input>
+            <template-param name="message" value="#set( $i = 1) {    &quot;messages&quot;: [  #foreach $messages      {     &quot;f&quot;: &quot;$file&quot;,     &quot;id&quot;: &quot;$id&quot;,     &quot;m&quot;: &quot;$message&quot;,     &quot;t&quot;: &quot;$timestamp&quot;,     &quot;tp&quot;: &quot;$type&quot;,     &quot;u&quot;: {&quot;id&quot;: &quot;$userId&quot;}   }#if($i != $messages.records.size()) , #end   #set( $i = $i+1)  #end   ],    &quot;roomId&quot;: &quot;$roomId&quot;,    &quot;userId&quot;: &quot;$userRoomId&quot;,    &quot;checkpointer&quot;: &quot;$checkpointer&quot; } "/>
+            <param datatype="collection" encode="true" name="messages" sms-name="" src="request" value="[]"/>
+            <param datatype="string" encode="true" name="roomId" sms-name="" src="request" value="0"/>
+            <param datatype="string" encode="true" name="id" sms-name="" src="request" value="0"/>
+            <param datatype="string" encode="true" name="file" sms-name="" src="request" value=""/>
+            <param datatype="string" encode="true" name="timestamp" sms-name="" src="request" value=""/>
+            <param datatype="string" encode="true" name="type" sms-name="" src="request" value=""/>
+            <param datatype="string" encode="true" name="userId" sms-name="" src="request" value="0"/>
+            <param datatype="string" encode="true" name="message" sms-name="" src="request" value=""/>
+            <param datatype="string" encode="true" name="userRoomId" sms-name="" src="" value="0"/>
+            <param datatype="string" encode="true" name="checkpointer" sms-name="" src="" value="0"/>
+         </service-input>
+         <service-output>
+            <param datatype="string" format="None" formatvalue="" name="checkpointer" sms-name="" src="/checkpointer" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="roomId" sms-name="" src="/room/id" target=""/>
+            <dataset id="messages" src="/messages">
+               <param datatype="string" format="None" formatvalue="" name="file" sms-name="" src="/f" target=""/>
+               <param datatype="string" format="None" formatvalue="" name="id" sms-name="" src="/id" target=""/>
+               <param datatype="string" format="None" formatvalue="" name="type" sms-name="" src="/tp" target=""/>
+               <param datatype="string" format="None" formatvalue="" name="timestamp" sms-name="" src="/t" target=""/>
+               <param datatype="string" format="None" formatvalue="" name="message" sms-name="" src="/m" target=""/>
+               <param datatype="string" format="None" formatvalue="" name="user" sms-name="" src="/u/n" target=""/>
+            </dataset>
+            <param datatype="string" format="None" formatvalue="" name="roomStatus" sms-name="" src="/room/status" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="filePath" sms-name="" src="/filePath" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="userId" sms-name="" src="/user/id" target="response"/>
+            <param datatype="number" format="None" formatvalue="" name="opstatus" sms-name="" src="" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="errmsg" sms-name="" src="" target=""/>
+            <param datatype="number" format="None" formatvalue="" name="httpStatusCode" sms-name="" src="" target=""/>
+         </service-output>
+      </service>
+      <service cachable="false" cacheduration="" id="subscribeToKpns" passwordencrypted="false" smscode="" smsenabled="false" type="jsonConnector">
+         <service-config>
+            <config-param name="endpointUrl" value="http://www.qa.mbfs.com.mx/chat-servlet/notification"/>
+            <config-param name="postprocessorname" value=""/>
+            <config-param name="preprocessorname" value=""/>
+            <config-param name="urlprovider" value=""/>
+            <config-param name="dataprovider" value=""/>
+            <config-param name="sockettimeout" value=""/>
+            <config-param name="includecookies" value=""/>
+            <config-param name="proxyname" value=""/>
+            <config-param name="proxyport" value=""/>
+            <config-param name="proxyusername" value=""/>
+            <config-param name="http.method" value="PUT"/>
+            <config-param name="isembedxmlpresent" value="false"/>
+            <config-param name="ignorehttpproxy" value="false"/>
+            <config-param name="responseEncoding" value="UTF-8"/>
+            <config-param name="server.auth.mode" value="basic"/>
+            <config-param name="server.auth.host" value=""/>
+            <config-param name="server.auth.ntlm.domain" value=""/>
+         </service-config>
+         <service-input>
+            <template-param name="message" value="{   &quot;username&quot;:&quot;$username&quot;,   &quot;sid&quot;:&quot;$sid&quot;,   &quot;userType&quot;:&quot;$userType&quot;,   &quot;osType&quot;:&quot;$osType&quot; }"/>
+            <param datatype="string" encode="true" name="sid" sms-name="" src="request" value=""/>
+            <param datatype="string" encode="true" name="username" sms-name="" src="" value=""/>
+            <param datatype="string" encode="true" name="userType" sms-name="" src="" value=""/>
+            <param datatype="string" encode="true" name="osType" sms-name="" src="" value=""/>
+         </service-input>
+         <service-output>
+            <param datatype="string" format="None" formatvalue="" name="entity" sms-name="" src="/entity" target=""/>
+            <param datatype="number" format="None" formatvalue="" name="opstatus" sms-name="" src="" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="errmsg" sms-name="" src="" target=""/>
+            <param datatype="number" format="None" formatvalue="" name="httpStatusCode" sms-name="" src="" target=""/>
+         </service-output>
+      </service>
+   </services>
+</application>

@@ -1,0 +1,52 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "25%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "8%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sf72a561153d463ebf2077a5f955f326",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "20%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "2%"
+    },
+    "annotationId": "7acbf8123cd8438b9a754fd1259859cc",
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s2c92694a2c148e48a150e63cf1ab5c6",
+    "id": "btnBack",
+    "ide_onClick": "AS_Button_f809299ff78540d7a913384c508c886c",
+    "info": null,
+    "isvisible": true,
+    "kuid": "c2b973124a614026940c2f2d28da8399",
+    "name": "kony.ui.Button",
+    "onclick": "AS_Button_03dc543337fb4bd5b95b9cfca0875f73",
+    "parent": "flexContainerTitle",
+    "pf": "loginRecuperarContrasena",
+    "wType": "Button",
+    "zindex": 1
+}

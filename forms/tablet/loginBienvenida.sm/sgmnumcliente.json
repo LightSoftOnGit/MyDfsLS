@@ -1,0 +1,158 @@
+{
+    "DNDConfig": null,
+    "_data_": [],
+    "_enabled_": false,
+    "_height_": {
+        "type": "string",
+        "value": "7.56%"
+    },
+    "_indicator_": "none",
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "seg2Normal",
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "android": {
+        "@class": "com.kony.gen.viz.model.container.property.segment2.AndroidSegment2Property",
+        "psp": {
+            "dockSectionHeaders": false
+        },
+        "render": true,
+        "viewConfig": {
+            "coverflowConfig": {
+                "isCircular": true,
+                "projectionAngle": 60
+            }
+        },
+        "viewType": "pageview"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50.0%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "55.0%"
+    },
+    "containerheightreference": 1,
+    "containerweight": 100,
+    "context": {
+        "channel": "mobile",
+        "formID": "AdvancedWidgetsSegements",
+        "templateType": "segments",
+        "topLevelBox": false
+    },
+    "counter": 3,
+    "focusedindex": null,
+    "focuseditem": null,
+    "generatedtemplate": "p2kwiet19724036342690",
+    "groupcells": false,
+    "hasSections": false,
+    "hiddencolumns": {},
+    "id": "sgmnumcliente",
+    "info": null,
+    "ipad": {
+        "@class": "com.kony.gen.viz.model.container.property.segment2.IPadSegment2Property",
+        "psp": {
+            "bounces": true,
+            "editStyle": "none",
+            "enableDictionary": false,
+            "progressIndicatorColor": "white",
+            "searchCriteria": 1,
+            "showProgressIndicator": true
+        },
+        "render": true,
+        "viewConfig": {
+            "coverflowConfig": {}
+        },
+        "viewType": "coverflow"
+    },
+    "isvisible": true,
+    "kuid": "p2kwiet19724036342682",
+    "layoutalignment": 3,
+    "margininpixel": false,
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "paddinginpixel": false,
+    "pageoffdotimage": "pageOffDot.png",
+    "pageondotimage": "pageOnDot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "container",
+    "pf": "loginBienvenida",
+    "retainselection": false,
+    "rowTemplateId": "p2kwiet19724036342690",
+    "rowcounter": 2,
+    "rowfocusskin": "sb63f63c54bd41e3a8bc3a546601d49d",
+    "rowskin": "s9c697b49dd54b7e84c87ef055ac438c",
+    "screenlevelwidget": false,
+    "scrollingevents": false,
+    "seccounter": 0,
+    "sectionheaderskin": "see884ae81bd4405a5e71aea9f66e38b",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "selectionbehaviorconfig": {},
+    "separatorcolor": "64646400",
+    "separatorrequired": true,
+    "separatorthickness": 1,
+    "showscrollbars": false,
+    "spa": {
+        "@class": "com.kony.gen.viz.model.container.property.segment2.SPASegment2Property"
+    },
+    "spaandroidtablet": {
+        "@class": "com.kony.gen.viz.model.container.property.segment2.SPAAndroidTabletSegment2Property",
+        "render": true
+    },
+    "spaipad": {
+        "@class": "com.kony.gen.viz.model.container.property.segment2.SPAIPadSegment2Property",
+        "render": true
+    },
+    "spawindowstablet": {
+        "@class": "com.kony.gen.viz.model.container.property.segment2.SPAWindowsTabletSegment2Property",
+        "render": true
+    },
+    "viewtype": "pageview",
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "lblContent": "lblContent"
+    },
+    "windows8": {
+        "@class": "com.kony.gen.viz.model.container.property.segment2.Windows8Segment2Property",
+        "_margin_": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "margin": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "marginInPixel": false,
+        "render": true
+    },
+    "zindex": 3
+}

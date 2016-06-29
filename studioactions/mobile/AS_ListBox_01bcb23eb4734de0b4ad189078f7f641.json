@@ -1,0 +1,18 @@
+{
+    "AS_ListBox_01bcb23eb4734de0b4ad189078f7f641": {
+        "id": "AS_ListBox_01bcb23eb4734de0b4ad189078f7f641",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onSelection_56166f7d31f74236aabf71162372b1ff",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "validarPrecioUnidad2",
+            "display": "validarPrecioUnidad2",
+            "inputparams": []
+        }]
+    }
+}

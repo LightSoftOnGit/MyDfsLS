@@ -1,0 +1,21 @@
+{
+    "p2kwiet19724036341589_btnBackFinanciamiento_onClick_seq0": {
+        "id": "p2kwiet19724036341589_btnBackFinanciamiento_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "navigation_onClick_4607019724036348867",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "cotizadorModelos2bueno",
+            "formKUID": "p2kwiet19724036341618",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "enableMappingEditor": true
+        }]
+    }
+}

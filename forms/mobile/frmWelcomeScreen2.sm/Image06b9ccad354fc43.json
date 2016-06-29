@@ -1,0 +1,59 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "3dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s0f47ecdaad04266a9713071f684ce5f",
+    "_src_": "distlogodaimlersplash.png",
+    "_top_": {
+        "type": "string",
+        "value": "-4dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "context": {
+        "channel": "mobile",
+        "formID": "frmWelcomeScreen2",
+        "ispercent": true,
+        "platform": "iphone",
+        "templateType": "forms",
+        "topLevelBox": null
+    },
+    "id": "Image06b9ccad354fc43",
+    "imagescalemode": 1,
+    "info": null,
+    "invokedProperty": "src",
+    "ispercent": true,
+    "isvisible": true,
+    "kuid": "373344ff7ebd4ee7876fc878842b5958",
+    "name": "kony.ui.Image2",
+    "parent": "LogoDaimler",
+    "pf": "frmWelcomeScreen2",
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5
+}

@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xsObject>
+    <appSmsCode></appSmsCode>
+    <soapservice>
+        <authenticationMode>basic</authenticationMode>
+        <cacheduration></cacheduration>
+        <cacheable>false</cacheable>
+        <includecookies></includecookies>
+        <dataprovider></dataprovider>
+        <dcResponse/>
+        <encryptPwd>true</encryptPwd>
+        <escapeXML>false</escapeXML>
+        <id>obtenerBeneficiosTerminacionContrato</id>
+        <ignoreProxy>false</ignoreProxy>
+        <inparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>tipoContrato</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>request</source>
+            <srcformatvalue></srcformatvalue>
+            <target></target>
+            <targetdatatype></targetdatatype>
+            <testvalue>Credito directo</testvalue>
+            <value></value>
+        </inparam>
+        <inparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>nombreCliente</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>request</source>
+            <srcformatvalue></srcformatvalue>
+            <target></target>
+            <targetdatatype></targetdatatype>
+            <testvalue>Bio Master</testvalue>
+            <value></value>
+        </inparam>
+        <intemplate>&lt;soapenv:Envelope xmlns:del="http://delegate.mydfs.ws.daimler.com/" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"&gt;
+   &lt;soapenv:Header/&gt;
+   &lt;soapenv:Body&gt;
+      &lt;del:obtenerBeneficiosTerminacionContrato&gt;
+         &lt;!--Optional:--&gt;
+         &lt;tipoContrato&gt;$tipoContrato&lt;/tipoContrato&gt;
+         &lt;!--Optional:--&gt;
+         &lt;nombreCliente&gt;$nombreCliente&lt;/nombreCliente&gt;
+      &lt;/del:obtenerBeneficiosTerminacionContrato&gt;
+   &lt;/soapenv:Body&gt;
+&lt;/soapenv:Envelope&gt;
+</intemplate>
+        <inputStructure>
+            <index>-1</index>
+            <order>0</order>
+            <id>obtenerBeneficiosTerminacionContrato</id>
+            <params>
+                <accessType></accessType>
+                <format>string</format>
+                <formatValue></formatValue>
+                <jsValue></jsValue>
+                <name>tipoContrato</name>
+                <type>java.lang.String</type>
+                <value></value>
+            </params>
+            <params>
+                <accessType></accessType>
+                <format>string</format>
+                <formatValue></formatValue>
+                <jsValue></jsValue>
+                <name>nombreCliente</name>
+                <type>java.lang.String</type>
+                <value></value>
+            </params>
+        </inputStructure>
+        <ntlmDomain></ntlmDomain>
+        <ntlmHost></ntlmHost>
+        <operationname>obtenerBeneficiosTerminacionContrato</operationname>
+        <outtemplate>&lt;S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"&gt;
+   &lt;S:Body&gt;
+      &lt;ns2:obtenerBeneficiosTerminacionContratoResponse xmlns:ns2="http://delegate.mydfs.ws.daimler.com/"&gt;
+         &lt;MyDfsResponse&gt;
+            &lt;codigo&gt;1&lt;/codigo&gt;
+            &lt;contenido&gt;
+               &lt;response xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string"&gt;&amp;lt;html&amp;gt;
+&amp;lt;head&amp;gt;
+&amp;lt;title&amp;gt;
+Terminacion Contrato
+&amp;lt;title&amp;gt;
+&amp;lt;/head&amp;gt;
+&amp;lt;body&amp;gt;
+&amp;lt;p&amp;gt;Estimado Bio Master:&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;Gracias por haber elegido Flexibility de Mercedes-Benz Financial para adquirir su auto; hasta hoy usted ha disfrutado de su Mercedes-Benz o smart, con grandes beneficios como:&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;ul&amp;gt;&amp;lt;li&amp;gt;La mensualidad más cómoda del mercado &amp;lt;/li&amp;gt;
+&amp;lt;ul&amp;gt;&amp;lt;li&amp;gt;Un compromiso a menor plazo que un crédito tradicional&amp;lt;/li&amp;gt;
+&amp;lt;ul&amp;gt;&amp;lt;li&amp;gt;La seguridad de que el valor de su auto está garantizado por Mercedes-Benz &amp;lt;/li&amp;gt;
+&amp;lt;ul&amp;gt;&amp;lt;li&amp;gt;3 opciones al finalizar el plazo de su contrato&amp;lt;/li&amp;gt;&amp;lt;/ul&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;En los próximos meses su contrato estará llegando al término del plazo, por lo cual, lo invitamos a que acuda a su distribuidor para elegir la opción que más le convenga en la terminación de su contrato:&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;1.	Renovarlo&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;En esta opción el distribuidor deberá valuar su auto.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;En caso que el valor de su auto en el mercado supere el valor futuro garantizado, el distribuidor ofrecerá comprar su auto al precio que pacten ambas partes, utilizando el monto correspondiente para liquidar su contrato con MBF y si existe un monto restante, lo podrá utilizar como parte del enganche para su nuevo Mercedes-Benz o smart.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;En caso que el valor de su auto en el mercado no supere el valor futuro garantizado, usted no tiene de que preocuparse, ya que cuenta con un valor mínimo de recompra garantizado por MB; por lo que una valuación de su auto se llevaría a cabo en el distribuidor con el fin de corroborar las condiciones de entrega estipuladas en el contrato. Si su auto cubre las condiciones de entrega, el distribuidor lo tomará a cuenta de su deuda restante, por lo cual usted no deberá nada más.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;2.	Devolverlo&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;Para esta opción se utilizará el valor futuro garantizado de su unidad, por lo que una valuación de su auto se llevará a cabo en el distribuidor, con el fin de corroborar las condiciones de entrega estipuladas en el contrato de Flexibility que ha celebrado con Mercedes-Benz Financial.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;Si su auto cubre las condiciones de entrega, el distribuidor lo tomará a cuenta para liquidar su contrato con Mercedes-Benz Financial, por lo cual usted no deberá nada más.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;3.	Quedárselo&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;En caso de que ya no se pueda separar de su Mercedes-Benz o smart, podrá liquidar el valor final, ya sea en una sola exhibición o bien, ponemos a su disposición los mejores planes de financiamiento para pagar el saldo restante a través de cómodas mensualidades en un nuevo financiamiento*&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;Lo invitamos a acudir a su distribuidor para elegir la opción que mejor se adapte a sus necesidades.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;Para mayor información acérquese a su distribuidor Mercedes-Benz autorizado o comuníquese a nuestro Centro de Atención a Clientes (clientes.financial@daimler / 01 800 262 66 66) en donde con gusto lo atenderemos.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;Atentamente,&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;Mercedes-Benz Financial&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;*Sujeto a aprobación de crédito.&amp;lt;/p&amp;gt;
+&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt; &lt;/response&gt;
+            &lt;/contenido&gt;
+         &lt;/MyDfsResponse&gt;
+      &lt;/ns2:obtenerBeneficiosTerminacionContratoResponse&gt;
+   &lt;/S:Body&gt;
+&lt;/S:Envelope&gt;
+</outtemplate>
+        <outTemplateHeader>X-Frame-Options: SAMEORIGIN
+Server: Microsoft-IIS/7.5
+Content-Length: 4071
+Date: Thu, 26 May 2016 21:29:32 GMT
+Content-Type: text/xml;charset=utf-8
+X-Powered-By: ASP.NET
+</outTemplateHeader>
+        <outputStructure>
+            <index>-1</index>
+            <order>0</order>
+            <id>obtenerBeneficiosTerminacionContratoResponse</id>
+            <records>
+                <index>-1</index>
+                <order>0</order>
+                <id>MyDfsResponse</id>
+                <params>
+                    <accessType></accessType>
+                    <format>int</format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>codigo</name>
+                    <type>java.lang.Integer</type>
+                    <value></value>
+                </params>
+                <records>
+                    <index>-1</index>
+                    <order>0</order>
+                    <id>contenido</id>
+                    <params>
+                        <accessType></accessType>
+                        <format>anyType</format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>lstResponse</name>
+                        <type>anyType</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType></accessType>
+                        <format>anyType</format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>response</name>
+                        <type>anyType</type>
+                        <value></value>
+                    </params>
+                </records>
+            </records>
+        </outputStructure>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>codigo</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>//ns2:obtenerBeneficiosTerminacionContratoResponse/MyDfsResponse/codigo</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value></value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>contenido</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>//ns2:obtenerBeneficiosTerminacionContratoResponse/MyDfsResponse/contenido/response</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value></value>
+        </outparam>
+        <password></password>
+        <postclassname></postclassname>
+        <preclassname></preclassname>
+        <proxyname></proxyname>
+        <proxyport></proxyport>
+        <proxypwd></proxypwd>
+        <proxyuserid></proxyuserid>
+        <responseencoding>UTF-8</responseencoding>
+        <sharePoint>false</sharePoint>
+        <smscode></smscode>
+        <smsenabled>false</smsenabled>
+        <soapaction></soapaction>
+        <timeout></timeout>
+        <url>http://www.qa.mbfs.com.mx:80/SiteClientes/mydfs/obtenerDetalleContratoWS</url>
+        <urlprovider></urlprovider>
+        <userid></userid>
+        <version>1.1</version>
+        <wsdlurl>http://www.qa.mbfs.com.mx/SiteClientes/mydfs/obtenerDetalleContratoWS?wsdl</wsdlurl>
+    </soapservice>
+    <sharePointRoot>
+        <name>SharePoint Servers</name>
+    </sharePointRoot>
+    <wsdlroot>
+        <wsdltree>
+            <name>Web Services</name>
+        </wsdltree>
+    </wsdlroot>
+</xsObject>

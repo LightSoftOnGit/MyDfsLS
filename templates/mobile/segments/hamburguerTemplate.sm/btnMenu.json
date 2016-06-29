@@ -1,0 +1,57 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "40%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "4.50%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sad7aeb9fe8d4d029e8e125f2b7ce66f",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "25%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "50%"
+    },
+    "annotationId": "ff24508a55534ccba754e36cb2430e4b",
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "channel": "mobile",
+    "containerId": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "disabledSkins": {
+        "focusSkin": "sf20b0e5c39140e79fc731cff3f0a9a7"
+    },
+    "displaytext": true,
+    "id": "btnMenu",
+    "info": null,
+    "isvisible": true,
+    "kuid": "602247e324fe4756bea118c64f3ecaf1",
+    "name": "kony.ui.Button",
+    "onclick": "AS_Button_29cec7d8dc784a36b46e6f8e968f4618",
+    "parent": "FlexContainer03c95eea13be042",
+    "pf": "hamburguerTemplate",
+    "wType": "Button"
+}

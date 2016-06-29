@@ -1,0 +1,51 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        5,
+        0,
+        5,
+        0
+    ],
+    "_skin_": "sa3eff246c2e4b0d9b28cd1d5f5425e2",
+    "_text_": "En los próximos meses su contrato estará llegando al término del plazo, por lo cual, lo invitamos a que acuda a su distribuidor para elegir la opción que más le convenga en la terminación de su contrato.",
+    "_top_": {
+        "type": "string",
+        "value": "22%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 1,
+    "enabled": false,
+    "id": "RichText01c2ea3114e9d4c",
+    "info": null,
+    "isvisible": true,
+    "kuid": "3c265bc7de6d4887a12d8521826519ff",
+    "name": "kony.ui.RichText",
+    "paddinginpixel": false,
+    "parent": "flexContainerFlexibility",
+    "pf": "frmContrato",
+    "wType": "RichText",
+    "widgetalignment": 5,
+    "zindex": 1
+}

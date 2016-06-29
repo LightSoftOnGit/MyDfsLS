@@ -1,0 +1,55 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "5%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s5e6404acb074732b0a3a000625a5153",
+    "_text_": "Empresa:",
+    "_top_": {
+        "type": "string",
+        "value": "54%"
+    },
+    "_width_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_wrapping_": 2,
+    "annotationId": "830ae9298150423ca9a5d8c8059fc0ce",
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 4,
+    "enabled": false,
+    "id": "richTextEmpresa",
+    "info": null,
+    "isvisible": true,
+    "kuid": "f55949e097c0439cadfaa4e8844db5ed",
+    "name": "kony.ui.RichText",
+    "parent": "flexTextField8",
+    "pf": "loginRegistroEmpresa",
+    "wType": "RichText",
+    "widgetalignment": 5,
+    "zindex": 1
+}

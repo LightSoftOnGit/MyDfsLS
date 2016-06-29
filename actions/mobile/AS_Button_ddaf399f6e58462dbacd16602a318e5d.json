@@ -1,0 +1,1 @@
+{"AS_Button_ddaf399f6e58462dbacd16602a318e5d":{"id":"AS_Button_ddaf399f6e58462dbacd16602a318e5d","type":"ACTION_SEQUENCE","params":[{"datatype":"collection","name":"eventobject"}],"actions":[{"id":"NAVIGATE_TO_FORM___a02b7550905f4348b00be31309e7cb6d","type":"NAVIGATE_TO_FORM","formId":"inicio","formKUID":"7116088d40604d7b89bd11f3c7e22eab","parentId":"","callbackType":null}]}}

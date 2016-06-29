@@ -1,0 +1,21 @@
+{
+    "p2kwiet19724036341503_btnTC_onClick_seq0": {
+        "id": "p2kwiet19724036341503_btnTC_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "navigation_onClick_8337119724036341724",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "cotizadorTerminosCondiciones",
+            "formKUID": "p2kwiet19724036341640",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "enableMappingEditor": true
+        }]
+    }
+}

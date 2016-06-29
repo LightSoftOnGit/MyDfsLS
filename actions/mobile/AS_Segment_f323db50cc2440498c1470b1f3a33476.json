@@ -1,0 +1,1 @@
+{"AS_Segment_f323db50cc2440498c1470b1f3a33476":{"id":"AS_Segment_f323db50cc2440498c1470b1f3a33476","type":"ACTION_SEQUENCE","params":[{"datatype":"collection","name":"eventobject"},{"datatype":"number","name":"sectionNumber"},{"datatype":"number","name":"rowNumber"}],"actions":[]}}

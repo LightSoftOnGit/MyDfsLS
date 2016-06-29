@@ -1,0 +1,136 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "string",
+        "value": "60.0%"
+    },
+    "_enabled_": false,
+    "_height_": {
+        "type": "string",
+        "value": "5.0%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "7.0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "se05a4756fd040feaf98574cfd5d740d",
+    "_text_": "",
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "android": {
+        "@class": "com.kony.gen.viz.model.component.property.radio.AndroidRadioProperty",
+        "render": true
+    },
+    "canUpdateUI": true,
+    "containerweight": 0,
+    "contentalignment": 5,
+    "context": {
+        "channel": "mobile",
+        "formID": "BasicWidgets1",
+        "templateType": "forms",
+        "topLevelBox": null
+    },
+    "hexpand": true,
+    "id": "radioPersona",
+    "ide_onSelection": "p2kwiet19724036341437_radioPersona_onSelection_seq0",
+    "info": null,
+    "iphone": {
+        "@class": "com.kony.gen.viz.model.component.property.radio.IPhoneRadioProperty",
+        "_margin_": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "margin": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "marginInPixel": false,
+        "psp": {
+            "groupCells": false,
+            "viewType": 0
+        },
+        "render": true
+    },
+    "isvisible": true,
+    "itemorientation": "horizontal",
+    "kuid": "p2kwiet19724036341425",
+    "margininpixel": false,
+    "masterdata": [
+        [
+            "0",
+            "Fisica"
+        ],
+        [
+            "1",
+            "Moral"
+        ]
+    ],
+    "name": "kony.ui.RadioButtonGroup",
+    "paddinginpixel": false,
+    "parent": "fexibilityMenuFlexContainer",
+    "pf": "cotizadorCalculo2",
+    "selectedkey": null,
+    "selectedkeyvalue": [],
+    "spa": {
+        "@class": "com.kony.gen.viz.model.component.property.radio.SPARadioProperty"
+    },
+    "spaan": {
+        "@class": "com.kony.gen.viz.model.component.property.radio.SPAAndroidRadioProperty",
+        "render": true
+    },
+    "spabb": {
+        "@class": "com.kony.gen.viz.model.component.property.radio.SPABBRadioProperty",
+        "render": false
+    },
+    "spaip": {
+        "@class": "com.kony.gen.viz.model.component.property.radio.SPAIPhoneRadioProperty",
+        "render": true
+    },
+    "spawinphone8": {
+        "@class": "com.kony.gen.viz.model.component.property.radio.SPAWinPhone8RadioProperty",
+        "render": true
+    },
+    "vexpand": false,
+    "wType": "RadioButtonGroup",
+    "widgetalignment": 5,
+    "winphone8": {
+        "@class": "com.kony.gen.viz.model.component.property.radio.WinPhone8RadioProperty",
+        "_margin_": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "margin": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "marginInPixel": false,
+        "psp": {
+            "enableCache": false
+        },
+        "render": true
+    },
+    "zindex": 1
+}

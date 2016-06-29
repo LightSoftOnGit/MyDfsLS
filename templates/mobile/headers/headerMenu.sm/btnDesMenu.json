@@ -1,0 +1,57 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "40%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "4.50%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s5f5d6cddd5048f1a90cfdf3f6bdc3ae",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "25%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "50%"
+    },
+    "annotationId": "5248beaab17342d9ab8f62a66c022e13",
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "channel": "mobile",
+    "containerId": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "disabledSkins": {
+        "focusSkin": "sf20b0e5c39140e79fc731cff3f0a9a7"
+    },
+    "displaytext": true,
+    "id": "btnDesMenu",
+    "info": null,
+    "isvisible": true,
+    "kuid": "51e171bbf1324f8fbc9f00250c8ac3b8",
+    "name": "kony.ui.Button",
+    "onclick": "AS_Button_ca3b0f252dfc4f8a97d2672eb89a9000",
+    "parent": "btnMenuInfo",
+    "pf": "headerMenu",
+    "wType": "Button"
+}

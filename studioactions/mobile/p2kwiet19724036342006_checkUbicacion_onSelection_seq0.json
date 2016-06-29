@@ -1,0 +1,18 @@
+{
+    "p2kwiet19724036342006_checkUbicacion_onSelection_seq0": {
+        "id": "p2kwiet19724036342006_checkUbicacion_onSelection_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "customcode_onSelection_4316719724036348748",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "infGpsVisible",
+            "display": "infGpsVisible",
+            "inputparams": []
+        }]
+    }
+}

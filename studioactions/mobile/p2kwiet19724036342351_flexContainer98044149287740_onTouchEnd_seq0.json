@@ -1,0 +1,27 @@
+{
+    "p2kwiet19724036342351_flexContainer98044149287740_onTouchEnd_seq0": {
+        "id": "p2kwiet19724036342351_flexContainer98044149287740_onTouchEnd_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }, {
+            "name": "x",
+            "value": "x"
+        }, {
+            "name": "y",
+            "value": "y"
+        }, {
+            "name": "contextInfo",
+            "value": "contextInfo"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "customcode_onTouchEnd_2694419724036341366",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "menuVerInicio",
+            "display": "menuVerInicio",
+            "inputparams": []
+        }]
+    }
+}

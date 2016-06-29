@@ -1,0 +1,50 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "number",
+        "value": "0"
+    },
+    "_height_": {
+        "type": "string",
+        "value": "50%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "20%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s4c561a30b3a40068e5713c3f9bbed7f",
+    "_text_": "01 800 262 66 66",
+    "_width_": {
+        "type": "string",
+        "value": "85%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "disabledSkins": {},
+    "displaytext": true,
+    "focusskin": "s92add3f30c247dbb2cfe30d93faba17",
+    "id": "btnTelefono",
+    "info": null,
+    "isvisible": true,
+    "kuid": "e1df4f86e6fa42a4b4b4d9b4caa9c55a",
+    "name": "kony.ui.Button",
+    "parent": "flexContainerLlamada",
+    "pf": "frmContacto",
+    "wType": "Button",
+    "zindex": 1
+}

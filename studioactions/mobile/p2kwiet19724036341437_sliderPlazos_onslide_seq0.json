@@ -1,0 +1,15 @@
+{
+    "p2kwiet19724036341437_sliderPlazos_onslide_seq0": {
+        "id": "p2kwiet19724036341437_sliderPlazos_onslide_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }, {
+            "name": "selectedvalue",
+            "value": "selectedvalue"
+        }],
+        "language": "js",
+        "actions": []
+    }
+}

@@ -1,0 +1,111 @@
+{
+    "DNDConfig": null,
+    "_enabled_": false,
+    "_height_": {
+        "type": "string",
+        "value": "43%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "20%"
+    },
+    "_skin_": "sc5b8f1ddf2d413d9f9d6415a6678bef",
+    "_text_": "",
+    "_width_": {
+        "type": "string",
+        "value": "8.30%"
+    },
+    "accessmode": "public",
+    "android": {
+        "@class": "com.kony.gen.viz.model.component.property.camera.AndroidCameraProperty",
+        "accessMode": "public",
+        "compressionLevel": 50,
+        "enableOverlay": false,
+        "overlayConfig": {
+            "tapAnywhere": false
+        },
+        "render": true
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "compressionlevel": 50,
+    "containerweight": 0,
+    "contentalignment": 5,
+    "enableoverlay": false,
+    "focusskin": "sc5b8f1ddf2d413d9f9d6415a6678bef",
+    "hexpand": true,
+    "id": "btnCamara",
+    "info": null,
+    "iphone": {
+        "@class": "com.kony.gen.viz.model.component.property.camera.IPhoneCameraProperty",
+        "accessMode": "public",
+        "compressionLevel": 50,
+        "enableOverlay": false,
+        "overlayConfig": {},
+        "psp": {
+            "captureOrientation": 0,
+            "imageFormat": 0,
+            "nativeUserInterface": true
+        },
+        "render": true
+    },
+    "isvisible": true,
+    "kuid": "p2kwiet19724036341401",
+    "margininpixel": false,
+    "name": "kony.ui.Camera",
+    "paddinginpixel": false,
+    "parent": "flexContainerEscribir",
+    "pf": "chat",
+    "scalefactor": 50,
+    "spa": {
+        "@class": "com.kony.gen.viz.model.component.property.camera.SPACameraProperty"
+    },
+    "spaan": {
+        "@class": "com.kony.gen.viz.model.component.property.camera.SPAAndroidCameraProperty",
+        "render": false
+    },
+    "spabb": {
+        "@class": "com.kony.gen.viz.model.component.property.camera.SPABBCameraProperty",
+        "render": false
+    },
+    "spaip": {
+        "@class": "com.kony.gen.viz.model.component.property.camera.SPAIPhoneCameraProperty",
+        "render": false
+    },
+    "spawinphone8": {
+        "@class": "com.kony.gen.viz.model.component.property.camera.SPAWinPhone8CameraProperty",
+        "render": false
+    },
+    "vexpand": false,
+    "wType": "Camera",
+    "widgetalignment": 5,
+    "winphone8": {
+        "@class": "com.kony.gen.viz.model.component.property.camera.WinPhone8CameraProperty",
+        "accessMode": "public",
+        "enableOverlay": false,
+        "overlayConfig": {
+            "tapAnywhere": false
+        },
+        "psp": {
+            "enableCache": false,
+            "enablePhotoCropFeature": false
+        },
+        "render": true
+    },
+    "zindex": 1
+}

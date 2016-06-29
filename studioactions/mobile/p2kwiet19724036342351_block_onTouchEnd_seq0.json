@@ -1,0 +1,27 @@
+{
+    "p2kwiet19724036342351_block_onTouchEnd_seq0": {
+        "id": "p2kwiet19724036342351_block_onTouchEnd_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }, {
+            "name": "x",
+            "value": "x"
+        }, {
+            "name": "y",
+            "value": "y"
+        }, {
+            "name": "contextInfo",
+            "value": "contextInfo"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "customcode_onTouchEnd_8649619724036343774",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "ocultarMenu",
+            "display": "ocultarMenu",
+            "inputparams": []
+        }]
+    }
+}

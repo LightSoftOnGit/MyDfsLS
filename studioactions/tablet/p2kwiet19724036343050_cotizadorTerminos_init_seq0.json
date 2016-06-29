@@ -1,0 +1,21 @@
+{
+    "p2kwiet19724036343050_cotizadorTerminos_init_seq0": {
+        "id": "p2kwiet19724036343050_cotizadorTerminos_init_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }, {
+            "name": "neworientation",
+            "value": "neworientation"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "customcode_init_80119724036344485",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "mostrarTerminosCondiciones",
+            "display": "mostrarTerminosCondiciones",
+            "inputparams": []
+        }]
+    }
+}

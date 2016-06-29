@@ -1,0 +1,24 @@
+{
+    "p2kwiet19724036342488_cotizadorCotizacion_postshow_seq0": {
+        "id": "p2kwiet19724036342488_cotizadorCotizacion_postshow_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "customcode_postshow_1248819724036344416",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "limpiarCotizacion",
+            "display": "limpiarCotizacion",
+            "inputparams": []
+        }, {
+            "id": "customcode_postshow_6786119724036345640",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "cargarCotizacion",
+            "display": "cargarCotizacion",
+            "inputparams": []
+        }]
+    }
+}

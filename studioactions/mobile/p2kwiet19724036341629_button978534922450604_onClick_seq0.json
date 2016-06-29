@@ -1,0 +1,21 @@
+{
+    "p2kwiet19724036341629_button978534922450604_onClick_seq0": {
+        "id": "p2kwiet19724036341629_button978534922450604_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "navigation_onClick_589191972403634832",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "cotizadorFinanciamiento2",
+            "formKUID": "p2kwiet19724036341589",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "enableMappingEditor": true
+        }]
+    }
+}

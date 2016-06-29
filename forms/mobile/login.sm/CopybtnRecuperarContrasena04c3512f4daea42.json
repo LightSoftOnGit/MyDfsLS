@@ -1,0 +1,54 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "4%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "11.97%"
+    },
+    "_skin_": "s9b8047093c24922872f16695a0c03e1",
+    "_text_": "Olvidaste tu contrasena?",
+    "_top_": {
+        "type": "string",
+        "value": "53.50%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "80%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 6,
+    "disabledSkins": {
+        "focusSkin": "s9e7080c5f804fe0a783cf4b9d4695dc"
+    },
+    "displaytext": true,
+    "focusskin": "sdda8f59b8ae473d80d9c777164cf783",
+    "id": "CopybtnRecuperarContrasena04c3512f4daea42",
+    "ide_onClick": "AS_Button_233ed0f5c0144a37a4492d0719aed108",
+    "info": null,
+    "isvisible": true,
+    "kuid": "0e60127c08d34eae8bae706d24912e3e",
+    "name": "kony.ui.Button",
+    "onclick": "AS_Button_975d101d9a02429084739698e1963669",
+    "parent": "CopyflexContent058c0354f4a7043",
+    "pf": "login",
+    "wType": "Button",
+    "zindex": 2
+}

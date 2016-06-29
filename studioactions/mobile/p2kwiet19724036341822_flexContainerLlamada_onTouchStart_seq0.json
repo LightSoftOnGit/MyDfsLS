@@ -1,0 +1,27 @@
+{
+    "p2kwiet19724036341822_flexContainerLlamada_onTouchStart_seq0": {
+        "id": "p2kwiet19724036341822_flexContainerLlamada_onTouchStart_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }, {
+            "name": "x",
+            "value": "x"
+        }, {
+            "name": "y",
+            "value": "y"
+        }, {
+            "name": "contextInfo",
+            "value": "contextInfo"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "customcode_onTouchStart_1449819724036343145",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "contactoTelefono",
+            "display": "contactoTelefono",
+            "inputparams": []
+        }]
+    }
+}

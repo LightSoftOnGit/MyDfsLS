@@ -1,0 +1,20 @@
+{
+    "p2kwiet19724036342942_radioButtonPaginado_onSelection_seq0": {
+        "id": "p2kwiet19724036342942_radioButtonPaginado_onSelection_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "customcode_onSelection_5012419724036341975",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "saldosMovimientosSeleccionarPagina",
+            "display": "saldosMovimientosSeleccionarPagina",
+            "inputparams": [{
+                "name": "rowIndex"
+            }]
+        }]
+    }
+}

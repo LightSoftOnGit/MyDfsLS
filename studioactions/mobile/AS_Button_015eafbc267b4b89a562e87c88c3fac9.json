@@ -1,0 +1,26 @@
+{
+    "AS_Button_015eafbc267b4b89a562e87c88c3fac9": {
+        "id": "AS_Button_015eafbc267b4b89a562e87c88c3fac9",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "loginCambiarContrasena",
+            "type": "forms",
+            "platform": "",
+            "KUID": "0ffb756a2df442adbba369b36464e3ea"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___91b1565c47a64e1ab108611193824beb",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "popNavegacionFrm",
+            "display": "popNavegacionFrm",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

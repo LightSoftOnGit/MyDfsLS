@@ -1,0 +1,18 @@
+{
+    "p2kwiet19724036342520_cotizadorEnviar_postshow_seq0": {
+        "id": "p2kwiet19724036342520_cotizadorEnviar_postshow_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "customcode_postshow_1849819724036344623",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "cotizadorEnviar_postShow",
+            "display": "cotizadorEnviar_postShow",
+            "inputparams": []
+        }]
+    }
+}

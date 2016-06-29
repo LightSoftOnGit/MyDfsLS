@@ -1,0 +1,18 @@
+{
+    "p2kwiet19724036342471_btnCalcular_onClick_seq0": {
+        "id": "p2kwiet19724036342471_btnCalcular_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "customcode_onClick_377919724036345506",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "obtenerCotizacion",
+            "display": "obtenerCotizacion",
+            "inputparams": []
+        }]
+    }
+}

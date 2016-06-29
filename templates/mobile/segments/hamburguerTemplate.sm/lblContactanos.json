@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "11%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        23,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s4a538b2054d4be681e6fee881dac65e",
+    "_text_": "Contactanos",
+    "_top_": {
+        "type": "string",
+        "value": "46.50%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerId": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "disabledSkins": {},
+    "displaytext": true,
+    "focusskin": "s75191afabd141adb53a3ebb838cc36e",
+    "id": "lblContactanos",
+    "info": null,
+    "isSegmentChild": false,
+    "isvisible": true,
+    "kuid": "56f47ae4f6034657a51f0705d9241888",
+    "name": "kony.ui.Button",
+    "onclick": "AS_Button_c552ed9511844e66b14b3aada919df9d",
+    "paddinginpixel": false,
+    "parent": "menuContainer",
+    "pf": "hamburguerTemplate",
+    "wType": "Button"
+}

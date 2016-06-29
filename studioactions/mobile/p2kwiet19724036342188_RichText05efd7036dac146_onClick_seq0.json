@@ -1,0 +1,30 @@
+{
+    "p2kwiet19724036342188_RichText05efd7036dac146_onClick_seq0": {
+        "id": "p2kwiet19724036342188_RichText05efd7036dac146_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }, {
+            "name": "linktext",
+            "value": "linktext"
+        }, {
+            "name": "attributes",
+            "value": "attributes"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "customcode_onClick_440941972403634361",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onClicRichs",
+            "display": "onClicRichs",
+            "inputparams": [{
+                "name": "a"
+            }, {
+                "name": "linktext"
+            }, {
+                "name": "attributes"
+            }]
+        }]
+    }
+}

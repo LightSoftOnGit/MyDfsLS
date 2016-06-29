@@ -1,0 +1,26 @@
+{
+    "AS_Switch_9fffed5809a74c6182607615e6ffb43f": {
+        "id": "AS_Switch_9fffed5809a74c6182607615e6ffb43f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmUbicacionActual",
+            "type": "forms",
+            "platform": "",
+            "KUID": "e2c4d7fbe95e40319d752bc757c23b45"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___7d595df901a54d8daf46d2f14be96b9e",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "infGpsVisibleSwitch",
+            "display": "infGpsVisibleSwitch",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

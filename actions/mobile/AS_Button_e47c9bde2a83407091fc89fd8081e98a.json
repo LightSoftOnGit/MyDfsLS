@@ -1,0 +1,1 @@
+{"AS_Button_e47c9bde2a83407091fc89fd8081e98a":{"id":"AS_Button_e47c9bde2a83407091fc89fd8081e98a","type":"ACTION_SEQUENCE","params":[{"datatype":"collection","name":"eventobject"}],"actions":[{"id":"DISPLAY_POPUP__onClick_c9fe6d9bd4e844adad07e209db5940f1","type":"DISPLAY_POPUP","popupId":"popupSentMail","popupKUID":"7f6dbf854a894a05b01106218bc668b4","callbackType":null}]}}

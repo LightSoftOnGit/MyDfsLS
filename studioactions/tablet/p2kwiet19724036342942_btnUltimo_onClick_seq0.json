@@ -1,0 +1,18 @@
+{
+    "p2kwiet19724036342942_btnUltimo_onClick_seq0": {
+        "id": "p2kwiet19724036342942_btnUltimo_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "customcode_onClick_9891719724036344837",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "saldosMovimientosUltimo",
+            "display": "saldosMovimientosUltimo",
+            "inputparams": []
+        }]
+    }
+}

@@ -1,0 +1,16 @@
+{
+  "background_color": "666666ff",
+  "bg_type": "one",
+  "border_color": "595959ff",
+  "border_style": "plain",
+  "border_type": 0,
+  "border_width": 0,
+  "font_color": "ffffffff",
+  "font_name": "Helvetica",
+  "font_size": 100,
+  "font_style": "normal",
+  "font_weight": "normal",
+  "isDefaultSkin": false,
+  "kuid": "s6a77c212cef492780a21d5a650023e0",
+  "wType": "DataGrid"
+}

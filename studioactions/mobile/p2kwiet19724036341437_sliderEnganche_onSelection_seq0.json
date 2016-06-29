@@ -1,0 +1,21 @@
+{
+    "p2kwiet19724036341437_sliderEnganche_onSelection_seq0": {
+        "id": "p2kwiet19724036341437_sliderEnganche_onSelection_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }, {
+            "name": "selectedvalue",
+            "value": "selectedvalue"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "customcode_onSelection_1891519724036345074",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onSliderEngancheSelect2",
+            "display": "onSliderEngancheSelect2",
+            "inputparams": []
+        }]
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "AS_FlexContainer_5ad156dfa6184fc4b0fde86c6c602c3f": {
+        "id": "AS_FlexContainer_5ad156dfa6184fc4b0fde86c6c602c3f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmSeguros",
+            "type": "forms",
+            "platform": "",
+            "KUID": "deccabb8d3564a5fbf03d53efe81cfee"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___45df9298cf1845ef8cce28df69dc5fa6",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "segurosMiseguro",
+            "display": "segurosMiseguro",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

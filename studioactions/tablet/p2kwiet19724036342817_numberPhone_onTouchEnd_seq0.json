@@ -1,0 +1,25 @@
+{
+    "p2kwiet19724036342817_numberPhone_onTouchEnd_seq0": {
+        "id": "p2kwiet19724036342817_numberPhone_onTouchEnd_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }, {
+            "name": "x",
+            "value": "x"
+        }, {
+            "name": "y",
+            "value": "y"
+        }, {
+            "name": "contextInfo",
+            "value": "contextInfo"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_onTouchEnd_7461519724036344435",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "try {\n kony.phone.dial(loginLoyalty.numberPhone.text);\n } catch (err) {\n alert(\"Error en la llamada:\" + err);\n }"
+        }]
+    }
+}

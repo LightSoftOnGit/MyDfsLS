@@ -1,0 +1,27 @@
+{
+    "p2kwiet19724036343190_btnLoginMenu_onClick_seq0": {
+        "id": "p2kwiet19724036343190_btnLoginMenu_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "navigation_onClick_5932419724036342337",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "cotizadorModelos",
+            "formKUID": "p2kwiet19724036342554",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "enableMappingEditor": true
+        }, {
+            "id": "customcode_onClick_6016819724036341702",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "cotizadorModelos_init",
+            "display": "cotizadorModelos_init",
+            "inputparams": []
+        }]
+    }
+}

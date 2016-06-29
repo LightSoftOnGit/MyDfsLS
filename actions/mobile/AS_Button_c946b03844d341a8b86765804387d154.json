@@ -1,0 +1,1 @@
+{"AS_Button_c946b03844d341a8b86765804387d154":{"id":"AS_Button_c946b03844d341a8b86765804387d154","type":"ACTION_SEQUENCE","params":[{"datatype":"collection","name":"eventobject"}],"actions":[{"id":"ADD_SNIPPET__b3b0e5618d1e46a5acf0e79f35f18288","type":"ADD_SNIPPET","codeSnippet":"var form= kony.application.getPreviousForm();\nform.show();","parentId":null,"callbackType":null}]}}

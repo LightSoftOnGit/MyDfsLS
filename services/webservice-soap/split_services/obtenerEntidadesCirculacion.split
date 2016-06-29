@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xsObject>
+    <appSmsCode></appSmsCode>
+    <soapservice>
+        <authenticationMode>basic</authenticationMode>
+        <cacheduration></cacheduration>
+        <cacheable>false</cacheable>
+        <includecookies></includecookies>
+        <dataprovider></dataprovider>
+        <dcResponse/>
+        <encryptPwd>true</encryptPwd>
+        <escapeXML>false</escapeXML>
+        <id>obtenerEntidadesCirculacion</id>
+        <ignoreProxy>false</ignoreProxy>
+        <intemplate>&lt;soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:del="http://delegate.cotizador.mydfs.ws.daimler.com/"&gt;
+   &lt;soapenv:Header/&gt;
+   &lt;soapenv:Body&gt;
+      &lt;del:obtenerEntidadesCirculacion/&gt;
+   &lt;/soapenv:Body&gt;
+&lt;/soapenv:Envelope&gt;</intemplate>
+        <inputStructure>
+            <index>-1</index>
+            <order>0</order>
+            <id>obtenerEntidadesCirculacion</id>
+        </inputStructure>
+        <ntlmDomain></ntlmDomain>
+        <ntlmHost></ntlmHost>
+        <operationname>obtenerEntidadesCirculacion</operationname>
+        <outtemplate>&lt;S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"&gt;
+   &lt;S:Body&gt;
+      &lt;ns2:obtenerEntidadesCirculacionResponse xmlns:ns2="http://delegate.cotizador.mydfs.ws.daimler.com/"&gt;
+         &lt;MyDfsResponse&gt;
+            &lt;codigo&gt;1&lt;/codigo&gt;
+            &lt;contenido&gt;
+               &lt;lstResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:entidadFederativa"&gt;
+                  &lt;clave&gt;AGS.&lt;/clave&gt;
+                  &lt;descripcion&gt;AGUASCALIENTES&lt;/descripcion&gt;
+                  &lt;id&gt;1&lt;/id&gt;
+               &lt;/lstResponse&gt;
+               &lt;lstResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:entidadFederativa"&gt;
+                  &lt;clave&gt;B.C.&lt;/clave&gt;
+                  &lt;descripcion&gt;BAJA CALIFORNIA&lt;/descripcion&gt;
+                  &lt;id&gt;2&lt;/id&gt;
+               &lt;/lstResponse&gt;
+               &lt;lstResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:entidadFederativa"&gt;
+                  &lt;clave&gt;B.C.S.&lt;/clave&gt;
+                  &lt;descripcion&gt;BAJA CALIFORNIA SUR&lt;/descripcion&gt;
+                  &lt;id&gt;3&lt;/id&gt;
+               &lt;/lstResponse&gt;
+               &lt;lstResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:entidadFederativa"&gt;
+                  &lt;clave&gt;CAM.&lt;/clave&gt;
+                  &lt;descripcion&gt;CAMPECHE&lt;/descripcion&gt;
+                  &lt;id&gt;4&lt;/id&gt;
+               &lt;/lstResponse&gt;
+               &lt;lstResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:entidadFederativa"&gt;
+                  &lt;clave&gt;CHIS.&lt;/clave&gt;
+                  &lt;descripcion&gt;CHIAPAS&lt;/descripcion&gt;
+                  &lt;id&gt;5&lt;/id&gt;
+               &lt;/lstResponse&gt;
+               &lt;lstResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:entidadFederativa"&gt;
+                  &lt;clave&gt;CHIH.&lt;/clave&gt;
+                  &lt;descripcion&gt;CHIHUAHUA&lt;/descripcion&gt;
+                  &lt;id&gt;6&lt;/id&gt;
+               &lt;/lstResponse&gt;
+               &lt;lstResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:entidadFederativa"&gt;
+                  &lt;clave&gt;COAH.&lt;/clave&gt;
+                  &lt;descripcion&gt;COAHUILA&lt;/descripcion&gt;
+                  &lt;id&gt;7&lt;/id&gt;
+               &lt;/lstResponse&gt;
+               &lt;lstResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:entidadFederativa"&gt;
+                  &lt;clave&gt;COL.&lt;/clave&gt;
+                  &lt;descripcion&gt;COLIMA&lt;/descripcion&gt;
+                  &lt;id&gt;8&lt;/id&gt;
+               &lt;/lstResponse&gt;
+               &lt;lstResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:entidadFederativa"&gt;
+                  &lt;clave&gt;D.F.&lt;/clave&gt;
+                  &lt;descripcion&gt;DISTRITO FEDERAL&lt;/descripcion&gt;
+                  &lt;id&gt;9&lt;/id&gt;
+               &lt;/lstResponse&gt;
+               &lt;lstResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:entidadFederativa"&gt;
+                  &lt;clave&gt;DGO.&lt;/clave&gt;
+                  &lt;descripcion&gt;DURANGO&lt;/descripcion&gt;
+                  &lt;id&gt;10&lt;/id&gt;
+               &lt;/lstResponse&gt;
+               &lt;lstResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:entidadFederativa"&gt;
+                  &lt;clave&gt;GTO.&lt;/clave&gt;
+                  &lt;descripcion&gt;GUANAJUATO&lt;/descripcion&gt;
+                  &lt;id&gt;11&lt;/id&gt;
+               &lt;/lstResponse&gt;
+               &lt;lstResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:entidadFederativa"&gt;
+                  &lt;clave&gt;GRO.&lt;/clave&gt;
+                  &lt;descripcion&gt;GUERRERO&lt;/descripcion&gt;
+                  &lt;id&gt;12&lt;/id&gt;
+               &lt;/lstResponse&gt;
+               &lt;lstResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:entidadFederativa"&gt;
+                  &lt;clave&gt;HGO.&lt;/clave&gt;
+                  &lt;descripcion&gt;HIDALGO&lt;/descripcion&gt;
+                  &lt;id&gt;13&lt;/id&gt;
+               &lt;/lstResponse&gt;
+               &lt;lstResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:entidadFederativa"&gt;
+                  &lt;clave&gt;JAL.&lt;/clave&gt;
+                  &lt;descripcion&gt;JALISCO&lt;/descripcion&gt;
+                  &lt;id&gt;14&lt;/id&gt;
+               &lt;/lstResponse&gt;
+               &lt;lstResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:entidadFederativa"&gt;
+                  &lt;clave&gt;MEX.&lt;/clave&gt;
+                  &lt;descripcion&gt;MEXICO&lt;/descripcion&gt;
+                  &lt;id&gt;15&lt;/id&gt;
+               &lt;/lstResponse&gt;
+               &lt;lstResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:entidadFederativa"&gt;
+                  &lt;clave&gt;MICH.&lt;/clave&gt;
+                  &lt;descripcion&gt;MICHOACÁN&lt;/descripcion&gt;
+                  &lt;id&gt;16&lt;/id&gt;
+               &lt;/lstResponse&gt;
+               &lt;lstResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:entidadFederativa"&gt;
+                  &lt;clave&gt;MOR.&lt;/clave&gt;
+                  &lt;descripcion&gt;MORELOS&lt;/descripcion&gt;
+                  &lt;id&gt;17&lt;/id&gt;
+               &lt;/lstResponse&gt;
+               &lt;lstResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:entidadFederativa"&gt;
+                  &lt;clave&gt;NAY.&lt;/clave&gt;
+                  &lt;descripcion&gt;NAYARIT&lt;/descripcion&gt;
+                  &lt;id&gt;18&lt;/id&gt;
+               &lt;/lstResponse&gt;
+               &lt;lstResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:entidadFederativa"&gt;
+                  &lt;clave&gt;N.L.&lt;/clave&gt;
+                  &lt;descripcion&gt;NUEVO LEÓN&lt;/descripcion&gt;
+                  &lt;id&gt;19&lt;/id&gt;
+               &lt;/lstResponse&gt;
+               &lt;lstResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:entidadFederativa"&gt;
+                  &lt;clave&gt;OAX.&lt;/clave&gt;
+                  &lt;descripcion&gt;OAXACA&lt;/descripcion&gt;
+                  &lt;id&gt;20&lt;/id&gt;
+               &lt;/lstResponse&gt;
+               &lt;lstResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:entidadFederativa"&gt;
+                  &lt;clave&gt;PUE.&lt;/clave&gt;
+                  &lt;descripcion&gt;PUEBLA&lt;/descripcion&gt;
+                  &lt;id&gt;21&lt;/id&gt;
+               &lt;/lstResponse&gt;
+               &lt;lstResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:entidadFederativa"&gt;
+                  &lt;clave&gt;QRO.&lt;/clave&gt;
+                  &lt;descripcion&gt;QUERÉTARO&lt;/descripcion&gt;
+                  &lt;id&gt;22&lt;/id&gt;
+               &lt;/lstResponse&gt;
+               &lt;lstResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:entidadFederativa"&gt;
+                  &lt;clave&gt;QROO.&lt;/clave&gt;
+                  &lt;descripcion&gt;QUINTANA ROO&lt;/descripcion&gt;
+                  &lt;id&gt;23&lt;/id&gt;
+               &lt;/lstResponse&gt;
+               &lt;lstResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:entidadFederativa"&gt;
+                  &lt;clave&gt;S.L.P.&lt;/clave&gt;
+                  &lt;descripcion&gt;SAN LUIS POTOSÍ&lt;/descripcion&gt;
+                  &lt;id&gt;24&lt;/id&gt;
+               &lt;/lstResponse&gt;
+               &lt;lstResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:entidadFederativa"&gt;
+                  &lt;clave&gt;SIN.&lt;/clave&gt;
+                  &lt;descripcion&gt;SINALOA&lt;/descripcion&gt;
+                  &lt;id&gt;25&lt;/id&gt;
+               &lt;/lstResponse&gt;
+               &lt;lstResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:entidadFederativa"&gt;
+                  &lt;clave&gt;SON.&lt;/clave&gt;
+                  &lt;descripcion&gt;SONORA&lt;/descripcion&gt;
+                  &lt;id&gt;26&lt;/id&gt;
+               &lt;/lstResponse&gt;
+               &lt;lstResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:entidadFederativa"&gt;
+                  &lt;clave&gt;TAB.&lt;/clave&gt;
+                  &lt;descripcion&gt;TABASCO&lt;/descripcion&gt;
+                  &lt;id&gt;27&lt;/id&gt;
+               &lt;/lstResponse&gt;
+               &lt;lstResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:entidadFederativa"&gt;
+                  &lt;clave&gt;TAMPS.&lt;/clave&gt;
+                  &lt;descripcion&gt;TAMAULIPAS&lt;/descripcion&gt;
+                  &lt;id&gt;28&lt;/id&gt;
+               &lt;/lstResponse&gt;
+               &lt;lstResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:entidadFederativa"&gt;
+                  &lt;clave&gt;TLAX.&lt;/clave&gt;
+                  &lt;descripcion&gt;TLAXCALA&lt;/descripcion&gt;
+                  &lt;id&gt;29&lt;/id&gt;
+               &lt;/lstResponse&gt;
+               &lt;lstResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:entidadFederativa"&gt;
+                  &lt;clave&gt;VER.&lt;/clave&gt;
+                  &lt;descripcion&gt;VERACRUZ&lt;/descripcion&gt;
+                  &lt;id&gt;30&lt;/id&gt;
+               &lt;/lstResponse&gt;
+               &lt;lstResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:entidadFederativa"&gt;
+                  &lt;clave&gt;YUC.&lt;/clave&gt;
+                  &lt;descripcion&gt;YUCATÁN&lt;/descripcion&gt;
+                  &lt;id&gt;31&lt;/id&gt;
+               &lt;/lstResponse&gt;
+               &lt;lstResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:entidadFederativa"&gt;
+                  &lt;clave&gt;ZAC.&lt;/clave&gt;
+                  &lt;descripcion&gt;ZACATECAS&lt;/descripcion&gt;
+                  &lt;id&gt;32&lt;/id&gt;
+               &lt;/lstResponse&gt;
+            &lt;/contenido&gt;
+         &lt;/MyDfsResponse&gt;
+      &lt;/ns2:obtenerEntidadesCirculacionResponse&gt;
+   &lt;/S:Body&gt;
+&lt;/S:Envelope&gt;
+</outtemplate>
+        <outTemplateHeader>X-Frame-Options: SAMEORIGIN
+Date: Wed, 17 Feb 2016 17:03:24 GMT
+Content-Length: 6101
+Content-Type: text/xml;charset=utf-8
+X-Powered-By: ASP.NET
+Server: Microsoft-IIS/7.5
+</outTemplateHeader>
+        <outputStructure>
+            <index>-1</index>
+            <order>0</order>
+            <id>obtenerEntidadesCirculacionResponse</id>
+            <records>
+                <index>-1</index>
+                <order>0</order>
+                <id>MyDfsResponse</id>
+                <params>
+                    <accessType></accessType>
+                    <format>int</format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>codigo</name>
+                    <type>java.lang.Integer</type>
+                    <value></value>
+                </params>
+                <records>
+                    <index>-1</index>
+                    <order>0</order>
+                    <id>contenido</id>
+                    <params>
+                        <accessType></accessType>
+                        <format>anyType</format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>lstResponse</name>
+                        <type>anyType</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType></accessType>
+                        <format>anyType</format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>response</name>
+                        <type>anyType</type>
+                        <value></value>
+                    </params>
+                </records>
+            </records>
+        </outputStructure>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>codigo</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>//ns2:obtenerEntidadesCirculacionResponse/MyDfsResponse/codigo</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value></value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>lstEstados</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>//ns2:obtenerEntidadesCirculacionResponse/MyDfsResponse/contenido</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value></value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>id</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>lstResponse/id</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>lstEstados</value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>clave</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>lstResponse/clave</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>lstEstados</value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>descripcion</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>lstResponse/descripcion</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>lstEstados</value>
+        </outparam>
+        <password></password>
+        <postclassname></postclassname>
+        <preclassname></preclassname>
+        <proxyname></proxyname>
+        <proxyport></proxyport>
+        <proxypwd></proxypwd>
+        <proxyuserid></proxyuserid>
+        <responseencoding>UTF-8</responseencoding>
+        <sharePoint>false</sharePoint>
+        <smscode></smscode>
+        <smsenabled>false</smsenabled>
+        <soapaction></soapaction>
+        <timeout></timeout>
+        <url>http://www.qa.mbfs.com.mx/cotizadorveRTI/myDFSWs</url>
+        <urlprovider></urlprovider>
+        <userid></userid>
+        <version>1.1</version>
+        <wsdlurl>http://dfsqa01.cloudapp.net/cotizadorveRTI/myDFSWs?wsdl</wsdlurl>
+    </soapservice>
+    <sharePointRoot>
+        <name>SharePoint Servers</name>
+    </sharePointRoot>
+    <wsdlroot>
+        <wsdltree>
+            <name>Web Services</name>
+        </wsdltree>
+    </wsdlroot>
+</xsObject>

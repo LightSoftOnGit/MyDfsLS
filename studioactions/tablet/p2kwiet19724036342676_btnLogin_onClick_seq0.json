@@ -1,0 +1,18 @@
+{
+    "p2kwiet19724036342676_btnLogin_onClick_seq0": {
+        "id": "p2kwiet19724036342676_btnLogin_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "customcode_onClick_449219724036343274",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "validateUser",
+            "display": "validateUser",
+            "inputparams": []
+        }]
+    }
+}

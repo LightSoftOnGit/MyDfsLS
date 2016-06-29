@@ -1,0 +1,18 @@
+{
+    "p2kwiet19724036342040_CopyButton0efb2e28ac71c4f_onClick_seq0": {
+        "id": "p2kwiet19724036342040_CopyButton0efb2e28ac71c4f_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "customcode_onClick_8833119724036341274",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "validateUser",
+            "display": "validateUser",
+            "inputparams": []
+        }]
+    }
+}

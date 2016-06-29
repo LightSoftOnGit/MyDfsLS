@@ -1,0 +1,26 @@
+{
+    "p2kwiet19724036342411_smgtoPaginado_onRowClick_seq0": {
+        "id": "p2kwiet19724036342411_smgtoPaginado_onRowClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }, {
+            "name": "sectionNumber",
+            "value": "sectionNumber"
+        }, {
+            "name": "rowNumber",
+            "value": "rowNumber"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "customcode_onRowClick_9732519724036347629",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "saldosMovimientosSeleccionarPagina",
+            "display": "saldosMovimientosSeleccionarPagina",
+            "inputparams": [{
+                "name": "rowIndex"
+            }]
+        }]
+    }
+}

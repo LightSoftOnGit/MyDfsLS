@@ -1,0 +1,18 @@
+{
+    "p2kwiet19724036342656_infUbicacion_init_seq0": {
+        "id": "p2kwiet19724036342656_infUbicacion_init_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "customcode_init_9702219724036344783",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "infUbicacionCheckValor",
+            "display": "infUbicacionCheckValor",
+            "inputparams": []
+        }]
+    }
+}

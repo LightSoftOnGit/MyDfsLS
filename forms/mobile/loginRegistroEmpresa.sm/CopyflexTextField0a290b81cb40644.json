@@ -1,0 +1,63 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "10%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s5e8453692014e3abf2e49089cfcbdbd",
+    "_top_": {
+        "type": "string",
+        "value": "77%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "87%"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "children": [
+        "CopyrichTextContrato074da8949b2d049",
+        "CopytextFieldContrato03dff54b12b3f48"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "enabled": false,
+    "enablescrolling": true,
+    "id": "CopyflexTextField0a290b81cb40644",
+    "info": null,
+    "isvisible": true,
+    "kuid": "ced7c784cc5f46428a38eb9b1692164b",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "orientation": 6,
+    "parent": "flexContainerTop",
+    "percent": true,
+    "pf": "loginRegistroEmpresa",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}

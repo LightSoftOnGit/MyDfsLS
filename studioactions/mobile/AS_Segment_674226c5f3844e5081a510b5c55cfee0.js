@@ -1,0 +1,1 @@
+function AS_Segment_674226c5f3844e5081a510b5c55cfee0(eventobject, x, y) {}

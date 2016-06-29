@@ -1,0 +1,32 @@
+{
+    "AS_FlexContainer_d11ca6ee04ac442893afae26181c316d": {
+        "id": "AS_FlexContainer_d11ca6ee04ac442893afae26181c316d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmContacto",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f2d72e30364343ce9d2a70f31c13dfd2"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___02a70ad4ab2e4ff4a97d35eda9b61a26",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "contactoChat",
+            "display": "contactoChat",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

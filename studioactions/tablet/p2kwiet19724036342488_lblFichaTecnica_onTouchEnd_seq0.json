@@ -1,0 +1,27 @@
+{
+    "p2kwiet19724036342488_lblFichaTecnica_onTouchEnd_seq0": {
+        "id": "p2kwiet19724036342488_lblFichaTecnica_onTouchEnd_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }, {
+            "name": "x",
+            "value": "x"
+        }, {
+            "name": "y",
+            "value": "y"
+        }, {
+            "name": "contextInfo",
+            "value": "contextInfo"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "customcode_onTouchEnd_9705019724036347006",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "alternarFichaTecnica",
+            "display": "alternarFichaTecnica",
+            "inputparams": []
+        }]
+    }
+}

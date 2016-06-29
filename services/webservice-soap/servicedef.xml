@@ -1,0 +1,1776 @@
+<application desc="" id="myDfsPC" name="" smscode="">
+   <app-config>
+      <config-param name="APP_SMS_HEADER" value="null"/>
+   </app-config>
+   <services>
+      <service cachable="false" cacheduration="" id="actualizarContrasena" passwordencrypted="true" smscode="" smsenabled="false" type="soapserviceConnector">
+         <service-config>
+            <config-param name="endpointUrl" value="http://www.qa.mbfs.com.mx/SiteClientes/mydfs/loginWS"/>
+            <config-param name="soapAction" value=""/>
+            <config-param name="userid" value=""/>
+            <config-param name="soap-version" value="1.1"/>
+            <config-param name="postprocessorname" value=""/>
+            <config-param name="preprocessorname" value=""/>
+            <config-param name="urlprovider" value=""/>
+            <config-param name="dataprovider" value=""/>
+            <config-param name="sockettimeout" value=""/>
+            <config-param name="includecookies" value=""/>
+            <config-param name="proxyname" value=""/>
+            <config-param name="proxyport" value=""/>
+            <config-param name="proxyusername" value=""/>
+            <config-param name="isembedxmlpresent" value="false"/>
+            <config-param name="ignorehttpproxy" value="true"/>
+            <config-param name="responseEncoding" value="UTF-8"/>
+            <config-param name="server.auth.mode" value="basic"/>
+            <config-param name="server.auth.host" value=""/>
+            <config-param name="server.auth.ntlm.domain" value=""/>
+         </service-config>
+         <service-input>
+            <template-param name="message" value="&lt;soapenv:Envelope xmlns:del=&quot;http://delegate.mydfs.ws.daimler.com/&quot; xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&lt;soapenv:Header/&gt;&lt;soapenv:Body&gt;&lt;del:actualizarContrasena&gt;&lt;!--Optional:--&gt;&lt;usuario&gt;$usuario&lt;/usuario&gt;&lt;!--Optional:--&gt;&lt;contrasena&gt;$contrasena&lt;/contrasena&gt;&lt;!--Optional:--&gt;&lt;nuevaContrasena&gt;$nuevaContrasena&lt;/nuevaContrasena&gt;&lt;/del:actualizarContrasena&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;">
+               <param datatype="string" encode="true" name="usuario" sms-name="" src="" value=""/>
+               <param datatype="string" encode="true" name="contrasena" sms-name="" src="" value=""/>
+               <param datatype="string" encode="true" name="nuevaContrasena" sms-name="" src="" value=""/>
+            </template-param>
+         </service-input>
+         <service-output>
+            <param datatype="number" format="None" formatvalue="" name="codigo" sms-name="" src="//ns2:actualizarContrasenaResponse/usuario/codigo" srcformatvalue="" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="correo" sms-name="" src="//ns2:actualizarContrasenaResponse/usuario/contenido/response/cliente/correo" srcformatvalue="" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="nombre" sms-name="" src="//ns2:actualizarContrasenaResponse/usuario/contenido/response/cliente/nombre" srcformatvalue="" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="rfc" sms-name="" src="//ns2:actualizarContrasenaResponse/usuario/contenido/response/cliente/rfc" srcformatvalue="" target=""/>
+            <param datatype="number" format="None" formatvalue="" name="opstatus" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="errmsg" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="number" format="None" formatvalue="" name="httpStatusCode" sms-name="" src="" srcformatvalue="" target=""/>
+         </service-output>
+      </service>
+      <service cachable="false" cacheduration="" id="correoSaldosMovimientos" passwordencrypted="true" smscode="" smsenabled="false" type="soapserviceConnector">
+         <service-config>
+            <config-param name="endpointUrl" value="http://www.qa.mbfs.com.mx/SiteClientes/mydfs/obtenerSaldosMovimientosWS"/>
+            <config-param name="soapAction" value=""/>
+            <config-param name="userid" value=""/>
+            <config-param name="soap-version" value="1.1"/>
+            <config-param name="postprocessorname" value=""/>
+            <config-param name="preprocessorname" value=""/>
+            <config-param name="urlprovider" value=""/>
+            <config-param name="dataprovider" value=""/>
+            <config-param name="sockettimeout" value=""/>
+            <config-param name="includecookies" value=""/>
+            <config-param name="proxyname" value=""/>
+            <config-param name="proxyport" value=""/>
+            <config-param name="proxyusername" value=""/>
+            <config-param name="isembedxmlpresent" value="false"/>
+            <config-param name="ignorehttpproxy" value="false"/>
+            <config-param name="responseEncoding" value="UTF-8"/>
+            <config-param name="server.auth.mode" value="basic"/>
+            <config-param name="server.auth.host" value=""/>
+            <config-param name="server.auth.ntlm.domain" value=""/>
+         </service-config>
+         <service-input>
+            <template-param name="message" value="&lt;soapenv:Envelope xmlns:del=&quot;http://delegate.mydfs.ws.daimler.com/&quot; xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&lt;soapenv:Header/&gt;&lt;soapenv:Body&gt;&lt;del:correoSaldosMovimientos&gt;&lt;persona&gt;$persona&lt;/persona&gt;&lt;!--Optional:--&gt;&lt;fechaInicio&gt;$fechaInicio&lt;/fechaInicio&gt;&lt;!--Optional:--&gt;&lt;fechaFin&gt;$fechaFin&lt;/fechaFin&gt;&lt;!--Optional:--&gt;&lt;operacionMaestra&gt;$operacionMaestra&lt;/operacionMaestra&gt;&lt;!--Optional:--&gt;&lt;correoElectronico&gt;$email&lt;/correoElectronico&gt;&lt;/del:correoSaldosMovimientos&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;">
+               <param datatype="string" encode="true" name="persona" sms-name="" src="request" value=""/>
+               <param datatype="string" encode="true" name="fechaInicio" sms-name="" src="request" value=""/>
+               <param datatype="string" encode="true" name="fechaFin" sms-name="" src="request" value=""/>
+               <param datatype="string" encode="true" name="operacionMaestra" sms-name="" src="request" value=""/>
+               <param datatype="string" encode="true" name="email" sms-name="" src="request" value=""/>
+            </template-param>
+         </service-input>
+         <service-output>
+            <param datatype="string" format="None" formatvalue="" name="documento" sms-name="" src="//ns2:descargarSaldosMovimientosResponse/documento" srcformatvalue="" target="response"/>
+            <param datatype="number" format="None" formatvalue="" name="opstatus" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="errmsg" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="number" format="None" formatvalue="" name="httpStatusCode" sms-name="" src="" srcformatvalue="" target=""/>
+         </service-output>
+      </service>
+      <service cachable="false" cacheduration="" id="descargarSaldosMovimientos" passwordencrypted="true" smscode="" smsenabled="false" type="soapserviceConnector">
+         <service-config>
+            <config-param name="endpointUrl" value="http://www.qa.mbfs.com.mx/SiteClientes/mydfs/obtenerSaldosMovimientosWS"/>
+            <config-param name="soapAction" value=""/>
+            <config-param name="userid" value=""/>
+            <config-param name="soap-version" value="1.1"/>
+            <config-param name="postprocessorname" value=""/>
+            <config-param name="preprocessorname" value=""/>
+            <config-param name="urlprovider" value=""/>
+            <config-param name="dataprovider" value=""/>
+            <config-param name="sockettimeout" value=""/>
+            <config-param name="includecookies" value=""/>
+            <config-param name="proxyname" value=""/>
+            <config-param name="proxyport" value=""/>
+            <config-param name="proxyusername" value=""/>
+            <config-param name="isembedxmlpresent" value="false"/>
+            <config-param name="ignorehttpproxy" value="false"/>
+            <config-param name="responseEncoding" value="UTF-8"/>
+            <config-param name="server.auth.mode" value="basic"/>
+            <config-param name="server.auth.host" value=""/>
+            <config-param name="server.auth.ntlm.domain" value=""/>
+         </service-config>
+         <service-input>
+            <template-param name="message" value="&lt;soapenv:Envelope xmlns:del=&quot;http://delegate.mydfs.ws.daimler.com/&quot; xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&lt;soapenv:Header/&gt;&lt;soapenv:Body&gt;&lt;del:descargarSaldosMovimientos&gt;&lt;!--Optional:--&gt;&lt;correoElectronico&gt;$email&lt;/correoElectronico&gt;&lt;/del:descargarSaldosMovimientos&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;">
+               <param datatype="string" encode="true" name="email" sms-name="" src="request" value=""/>
+            </template-param>
+         </service-input>
+         <service-output>
+            <param datatype="string" format="None" formatvalue="" name="documento" sms-name="" src="//ns2:descargarSaldosMovimientosResponse/documento" srcformatvalue="" target="response"/>
+            <param datatype="number" format="None" formatvalue="" name="opstatus" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="errmsg" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="number" format="None" formatvalue="" name="httpStatusCode" sms-name="" src="" srcformatvalue="" target=""/>
+         </service-output>
+      </service>
+      <service cachable="false" cacheduration="" id="documentoSaldosMovimientos" passwordencrypted="true" smscode="" smsenabled="false" type="soapserviceConnector">
+         <service-config>
+            <config-param name="endpointUrl" value="http://www.qa.mbfs.com.mx/SiteClientes/mydfs/obtenerSaldosMovimientosWS"/>
+            <config-param name="soapAction" value=""/>
+            <config-param name="userid" value=""/>
+            <config-param name="soap-version" value="1.1"/>
+            <config-param name="postprocessorname" value=""/>
+            <config-param name="preprocessorname" value=""/>
+            <config-param name="urlprovider" value=""/>
+            <config-param name="dataprovider" value=""/>
+            <config-param name="sockettimeout" value=""/>
+            <config-param name="includecookies" value=""/>
+            <config-param name="proxyname" value=""/>
+            <config-param name="proxyport" value=""/>
+            <config-param name="proxyusername" value=""/>
+            <config-param name="isembedxmlpresent" value="false"/>
+            <config-param name="ignorehttpproxy" value="false"/>
+            <config-param name="responseEncoding" value="UTF-8"/>
+            <config-param name="server.auth.mode" value="basic"/>
+            <config-param name="server.auth.host" value=""/>
+            <config-param name="server.auth.ntlm.domain" value=""/>
+         </service-config>
+         <service-input>
+            <template-param name="message" value="&lt;soapenv:Envelope xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:del=&quot;http://delegate.mydfs.ws.daimler.com/&quot;&gt;&lt;soapenv:Header/&gt;&lt;soapenv:Body&gt;&lt;del:documentoSaldosMovimientos&gt;&lt;!--Optional:--&gt;&lt;correoElectronico&gt;?&lt;/correoElectronico&gt;&lt;/del:documentoSaldosMovimientos&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;"/>
+         </service-input>
+         <service-output>
+            <param datatype="number" format="None" formatvalue="" name="opstatus" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="errmsg" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="number" format="None" formatvalue="" name="httpStatusCode" sms-name="" src="" srcformatvalue="" target=""/>
+         </service-output>
+      </service>
+      <service cachable="false" cacheduration="" id="enviarCertificadoLoyalty" passwordencrypted="true" smscode="" smsenabled="false" type="soapserviceConnector">
+         <service-config>
+            <config-param name="endpointUrl" value="http://www.qa.mbfs.com.mx/SiteClientes/mydfs/loginWS"/>
+            <config-param name="soapAction" value=""/>
+            <config-param name="userid" value=""/>
+            <config-param name="soap-version" value="1.1"/>
+            <config-param name="postprocessorname" value=""/>
+            <config-param name="preprocessorname" value=""/>
+            <config-param name="urlprovider" value=""/>
+            <config-param name="dataprovider" value=""/>
+            <config-param name="sockettimeout" value=""/>
+            <config-param name="includecookies" value=""/>
+            <config-param name="proxyname" value=""/>
+            <config-param name="proxyport" value=""/>
+            <config-param name="proxyusername" value=""/>
+            <config-param name="isembedxmlpresent" value="false"/>
+            <config-param name="ignorehttpproxy" value="false"/>
+            <config-param name="responseEncoding" value="UTF-8"/>
+            <config-param name="server.auth.mode" value="basic"/>
+            <config-param name="server.auth.host" value=""/>
+            <config-param name="server.auth.ntlm.domain" value=""/>
+         </service-config>
+         <service-input>
+            <template-param name="message" value="&lt;soapenv:Envelope xmlns:del=&quot;http://delegate.mydfs.ws.daimler.com/&quot; xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&lt;soapenv:Header/&gt;&lt;soapenv:Body&gt;&lt;del:enviarCertificadoLoyalty&gt;&lt;!--Optional:--&gt;&lt;folio&gt;$folio&lt;/folio&gt;&lt;!--Optional:--&gt;&lt;correoElectronico&gt;$correoElectronico&lt;/correoElectronico&gt;&lt;!--Optional:--&gt;&lt;destinatario&gt;$destinatario&lt;/destinatario&gt;&lt;!--Optional:--&gt;&lt;idSitio&gt;$idSitio&lt;/idSitio&gt;&lt;/del:enviarCertificadoLoyalty&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;">
+               <param datatype="string" encode="true" name="folio" sms-name="" src="" value=""/>
+               <param datatype="string" encode="true" name="correoElectronico" sms-name="" src="request" value=""/>
+               <param datatype="string" encode="true" name="destinatario" sms-name="" src="" value=""/>
+               <param datatype="string" encode="true" name="idSitio" sms-name="" src="" value=""/>
+            </template-param>
+         </service-input>
+         <service-output>
+            <param datatype="string" format="None" formatvalue="" name="codigo" sms-name="" src="//ns2:enviarCertificadoLoyaltyResponse/respuesta/codigo" srcformatvalue="" target=""/>
+            <param datatype="number" format="None" formatvalue="" name="opstatus" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="errmsg" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="number" format="None" formatvalue="" name="httpStatusCode" sms-name="" src="" srcformatvalue="" target=""/>
+         </service-output>
+      </service>
+      <service cachable="false" cacheduration="" id="enviarCorreoCodigoVerificacion" passwordencrypted="true" smscode="" smsenabled="false" type="soapserviceConnector">
+         <service-config>
+            <config-param name="endpointUrl" value="http://www.qa.mbfs.com.mx/SiteClientes/mydfs/loginWS"/>
+            <config-param name="soapAction" value=""/>
+            <config-param name="userid" value=""/>
+            <config-param name="soap-version" value="1.1"/>
+            <config-param name="postprocessorname" value=""/>
+            <config-param name="preprocessorname" value=""/>
+            <config-param name="urlprovider" value=""/>
+            <config-param name="dataprovider" value=""/>
+            <config-param name="sockettimeout" value=""/>
+            <config-param name="includecookies" value=""/>
+            <config-param name="proxyname" value=""/>
+            <config-param name="proxyport" value=""/>
+            <config-param name="proxyusername" value=""/>
+            <config-param name="isembedxmlpresent" value="false"/>
+            <config-param name="ignorehttpproxy" value="false"/>
+            <config-param name="responseEncoding" value="UTF-8"/>
+            <config-param name="server.auth.mode" value="basic"/>
+            <config-param name="server.auth.host" value=""/>
+            <config-param name="server.auth.ntlm.domain" value=""/>
+         </service-config>
+         <service-input>
+            <template-param name="message" value="&lt;soapenv:Envelope xmlns:del=&quot;http://delegate.mydfs.ws.daimler.com/&quot; xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&lt;soapenv:Header/&gt;&lt;soapenv:Body&gt;&lt;del:enviarCorreoCodigoVerificacion&gt;&lt;!--Optional:--&gt;&lt;nombre&gt;$nombre&lt;/nombre&gt;&lt;!--Optional:--&gt;&lt;correoElectronico&gt;$correo&lt;/correoElectronico&gt;&lt;!--Optional:--&gt;&lt;idSitio&gt;$sitio&lt;/idSitio&gt;&lt;!--Optional:--&gt;&lt;idEmpresa&gt;$idEmpresa&lt;/idEmpresa&gt;&lt;/del:enviarCorreoCodigoVerificacion&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;">
+               <param datatype="string" encode="true" name="nombre" sms-name="" src="request" value=""/>
+               <param datatype="string" encode="true" name="correo" sms-name="" src="request" value=""/>
+               <param datatype="string" encode="true" name="sitio" sms-name="" src="request" value=""/>
+               <param datatype="string" encode="true" name="idEmpresa" sms-name="" src="request" value=""/>
+            </template-param>
+         </service-input>
+         <service-output>
+            <param datatype="number" format="None" formatvalue="" name="codigo" sms-name="" src="//ns2:enviarCorreoCodigoVerificacionResponse/codigo/codigo" srcformatvalue="" target="response"/>
+            <param datatype="string" format="None" formatvalue="" name="codigoCorreo" sms-name="" src="//ns2:enviarCorreoCodigoVerificacionResponse/codigo/contenido/response" srcformatvalue="" target=""/>
+            <param datatype="number" format="None" formatvalue="" name="opstatus" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="errmsg" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="number" format="None" formatvalue="" name="httpStatusCode" sms-name="" src="" srcformatvalue="" target=""/>
+         </service-output>
+      </service>
+      <service cachable="false" cacheduration="" id="enviarCotizacion" passwordencrypted="true" smscode="" smsenabled="false" type="soapserviceConnector">
+         <service-config>
+            <config-param name="endpointUrl" value="http://www.qa.mbfs.com.mx/cotizadorveRTI/myDFSWs"/>
+            <config-param name="soapAction" value=""/>
+            <config-param name="userid" value=""/>
+            <config-param name="soap-version" value="1.1"/>
+            <config-param name="postprocessorname" value=""/>
+            <config-param name="preprocessorname" value=""/>
+            <config-param name="urlprovider" value=""/>
+            <config-param name="dataprovider" value=""/>
+            <config-param name="sockettimeout" value=""/>
+            <config-param name="includecookies" value=""/>
+            <config-param name="proxyname" value=""/>
+            <config-param name="proxyport" value=""/>
+            <config-param name="proxyusername" value=""/>
+            <config-param name="isembedxmlpresent" value="false"/>
+            <config-param name="ignorehttpproxy" value="false"/>
+            <config-param name="responseEncoding" value="UTF-8"/>
+            <config-param name="server.auth.mode" value="basic"/>
+            <config-param name="server.auth.host" value=""/>
+            <config-param name="server.auth.ntlm.domain" value=""/>
+         </service-config>
+         <service-input>
+            <template-param name="message" value="&lt;soapenv:Envelope xmlns:del=&quot;http://delegate.cotizador.mydfs.ws.daimler.com/&quot; xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&lt;soapenv:Header/&gt;&lt;soapenv:Body&gt;&lt;del:enviarCotizacion&gt;&lt;!--Optional:--&gt;&lt;nombreTipo&gt;$nombreTipo&lt;/nombreTipo&gt;&lt;!--Optional:--&gt;&lt;nombreImagen&gt;$nombreImagen&lt;/nombreImagen&gt;&lt;!--Optional:--&gt;&lt;nombrePlan&gt;$nombrePlan&lt;/nombrePlan&gt;&lt;!--Optional:--&gt;&lt;nombreFinanciamiento&gt;$nombreFinanciamiento&lt;/nombreFinanciamiento&gt;&lt;!--Optional:--&gt;&lt;enviarSolicitudCredito&gt;$enviarSolicitudCredito&lt;/enviarSolicitudCredito&gt;&lt;!--Optional:--&gt;&lt;tipoPersona&gt;$tipoPersona&lt;/tipoPersona&gt;&lt;!--Optional:--&gt;&lt;plazo&gt;$plazo&lt;/plazo&gt;&lt;!--Optional:--&gt;&lt;mensualidad&gt;$mensualidad&lt;/mensualidad&gt;&lt;!--Optional:--&gt;&lt;totalAnticipo&gt;$totalAnticipo&lt;/totalAnticipo&gt;&lt;!--Optional:--&gt;&lt;nombreDistribuidor&gt;$nombreDistribuidor&lt;/nombreDistribuidor&gt;&lt;!--Optional:--&gt;&lt;correoDistribuidor&gt;$correoDistribuidor&lt;/correoDistribuidor&gt;&lt;!--Optional:--&gt;&lt;calleDistribuidor&gt;$calleDistribuidor&lt;/calleDistribuidor&gt;&lt;!--Optional:--&gt;&lt;plazazDistribuidor&gt;$plazazDistribuidor&lt;/plazazDistribuidor&gt;&lt;!--Optional:--&gt;&lt;ciudadDistribuidor&gt;$ciudadDistribuidor&lt;/ciudadDistribuidor&gt;&lt;!--Optional:--&gt;&lt;telefonoDistribuidor&gt;$telefonoDistribuidor&lt;/telefonoDistribuidor&gt;&lt;!--Optional:--&gt;&lt;leyendaLegal&gt;$leyendaLegal&lt;/leyendaLegal&gt;&lt;!--Optional:--&gt;&lt;url&gt;$url&lt;/url&gt;&lt;!--Optional:--&gt;&lt;nombreCliente&gt;$nombreCliente&lt;/nombreCliente&gt;&lt;!--Optional:--&gt;&lt;apellidoCliente&gt;$apellidoCliente&lt;/apellidoCliente&gt;&lt;!--Optional:--&gt;&lt;metodoContactoCliente&gt;$metodoContactoCliente&lt;/metodoContactoCliente&gt;&lt;!--Optional:--&gt;&lt;emailCliente&gt;$emailCliente&lt;/emailCliente&gt;&lt;!--Optional:--&gt;&lt;telefonoCliente&gt;$telefonoCliente&lt;/telefonoCliente&gt;&lt;!--Optional:--&gt;&lt;direccionCliente&gt;$direccionCliente&lt;/direccionCliente&gt;&lt;/del:enviarCotizacion&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;">
+               <param datatype="string" encode="true" name="nombreTipo" sms-name="" src="request" value=""/>
+               <param datatype="string" encode="true" name="nombreImagen" sms-name="" src="request" value=""/>
+               <param datatype="string" encode="true" name="nombrePlan" sms-name="" src="request" value=""/>
+               <param datatype="string" encode="true" name="nombreFinanciamiento" sms-name="" src="request" value=""/>
+               <param datatype="boolean" encode="true" name="enviarSolicitudCredito" sms-name="" src="request" value=""/>
+               <param datatype="number" encode="true" name="tipoPersona" sms-name="" src="request" value=""/>
+               <param datatype="string" encode="true" name="plazo" sms-name="" src="request" value=""/>
+               <param datatype="string" encode="true" name="mensualidad" sms-name="" src="request" value=""/>
+               <param datatype="string" encode="true" name="totalAnticipo" sms-name="" src="request" value=""/>
+               <param datatype="string" encode="true" name="nombreDistribuidor" sms-name="" src="request" value=""/>
+               <param datatype="string" encode="true" name="correoDistribuidor" sms-name="" src="request" value=""/>
+               <param datatype="string" encode="true" name="calleDistribuidor" sms-name="" src="request" value=""/>
+               <param datatype="string" encode="true" name="plazazDistribuidor" sms-name="" src="request" value=""/>
+               <param datatype="string" encode="true" name="ciudadDistribuidor" sms-name="" src="request" value=""/>
+               <param datatype="string" encode="true" name="telefonoDistribuidor" sms-name="" src="request" value=""/>
+               <param datatype="string" encode="true" name="leyendaLegal" sms-name="" src="request" value=""/>
+               <param datatype="string" encode="true" name="url" sms-name="" src="request" value=""/>
+               <param datatype="string" encode="true" name="nombreCliente" sms-name="" src="request" value=""/>
+               <param datatype="string" encode="true" name="apellidoCliente" sms-name="" src="request" value=""/>
+               <param datatype="string" encode="true" name="metodoContactoCliente" sms-name="" src="request" value=""/>
+               <param datatype="string" encode="true" name="emailCliente" sms-name="" src="request" value=""/>
+               <param datatype="string" encode="true" name="telefonoCliente" sms-name="" src="request" value=""/>
+               <param datatype="string" encode="true" name="direccionCliente" sms-name="" src="request" value=""/>
+            </template-param>
+         </service-input>
+         <service-output>
+            <param datatype="string" format="None" formatvalue="" name="codigo" sms-name="" src="//ns2:enviarCotizacionResponse/MyDfsResponse/codigo" srcformatvalue="" target="response"/>
+            <param datatype="boolean" format="None" formatvalue="" name="resultado" sms-name="" src="//ns2:enviarCotizacionResponse/MyDfsResponse/contenido/response" srcformatvalue="" target="response"/>
+            <param datatype="number" format="None" formatvalue="" name="opstatus" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="errmsg" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="number" format="None" formatvalue="" name="httpStatusCode" sms-name="" src="" srcformatvalue="" target=""/>
+         </service-output>
+      </service>
+      <service cachable="false" cacheduration="" id="enviarEstadosDeCuenta" passwordencrypted="true" smscode="" smsenabled="false" type="soapserviceConnector">
+         <service-config>
+            <config-param name="endpointUrl" value="http://www.qa.mbfs.com.mx/SiteClientes/mydfs/loginWS"/>
+            <config-param name="soapAction" value=""/>
+            <config-param name="userid" value=""/>
+            <config-param name="soap-version" value="1.1"/>
+            <config-param name="postprocessorname" value=""/>
+            <config-param name="preprocessorname" value=""/>
+            <config-param name="urlprovider" value=""/>
+            <config-param name="dataprovider" value=""/>
+            <config-param name="sockettimeout" value=""/>
+            <config-param name="includecookies" value=""/>
+            <config-param name="proxyname" value=""/>
+            <config-param name="proxyport" value=""/>
+            <config-param name="proxyusername" value=""/>
+            <config-param name="isembedxmlpresent" value="false"/>
+            <config-param name="ignorehttpproxy" value="false"/>
+            <config-param name="responseEncoding" value="UTF-8"/>
+            <config-param name="server.auth.mode" value="basic"/>
+            <config-param name="server.auth.host" value=""/>
+            <config-param name="server.auth.ntlm.domain" value=""/>
+         </service-config>
+         <service-input>
+            <template-param name="message" value="&lt;soapenv:Envelope xmlns:del=&quot;http://delegate.mydfs.ws.daimler.com/&quot; xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&lt;soapenv:Header/&gt;&lt;soapenv:Body&gt;&lt;del:enviarEstadosDeCuenta&gt;&lt;!--Optional:--&gt;&lt;contrato&gt;$contrato&lt;/contrato&gt;&lt;!--Optional:--&gt;&lt;numeroCliente&gt;$numeroCliente&lt;/numeroCliente&gt;&lt;!--Optional:--&gt;&lt;periodos&gt;$periodos&lt;/periodos&gt;&lt;!--Optional:--&gt;&lt;idSitio&gt;$idSitio&lt;/idSitio&gt;&lt;!--Optional:--&gt;&lt;correoElectronico&gt;$correoElectronico&lt;/correoElectronico&gt;&lt;/del:enviarEstadosDeCuenta&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;">
+               <param datatype="string" encode="true" name="contrato" sms-name="" src="" value=""/>
+               <param datatype="string" encode="true" name="numeroCliente" sms-name="" src="request" value=""/>
+               <param datatype="string" encode="true" name="periodos" sms-name="" src="" value=""/>
+               <param datatype="string" encode="true" name="correoElectronico" sms-name="" src="" value=""/>
+               <param datatype="string" encode="true" name="idSitio" sms-name="" src="" value=""/>
+            </template-param>
+         </service-input>
+         <service-output>
+            <param datatype="string" format="None" formatvalue="" name="codigo" sms-name="" src="//ns2:enviarEstadosDeCuentaResponse/respuesta/codigo" srcformatvalue="" target=""/>
+            <param datatype="number" format="None" formatvalue="" name="opstatus" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="errmsg" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="number" format="None" formatvalue="" name="httpStatusCode" sms-name="" src="" srcformatvalue="" target=""/>
+         </service-output>
+      </service>
+      <service cachable="false" cacheduration="" id="enviarFacturas" passwordencrypted="true" smscode="" smsenabled="false" type="soapserviceConnector">
+         <service-config>
+            <config-param name="endpointUrl" value="http://www.qa.mbfs.com.mx/SiteClientes/mydfs/loginWS"/>
+            <config-param name="soapAction" value=""/>
+            <config-param name="userid" value=""/>
+            <config-param name="soap-version" value="1.1"/>
+            <config-param name="postprocessorname" value=""/>
+            <config-param name="preprocessorname" value=""/>
+            <config-param name="urlprovider" value=""/>
+            <config-param name="dataprovider" value=""/>
+            <config-param name="sockettimeout" value=""/>
+            <config-param name="includecookies" value=""/>
+            <config-param name="proxyname" value=""/>
+            <config-param name="proxyport" value=""/>
+            <config-param name="proxyusername" value=""/>
+            <config-param name="isembedxmlpresent" value="false"/>
+            <config-param name="ignorehttpproxy" value="false"/>
+            <config-param name="responseEncoding" value="UTF-8"/>
+            <config-param name="server.auth.mode" value="basic"/>
+            <config-param name="server.auth.host" value=""/>
+            <config-param name="server.auth.ntlm.domain" value=""/>
+         </service-config>
+         <service-input>
+            <template-param name="message" value="&lt;soapenv:Envelope xmlns:del=&quot;http://delegate.mydfs.ws.daimler.com/&quot; xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&lt;soapenv:Header/&gt;&lt;soapenv:Body&gt;&lt;del:enviarFacturas&gt;&lt;!--Optional:--&gt;&lt;contrato&gt;$contrato&lt;/contrato&gt;&lt;!--Optional:--&gt;&lt;empresa&gt;$empresa&lt;/empresa&gt;&lt;!--Optional:--&gt;&lt;periodos&gt;$periodos&lt;/periodos&gt;&lt;!--Optional:--&gt;&lt;idSitio&gt;$idSitio&lt;/idSitio&gt;&lt;!--Optional:--&gt;&lt;correoElectronico&gt;$correoElectronico&lt;/correoElectronico&gt;&lt;/del:enviarFacturas&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;">
+               <param datatype="string" encode="true" name="contrato" sms-name="" src="" value=""/>
+               <param datatype="string" encode="true" name="empresa" sms-name="" src="" value=""/>
+               <param datatype="string" encode="true" name="periodos" sms-name="" src="" value=""/>
+               <param datatype="string" encode="true" name="correoElectronico" sms-name="" src="" value=""/>
+               <param datatype="string" encode="true" name="idSitio" sms-name="" src="" value=""/>
+            </template-param>
+         </service-input>
+         <service-output>
+            <param datatype="number" format="None" formatvalue="" name="codigo" sms-name="" src="//ns2:enviarFacturasResponse/respuesta/codigo" srcformatvalue="" target=""/>
+            <param datatype="number" format="None" formatvalue="" name="opstatus" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="errmsg" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="number" format="None" formatvalue="" name="httpStatusCode" sms-name="" src="" srcformatvalue="" target=""/>
+         </service-output>
+      </service>
+      <service cachable="false" cacheduration="" id="enviarSMSCodigoVerificacion" passwordencrypted="true" smscode="" smsenabled="false" type="soapserviceConnector">
+         <service-config>
+            <config-param name="endpointUrl" value="http://www.qa.mbfs.com.mx/SiteClientes/mydfs/loginWS"/>
+            <config-param name="soapAction" value=""/>
+            <config-param name="userid" value=""/>
+            <config-param name="soap-version" value="1.1"/>
+            <config-param name="postprocessorname" value=""/>
+            <config-param name="preprocessorname" value=""/>
+            <config-param name="urlprovider" value=""/>
+            <config-param name="dataprovider" value=""/>
+            <config-param name="sockettimeout" value=""/>
+            <config-param name="includecookies" value=""/>
+            <config-param name="proxyname" value=""/>
+            <config-param name="proxyport" value=""/>
+            <config-param name="proxyusername" value=""/>
+            <config-param name="isembedxmlpresent" value="false"/>
+            <config-param name="ignorehttpproxy" value="false"/>
+            <config-param name="responseEncoding" value="UTF-8"/>
+            <config-param name="server.auth.mode" value="basic"/>
+            <config-param name="server.auth.host" value=""/>
+            <config-param name="server.auth.ntlm.domain" value=""/>
+         </service-config>
+         <service-input>
+            <template-param name="message" value="&lt;soapenv:Envelope xmlns:del=&quot;http://delegate.mydfs.ws.daimler.com/&quot; xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&lt;soapenv:Header/&gt;&lt;soapenv:Body&gt;&lt;del:enviarSMSCodigoVerificacion&gt;&lt;!--Optional:--&gt;&lt;nombre&gt;$nombre&lt;/nombre&gt;&lt;!--Optional:--&gt;&lt;numeroCelular&gt;$telefono&lt;/numeroCelular&gt;&lt;!--Optional:--&gt;&lt;idSitio&gt;$sitio&lt;/idSitio&gt;&lt;/del:enviarSMSCodigoVerificacion&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;">
+               <param datatype="string" encode="true" name="nombre" sms-name="" src="request" value=""/>
+               <param datatype="number" encode="true" name="telefono" sms-name="" src="request" value=""/>
+               <param datatype="string" encode="true" name="sitio" sms-name="" src="request" value=""/>
+            </template-param>
+         </service-input>
+         <service-output>
+            <param datatype="number" format="None" formatvalue="" name="codigo" sms-name="" src="//ns2:enviarSMSCodigoVerificacionResponse/codigo/codigo" srcformatvalue="" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="codigoSMS" sms-name="" src="//ns2:enviarSMSCodigoVerificacionResponse/codigo/contenido/response" srcformatvalue="" target=""/>
+            <param datatype="number" format="None" formatvalue="" name="opstatus" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="errmsg" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="number" format="None" formatvalue="" name="httpStatusCode" sms-name="" src="" srcformatvalue="" target=""/>
+         </service-output>
+      </service>
+      <service cachable="false" cacheduration="" id="enviarSolicitudDerechosArco" passwordencrypted="true" smscode="" smsenabled="false" type="soapserviceConnector">
+         <service-config>
+            <config-param name="endpointUrl" value="http://www.qa.mbfs.com.mx:80/SiteClientes/mydfs/descargaWS"/>
+            <config-param name="soapAction" value=""/>
+            <config-param name="userid" value=""/>
+            <config-param name="soap-version" value="1.1"/>
+            <config-param name="postprocessorname" value=""/>
+            <config-param name="preprocessorname" value=""/>
+            <config-param name="urlprovider" value=""/>
+            <config-param name="dataprovider" value=""/>
+            <config-param name="sockettimeout" value=""/>
+            <config-param name="includecookies" value=""/>
+            <config-param name="proxyname" value=""/>
+            <config-param name="proxyport" value=""/>
+            <config-param name="proxyusername" value=""/>
+            <config-param name="isembedxmlpresent" value="false"/>
+            <config-param name="ignorehttpproxy" value="false"/>
+            <config-param name="responseEncoding" value="UTF-8"/>
+            <config-param name="server.auth.mode" value="basic"/>
+            <config-param name="server.auth.host" value=""/>
+            <config-param name="server.auth.ntlm.domain" value=""/>
+         </service-config>
+         <service-input>
+            <template-param name="message" value="&lt;soapenv:Envelope xmlns:del=&quot;http://delegate.mydfs.ws.daimler.com/&quot; xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&lt;soapenv:Header/&gt;&lt;soapenv:Body&gt;&lt;del:enviarSolicitudDerechosArco&gt;&lt;!--Optional:--&gt;&lt;sitio&gt;$idSitio&lt;/sitio&gt;&lt;!--Optional:--&gt;&lt;correoElectronico&gt;$correo&lt;/correoElectronico&gt;&lt;/del:enviarSolicitudDerechosArco&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;">
+               <param datatype="string" encode="true" name="idSitio" sms-name="" src="" value=""/>
+               <param datatype="string" encode="true" name="correo" sms-name="" src="" value=""/>
+            </template-param>
+         </service-input>
+         <service-output>
+            <param datatype="string" format="None" formatvalue="" name="codigo" sms-name="" src="//ns2:enviarSolicitudDerechosArcoResponse/respuesta/codigo" srcformatvalue="" target=""/>
+            <param datatype="number" format="None" formatvalue="" name="opstatus" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="errmsg" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="number" format="None" formatvalue="" name="httpStatusCode" sms-name="" src="" srcformatvalue="" target=""/>
+         </service-output>
+      </service>
+      <service cachable="false" cacheduration="" id="obtenerAvisoPrivacidad" passwordencrypted="true" smscode="" smsenabled="false" type="soapserviceConnector">
+         <service-config>
+            <config-param name="endpointUrl" value="http://www.qa.mbfs.com.mx:80/SiteClientes/mydfs/descargaWS"/>
+            <config-param name="soapAction" value=""/>
+            <config-param name="userid" value=""/>
+            <config-param name="soap-version" value="1.1"/>
+            <config-param name="postprocessorname" value=""/>
+            <config-param name="preprocessorname" value=""/>
+            <config-param name="urlprovider" value=""/>
+            <config-param name="dataprovider" value=""/>
+            <config-param name="sockettimeout" value=""/>
+            <config-param name="includecookies" value=""/>
+            <config-param name="proxyname" value=""/>
+            <config-param name="proxyport" value=""/>
+            <config-param name="proxyusername" value=""/>
+            <config-param name="isembedxmlpresent" value="false"/>
+            <config-param name="ignorehttpproxy" value="false"/>
+            <config-param name="responseEncoding" value="UTF-8"/>
+            <config-param name="server.auth.mode" value="basic"/>
+            <config-param name="server.auth.host" value=""/>
+            <config-param name="server.auth.ntlm.domain" value=""/>
+         </service-config>
+         <service-input>
+            <template-param name="message" value="&lt;soapenv:Envelope xmlns:del=&quot;http://delegate.mydfs.ws.daimler.com/&quot; xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&lt;soapenv:Header/&gt;&lt;soapenv:Body&gt;&lt;del:obtenerAvisoPrivacidad&gt;&lt;!--Optional:--&gt;&lt;sitio&gt;$idSitio&lt;/sitio&gt;&lt;/del:obtenerAvisoPrivacidad&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;">
+               <param datatype="string" encode="true" name="idSitio" sms-name="" src="" value=""/>
+            </template-param>
+         </service-input>
+         <service-output>
+            <param datatype="string" format="None" formatvalue="" name="codigo" sms-name="" src="//ns2:obtenerAvisoPrivacidadResponse/informacion/codigo" srcformatvalue="" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="contenido" sms-name="" src="//ns2:obtenerAvisoPrivacidadResponse/informacion/contenido/response" srcformatvalue="" target=""/>
+            <param datatype="number" format="None" formatvalue="" name="opstatus" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="errmsg" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="number" format="None" formatvalue="" name="httpStatusCode" sms-name="" src="" srcformatvalue="" target=""/>
+         </service-output>
+      </service>
+      <service cachable="false" cacheduration="" id="obtenerBeneficiosTerminacionContrato" passwordencrypted="true" smscode="" smsenabled="false" type="soapserviceConnector">
+         <service-config>
+            <config-param name="endpointUrl" value="http://www.qa.mbfs.com.mx:80/SiteClientes/mydfs/obtenerDetalleContratoWS"/>
+            <config-param name="soapAction" value=""/>
+            <config-param name="userid" value=""/>
+            <config-param name="soap-version" value="1.1"/>
+            <config-param name="postprocessorname" value=""/>
+            <config-param name="preprocessorname" value=""/>
+            <config-param name="urlprovider" value=""/>
+            <config-param name="dataprovider" value=""/>
+            <config-param name="sockettimeout" value=""/>
+            <config-param name="includecookies" value=""/>
+            <config-param name="proxyname" value=""/>
+            <config-param name="proxyport" value=""/>
+            <config-param name="proxyusername" value=""/>
+            <config-param name="isembedxmlpresent" value="false"/>
+            <config-param name="ignorehttpproxy" value="false"/>
+            <config-param name="responseEncoding" value="UTF-8"/>
+            <config-param name="server.auth.mode" value="basic"/>
+            <config-param name="server.auth.host" value=""/>
+            <config-param name="server.auth.ntlm.domain" value=""/>
+         </service-config>
+         <service-input>
+            <template-param name="message" value="&lt;soapenv:Envelope xmlns:del=&quot;http://delegate.mydfs.ws.daimler.com/&quot; xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&lt;soapenv:Header/&gt;&lt;soapenv:Body&gt;&lt;del:obtenerBeneficiosTerminacionContrato&gt;&lt;!--Optional:--&gt;&lt;tipoContrato&gt;$tipoContrato&lt;/tipoContrato&gt;&lt;!--Optional:--&gt;&lt;nombreCliente&gt;$nombreCliente&lt;/nombreCliente&gt;&lt;/del:obtenerBeneficiosTerminacionContrato&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;">
+               <param datatype="string" encode="true" name="tipoContrato" sms-name="" src="request" value=""/>
+               <param datatype="string" encode="true" name="nombreCliente" sms-name="" src="request" value=""/>
+            </template-param>
+         </service-input>
+         <service-output>
+            <param datatype="string" format="None" formatvalue="" name="codigo" sms-name="" src="//ns2:obtenerBeneficiosTerminacionContratoResponse/MyDfsResponse/codigo" srcformatvalue="" target="response"/>
+            <param datatype="string" format="None" formatvalue="" name="contenido" sms-name="" src="//ns2:obtenerBeneficiosTerminacionContratoResponse/MyDfsResponse/contenido/response" srcformatvalue="" target="response"/>
+            <param datatype="number" format="None" formatvalue="" name="opstatus" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="errmsg" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="number" format="None" formatvalue="" name="httpStatusCode" sms-name="" src="" srcformatvalue="" target=""/>
+         </service-output>
+      </service>
+      <service cachable="false" cacheduration="" id="obtenerCertificadoLoyalty" passwordencrypted="true" smscode="" smsenabled="false" type="soapserviceConnector">
+         <service-config>
+            <config-param name="endpointUrl" value="http://www.qa.mbfs.com.mx/SiteClientes/mydfs/loginWS"/>
+            <config-param name="soapAction" value=""/>
+            <config-param name="userid" value=""/>
+            <config-param name="soap-version" value="1.1"/>
+            <config-param name="postprocessorname" value=""/>
+            <config-param name="preprocessorname" value=""/>
+            <config-param name="urlprovider" value=""/>
+            <config-param name="dataprovider" value=""/>
+            <config-param name="sockettimeout" value=""/>
+            <config-param name="includecookies" value=""/>
+            <config-param name="proxyname" value=""/>
+            <config-param name="proxyport" value=""/>
+            <config-param name="proxyusername" value=""/>
+            <config-param name="isembedxmlpresent" value="false"/>
+            <config-param name="ignorehttpproxy" value="false"/>
+            <config-param name="responseEncoding" value="UTF-8"/>
+            <config-param name="server.auth.mode" value="basic"/>
+            <config-param name="server.auth.host" value=""/>
+            <config-param name="server.auth.ntlm.domain" value=""/>
+         </service-config>
+         <service-input>
+            <template-param name="message" value="&lt;soapenv:Envelope xmlns:del=&quot;http://delegate.mydfs.ws.daimler.com/&quot; xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&lt;soapenv:Header/&gt;&lt;soapenv:Body&gt;&lt;del:obtenerCertificadoLoyalty&gt;&lt;!--Optional:--&gt;&lt;rfc&gt;$rfc&lt;/rfc&gt;&lt;!--Optional:--&gt;&lt;contrato&gt;$contrato&lt;/contrato&gt;&lt;/del:obtenerCertificadoLoyalty&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;">
+               <param datatype="string" encode="true" name="rfc" sms-name="" src="" value=""/>
+               <param datatype="string" encode="true" name="contrato" sms-name="" src="" value=""/>
+            </template-param>
+         </service-input>
+         <service-output>
+            <param datatype="number" format="None" formatvalue="" name="codigo" sms-name="" src="//ns2:obtenerCertificadoLoyaltyResponse/respuesta/codigo" srcformatvalue="" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="folio" sms-name="" src="//ns2:obtenerCertificadoLoyaltyResponse/respuesta/contenido/response/loyalty/folio" srcformatvalue="" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="linkPDF" sms-name="" src="//ns2:obtenerCertificadoLoyaltyResponse/respuesta/contenido/response/loyalty/linkPDF" srcformatvalue="" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="linkPNG" sms-name="" src="//ns2:obtenerCertificadoLoyaltyResponse/respuesta/contenido/response/loyalty/linkPNG" srcformatvalue="" target=""/>
+            <param datatype="number" format="None" formatvalue="" name="opstatus" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="errmsg" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="number" format="None" formatvalue="" name="httpStatusCode" sms-name="" src="" srcformatvalue="" target=""/>
+         </service-output>
+      </service>
+      <service cachable="false" cacheduration="" id="obtenerCotizacionPrecio" passwordencrypted="true" smscode="" smsenabled="false" type="soapserviceConnector">
+         <service-config>
+            <config-param name="endpointUrl" value="http://www.qa.mbfs.com.mx/cotizadorveRTI/myDFSWs"/>
+            <config-param name="soapAction" value=""/>
+            <config-param name="userid" value=""/>
+            <config-param name="soap-version" value="1.1"/>
+            <config-param name="postprocessorname" value=""/>
+            <config-param name="preprocessorname" value=""/>
+            <config-param name="urlprovider" value=""/>
+            <config-param name="dataprovider" value=""/>
+            <config-param name="sockettimeout" value=""/>
+            <config-param name="includecookies" value=""/>
+            <config-param name="proxyname" value=""/>
+            <config-param name="proxyport" value=""/>
+            <config-param name="proxyusername" value=""/>
+            <config-param name="isembedxmlpresent" value="false"/>
+            <config-param name="ignorehttpproxy" value="false"/>
+            <config-param name="responseEncoding" value="UTF-8"/>
+            <config-param name="server.auth.mode" value="basic"/>
+            <config-param name="server.auth.host" value=""/>
+            <config-param name="server.auth.ntlm.domain" value=""/>
+         </service-config>
+         <service-input>
+            <template-param name="message" value="&lt;soapenv:Envelope xmlns:del=&quot;http://delegate.cotizador.mydfs.ws.daimler.com/&quot; xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&lt;soapenv:Header/&gt;&lt;soapenv:Body&gt;&lt;del:obtenerCotizacionPrecio&gt;&lt;!--Optional:--&gt;&lt;idTipo&gt;$idTipo&lt;/idTipo&gt;&lt;!--Optional:--&gt;&lt;tipoPersona&gt;$tipoPersona&lt;/tipoPersona&gt;&lt;!--Optional:--&gt;&lt;tipoFinanciamiento&gt;$tipoFinanciamiento&lt;/tipoFinanciamiento&gt;&lt;!--Optional:--&gt;&lt;idEstado&gt;$idEstado&lt;/idEstado&gt;&lt;!--Optional:--&gt;&lt;idPlan&gt;$idPlan&lt;/idPlan&gt;&lt;!--Optional:--&gt;&lt;cantidadMeses&gt;$cantidadMeses&lt;/cantidadMeses&gt;&lt;!--Optional:--&gt;&lt;porcentajeEnganche&gt;$porcentajeEnganche&lt;/porcentajeEnganche&gt;&lt;!--Optional:--&gt;&lt;precio&gt;$precio&lt;/precio&gt;&lt;/del:obtenerCotizacionPrecio&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;">
+               <param datatype="string" encode="true" name="idTipo" sms-name="" src="request" value=""/>
+               <param datatype="string" encode="true" name="tipoPersona" sms-name="" src="request" value=""/>
+               <param datatype="string" encode="true" name="tipoFinanciamiento" sms-name="" src="request" value=""/>
+               <param datatype="string" encode="true" name="idEstado" sms-name="" src="request" value=""/>
+               <param datatype="string" encode="true" name="idPlan" sms-name="" src="request" value=""/>
+               <param datatype="string" encode="true" name="cantidadMeses" sms-name="" src="request" value=""/>
+               <param datatype="string" encode="true" name="porcentajeEnganche" sms-name="" src="request" value=""/>
+               <param datatype="string" encode="true" name="precio" sms-name="" src="request" value=""/>
+            </template-param>
+         </service-input>
+         <service-output>
+            <param datatype="string" format="None" formatvalue="" name="codigo" sms-name="" src="//ns2:obtenerCotizacionPrecioResponse/MyDfsResponse/codigo" srcformatvalue="" target="response"/>
+            <param datatype="string" format="None" formatvalue="" name="leyenda" sms-name="" src="//ns2:obtenerCotizacionPrecioResponse/MyDfsResponse/contenido/response/leyenda" srcformatvalue="" target="response"/>
+            <param datatype="number" format="None" formatvalue="" name="mensualidad" sms-name="" src="//ns2:obtenerCotizacionPrecioResponse/MyDfsResponse/contenido/response/mensualidad" srcformatvalue="" target="response"/>
+            <param datatype="string" format="None" formatvalue="" name="sEnganche" sms-name="" src="//ns2:obtenerCotizacionPrecioResponse/MyDfsResponse/contenido/response/sEnganche" srcformatvalue="" target="response"/>
+            <param datatype="string" format="None" formatvalue="" name="sEstado" sms-name="" src="//ns2:obtenerCotizacionPrecioResponse/MyDfsResponse/contenido/response/sEstado" srcformatvalue="" target="response"/>
+            <param datatype="string" format="None" formatvalue="" name="sModelo" sms-name="" src="//ns2:obtenerCotizacionPrecioResponse/MyDfsResponse/contenido/response/sModelo" srcformatvalue="" target="response"/>
+            <param datatype="string" format="None" formatvalue="" name="sPlan" sms-name="" src="//ns2:obtenerCotizacionPrecioResponse/MyDfsResponse/contenido/response/sPlan" srcformatvalue="" target="response"/>
+            <param datatype="string" format="None" formatvalue="" name="sPrecioUnidad" sms-name="" src="//ns2:obtenerCotizacionPrecioResponse/MyDfsResponse/contenido/response/sPrecioUnidad" srcformatvalue="" target="response"/>
+            <param datatype="string" format="None" formatvalue="" name="sTipoCredito" sms-name="" src="//ns2:obtenerCotizacionPrecioResponse/MyDfsResponse/contenido/response/sTipoCredito" srcformatvalue="" target="response"/>
+            <param datatype="string" format="None" formatvalue="" name="sTipoPersona" sms-name="" src="//ns2:obtenerCotizacionPrecioResponse/MyDfsResponse/contenido/response/sTipoPersona" srcformatvalue="" target="response"/>
+            <param datatype="string" format="None" formatvalue="" name="sVersion" sms-name="" src="//ns2:obtenerCotizacionPrecioResponse/MyDfsResponse/contenido/response/sVersion" srcformatvalue="" target="response"/>
+            <param datatype="string" format="None" formatvalue="" name="smensualidad" sms-name="" src="//ns2:obtenerCotizacionPrecioResponse/MyDfsResponse/contenido/response/smensualidad" srcformatvalue="" target="response"/>
+            <param datatype="string" format="None" formatvalue="" name="stotalAnticipo" sms-name="" src="//ns2:obtenerCotizacionPrecioResponse/MyDfsResponse/contenido/response/stotalAnticipo" srcformatvalue="" target="response"/>
+            <param datatype="string" format="None" formatvalue="" name="svalorfinal" sms-name="" src="//ns2:obtenerCotizacionPrecioResponse/MyDfsResponse/contenido/response/svalorFinal" srcformatvalue="" target="response"/>
+            <param datatype="string" format="None" formatvalue="" name="sComisionApertura" sms-name="" src="//ns2:obtenerCotizacionPrecioResponse/MyDfsResponse/contenido/response/sComisionApertura" srcformatvalue="" target="response"/>
+            <param datatype="number" format="None" formatvalue="" name="opstatus" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="errmsg" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="number" format="None" formatvalue="" name="httpStatusCode" sms-name="" src="" srcformatvalue="" target=""/>
+         </service-output>
+      </service>
+      <service cachable="false" cacheduration="" id="obtenerDetalleContrato" passwordencrypted="true" smscode="" smsenabled="false" type="soapserviceConnector">
+         <service-config>
+            <config-param name="endpointUrl" value="http://www.qa.mbfs.com.mx:80/SiteClientes/mydfs/obtenerDetalleContratoWS"/>
+            <config-param name="soapAction" value=""/>
+            <config-param name="userid" value=""/>
+            <config-param name="soap-version" value="1.1"/>
+            <config-param name="postprocessorname" value=""/>
+            <config-param name="preprocessorname" value=""/>
+            <config-param name="urlprovider" value=""/>
+            <config-param name="dataprovider" value=""/>
+            <config-param name="sockettimeout" value=""/>
+            <config-param name="includecookies" value=""/>
+            <config-param name="proxyname" value=""/>
+            <config-param name="proxyport" value=""/>
+            <config-param name="proxyusername" value=""/>
+            <config-param name="isembedxmlpresent" value="false"/>
+            <config-param name="ignorehttpproxy" value="false"/>
+            <config-param name="responseEncoding" value="UTF-8"/>
+            <config-param name="server.auth.mode" value="basic"/>
+            <config-param name="server.auth.host" value=""/>
+            <config-param name="server.auth.ntlm.domain" value=""/>
+         </service-config>
+         <service-input>
+            <template-param name="message" value="&lt;soapenv:Envelope xmlns:del=&quot;http://delegate.mydfs.ws.daimler.com/&quot; xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&lt;soapenv:Header/&gt;&lt;soapenv:Body&gt;&lt;del:obtenerDetalleContrato&gt;&lt;!--Optional:--&gt;&lt;numeroContrato&gt;$operacionMaestra&lt;/numeroContrato&gt;&lt;/del:obtenerDetalleContrato&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;">
+               <param datatype="string" encode="true" name="operacionMaestra" sms-name="" src="" value=""/>
+            </template-param>
+         </service-input>
+         <service-output>
+            <param datatype="string" format="None" formatvalue="" name="codigo" sms-name="" src="//ns2:obtenerDetalleContratoResponse/MyDfsResponse/codigo" srcformatvalue="" target="response"/>
+            <dataset id="lstContenido" src="//ns2:obtenerDetalleContratoResponse/MyDfsResponse/contenido">
+               <param datatype="string" format="None" formatvalue="" name="mostrarBeneficio" sms-name="" src="response/bmostrarBenreficios" srcformatvalue="" target="response"/>
+               <param datatype="string" format="None" formatvalue="" name="anio" sms-name="" src="response/sAnio" srcformatvalue="" target="response"/>
+               <param datatype="string" format="None" formatvalue="" name="fechaInicio" sms-name="" src="response/sFechaInicio" srcformatvalue="" target="response"/>
+               <param datatype="string" format="None" formatvalue="" name="fechaUltimoPago" sms-name="" src="response/sFechaUltimoPago" srcformatvalue="" target="response"/>
+               <param datatype="string" format="None" formatvalue="" name="mensualidad" sms-name="" src="response/sMensualidad" srcformatvalue="" target="response"/>
+               <param datatype="string" format="None" formatvalue="" name="modelo" sms-name="" src="response/sModelo" srcformatvalue="" target="response"/>
+               <param datatype="string" format="None" formatvalue="" name="nombreCliente" sms-name="" src="response/sNombrecliente" srcformatvalue="" target="response"/>
+               <param datatype="string" format="None" formatvalue="" name="numeroContrato" sms-name="" src="response/sNumeroContrato" srcformatvalue="" target="response"/>
+               <param datatype="string" format="None" formatvalue="" name="referencia" sms-name="" src="response/sReferencia" srcformatvalue="" target="response"/>
+               <param datatype="string" format="None" formatvalue="" name="terminacionContrato" sms-name="" src="response/sTextoTerminacionContrato" srcformatvalue="" target="response"/>
+               <param datatype="string" format="None" formatvalue="" name="tipoContrato" sms-name="" src="response/sTipoContrato" srcformatvalue="" target="response"/>
+               <param datatype="string" format="None" formatvalue="" name="vinUnidad" sms-name="" src="response/sVinUnidad" srcformatvalue="" target="response"/>
+               <dataset id="lstAseguradora" src="response/lstdatosAseguradora">
+                  <param datatype="string" format="None" formatvalue="" name="aseguradoraVencimiento" sms-name="" src="//fechaVencimiento" srcformatvalue="" target="response"/>
+                  <param datatype="string" format="None" formatvalue="" name="aseguradoraNombre" sms-name="" src="//nombreAseguradora" srcformatvalue="" target="response"/>
+                  <param datatype="string" format="None" formatvalue="" name="aseguradoraPoliza" sms-name="" src="//numeroPoliza" srcformatvalue="" target="response"/>
+                  <param datatype="string" format="None" formatvalue="" name="aseguradoraTipoActivo" sms-name="" src="//tipoActivo" srcformatvalue="" target="response"/>
+               </dataset>
+               <param datatype="string" format="None" formatvalue="" name="diaPago" sms-name="" src="response/sDiaPago" srcformatvalue="" target="response"/>
+            </dataset>
+            <param datatype="number" format="None" formatvalue="" name="opstatus" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="errmsg" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="number" format="None" formatvalue="" name="httpStatusCode" sms-name="" src="" srcformatvalue="" target=""/>
+         </service-output>
+      </service>
+      <service cachable="false" cacheduration="" id="obtenerDistribuidorPorEstado" passwordencrypted="true" smscode="" smsenabled="false" type="soapserviceConnector">
+         <service-config>
+            <config-param name="endpointUrl" value="http://www.qa.mbfs.com.mx/SiteClientes/mydfs/distribuidorGpsWS"/>
+            <config-param name="soapAction" value=""/>
+            <config-param name="userid" value=""/>
+            <config-param name="soap-version" value="1.1"/>
+            <config-param name="postprocessorname" value=""/>
+            <config-param name="preprocessorname" value=""/>
+            <config-param name="urlprovider" value=""/>
+            <config-param name="dataprovider" value=""/>
+            <config-param name="sockettimeout" value=""/>
+            <config-param name="includecookies" value=""/>
+            <config-param name="proxyname" value=""/>
+            <config-param name="proxyport" value=""/>
+            <config-param name="proxyusername" value=""/>
+            <config-param name="isembedxmlpresent" value="false"/>
+            <config-param name="ignorehttpproxy" value="false"/>
+            <config-param name="responseEncoding" value="UTF-8"/>
+            <config-param name="server.auth.mode" value="basic"/>
+            <config-param name="server.auth.host" value=""/>
+            <config-param name="server.auth.ntlm.domain" value=""/>
+         </service-config>
+         <service-input>
+            <template-param name="message" value="&lt;soapenv:Envelope xmlns:del=&quot;http://delegate.mydfs.ws.daimler.com/&quot; xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&lt;soapenv:Header/&gt;&lt;soapenv:Body&gt;&lt;del:obtenerDistribuidorPorEstado&gt;&lt;!--Optional:--&gt;&lt;rubro&gt;$rubro&lt;/rubro&gt;&lt;idEstado&gt;$id&lt;/idEstado&gt;&lt;/del:obtenerDistribuidorPorEstado&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;">
+               <param datatype="string" encode="true" name="rubro" sms-name="" src="request" value=""/>
+               <param datatype="string" encode="true" name="id" sms-name="" src="request" value=""/>
+            </template-param>
+         </service-input>
+         <service-output>
+            <param datatype="string" format="None" formatvalue="" name="codigo" sms-name="" src="//ns2:obtenerDistribuidorPorEstadoResponse/MyDfsResponse/codigo" srcformatvalue="" target="response"/>
+            <dataset id="lstDistribuidores" src="//ns2:obtenerDistribuidorPorEstadoResponse/MyDfsResponse/contenido">
+               <param datatype="string" format="None" formatvalue="" name="calle" sms-name="" src="lstResponse/calle" srcformatvalue="" target="response"/>
+               <param datatype="string" format="None" formatvalue="" name="codigoPostal" sms-name="" src="lstResponse/codigoPostal" srcformatvalue="" target="response"/>
+               <param datatype="string" format="None" formatvalue="" name="colonia" sms-name="" src="lstResponse/colonia" srcformatvalue="" target="response"/>
+               <param datatype="string" format="None" formatvalue="" name="email" sms-name="" src="lstResponse/email" srcformatvalue="" target="response"/>
+               <param datatype="string" format="None" formatvalue="" name="id" sms-name="" src="lstResponse/id" srcformatvalue="" target="response"/>
+               <param datatype="string" format="None" formatvalue="" name="latitud" sms-name="" src="lstResponse/latitud" srcformatvalue="" target="response"/>
+               <param datatype="string" format="None" formatvalue="" name="longitud" sms-name="" src="lstResponse/longitud" srcformatvalue="" target="response"/>
+               <param datatype="string" format="None" formatvalue="" name="nombre" sms-name="" src="lstResponse/nombre" srcformatvalue="" target="response"/>
+               <param datatype="string" format="None" formatvalue="" name="paginaWeb" sms-name="" src="lstResponse/paginaWeb" srcformatvalue="" target="response"/>
+               <param datatype="string" format="None" formatvalue="" name="plaza" sms-name="" src="lstResponse/plaza" srcformatvalue="" target="response"/>
+               <param datatype="string" format="None" formatvalue="" name="telefono" sms-name="" src="lstResponse/telefono" srcformatvalue="" target="response"/>
+               <param datatype="string" format="None" formatvalue="" name="taller" sms-name="" src="lstResponse/tallerServicio" srcformatvalue="" target="response"/>
+            </dataset>
+            <param datatype="number" format="None" formatvalue="" name="opstatus" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="errmsg" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="number" format="None" formatvalue="" name="httpStatusCode" sms-name="" src="" srcformatvalue="" target=""/>
+         </service-output>
+      </service>
+      <service cachable="false" cacheduration="" id="obtenerDistribuidorPorGps" passwordencrypted="true" smscode="" smsenabled="false" type="soapserviceConnector">
+         <service-config>
+            <config-param name="endpointUrl" value="http://www.qa.mbfs.com.mx/SiteClientes/mydfs/distribuidorGpsWS"/>
+            <config-param name="soapAction" value=""/>
+            <config-param name="userid" value=""/>
+            <config-param name="soap-version" value="1.1"/>
+            <config-param name="postprocessorname" value=""/>
+            <config-param name="preprocessorname" value=""/>
+            <config-param name="urlprovider" value=""/>
+            <config-param name="dataprovider" value=""/>
+            <config-param name="sockettimeout" value=""/>
+            <config-param name="includecookies" value=""/>
+            <config-param name="proxyname" value=""/>
+            <config-param name="proxyport" value=""/>
+            <config-param name="proxyusername" value=""/>
+            <config-param name="isembedxmlpresent" value="false"/>
+            <config-param name="ignorehttpproxy" value="false"/>
+            <config-param name="responseEncoding" value="UTF-8"/>
+            <config-param name="server.auth.mode" value="basic"/>
+            <config-param name="server.auth.host" value=""/>
+            <config-param name="server.auth.ntlm.domain" value=""/>
+         </service-config>
+         <service-input>
+            <template-param name="message" value="&lt;soapenv:Envelope xmlns:del=&quot;http://delegate.mydfs.ws.daimler.com/&quot; xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&lt;soapenv:Header/&gt;&lt;soapenv:Body&gt;&lt;del:obtenerDistribuidorPorGps&gt;&lt;!--Optional:--&gt;&lt;rubro&gt;$rubro&lt;/rubro&gt;&lt;latitud&gt;$latitud&lt;/latitud&gt;&lt;longitud&gt;$longitud&lt;/longitud&gt;&lt;radio&gt;$radio&lt;/radio&gt;&lt;limite&gt;$limite&lt;/limite&gt;&lt;/del:obtenerDistribuidorPorGps&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;">
+               <param datatype="string" encode="true" name="rubro" sms-name="" src="request" value=""/>
+               <param datatype="string" encode="true" name="latitud" sms-name="" src="request" value=""/>
+               <param datatype="string" encode="true" name="longitud" sms-name="" src="request" value=""/>
+               <param datatype="string" encode="true" name="radio" sms-name="" src="request" value=""/>
+               <param datatype="string" encode="true" name="limite" sms-name="" src="request" value=""/>
+            </template-param>
+         </service-input>
+         <service-output>
+            <param datatype="string" format="None" formatvalue="" name="codigo" sms-name="" src="//ns2:obtenerDistribuidorPorGpsResponse/MyDfsResponse/codigo" srcformatvalue="" target="response"/>
+            <dataset id="lstDistribuidores" src="//ns2:obtenerDistribuidorPorGpsResponse/MyDfsResponse/contenido">
+               <param datatype="string" format="None" formatvalue="" name="calle" sms-name="" src="lstResponse/calle" srcformatvalue="" target="response"/>
+               <param datatype="string" format="None" formatvalue="" name="codigoPostal" sms-name="" src="lstResponse/codigoPostal" srcformatvalue="" target="response"/>
+               <param datatype="string" format="None" formatvalue="" name="colonia" sms-name="" src="lstResponse/colonia" srcformatvalue="" target="response"/>
+               <param datatype="string" format="None" formatvalue="" name="email" sms-name="" src="lstResponse/email" srcformatvalue="" target="response"/>
+               <param datatype="string" format="None" formatvalue="" name="id" sms-name="" src="lstResponse/id" srcformatvalue="" target="response"/>
+               <param datatype="string" format="None" formatvalue="" name="latitud" sms-name="" src="lstResponse/latitud" srcformatvalue="" target="response"/>
+               <param datatype="string" format="None" formatvalue="" name="longitud" sms-name="" src="lstResponse/longitud" srcformatvalue="" target="response"/>
+               <param datatype="string" format="None" formatvalue="" name="nombre" sms-name="" src="lstResponse/nombre" srcformatvalue="" target="response"/>
+               <param datatype="string" format="None" formatvalue="" name="paginaWeb" sms-name="" src="lstResponse/paginaWeb" srcformatvalue="" target="response"/>
+               <param datatype="string" format="None" formatvalue="" name="plaza" sms-name="" src="lstResponse/plaza" srcformatvalue="" target="response"/>
+               <param datatype="string" format="None" formatvalue="" name="telefono" sms-name="" src="lstResponse/telefono" srcformatvalue="" target="response"/>
+               <param datatype="string" format="None" formatvalue="" name="taller" sms-name="" src="lstResponse/tallerServicio" srcformatvalue="" target="response"/>
+            </dataset>
+            <param datatype="number" format="None" formatvalue="" name="opstatus" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="errmsg" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="number" format="None" formatvalue="" name="httpStatusCode" sms-name="" src="" srcformatvalue="" target=""/>
+         </service-output>
+      </service>
+      <service cachable="false" cacheduration="" id="obtenerEmpresas" passwordencrypted="true" smscode="" smsenabled="false" type="soapserviceConnector">
+         <service-config>
+            <config-param name="endpointUrl" value="http://www.qa.mbfs.com.mx/SiteClientes/mydfs/loginWS"/>
+            <config-param name="soapAction" value=""/>
+            <config-param name="userid" value=""/>
+            <config-param name="soap-version" value="1.1"/>
+            <config-param name="postprocessorname" value=""/>
+            <config-param name="preprocessorname" value=""/>
+            <config-param name="urlprovider" value=""/>
+            <config-param name="dataprovider" value=""/>
+            <config-param name="sockettimeout" value=""/>
+            <config-param name="includecookies" value=""/>
+            <config-param name="proxyname" value=""/>
+            <config-param name="proxyport" value=""/>
+            <config-param name="proxyusername" value=""/>
+            <config-param name="isembedxmlpresent" value="false"/>
+            <config-param name="ignorehttpproxy" value="false"/>
+            <config-param name="responseEncoding" value="UTF-8"/>
+            <config-param name="server.auth.mode" value="basic"/>
+            <config-param name="server.auth.host" value=""/>
+            <config-param name="server.auth.ntlm.domain" value=""/>
+         </service-config>
+         <service-input>
+            <template-param name="message" value="&lt;soapenv:Envelope xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:del=&quot;http://delegate.mydfs.ws.daimler.com/&quot;&gt;&lt;soapenv:Header/&gt;&lt;soapenv:Body&gt;&lt;del:obtenerEmpresas/&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;"/>
+         </service-input>
+         <service-output>
+            <param datatype="number" format="None" formatvalue="" name="codigo" sms-name="" src="//ns2:obtenerEmpresasResponse/empresas/codigo" srcformatvalue="" target=""/>
+            <dataset id="lstEmpresas" src="//ns2:obtenerEmpresasResponse/empresas/contenido">
+               <param datatype="number" format="None" formatvalue="" name="idRemoto" sms-name="" src="lstResponse/idRemoto" srcformatvalue="" target=""/>
+               <param datatype="string" format="None" formatvalue="" name="nombre" sms-name="" src="lstResponse/nombre" srcformatvalue="" target=""/>
+            </dataset>
+            <param datatype="number" format="None" formatvalue="" name="opstatus" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="errmsg" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="number" format="None" formatvalue="" name="httpStatusCode" sms-name="" src="" srcformatvalue="" target=""/>
+         </service-output>
+      </service>
+      <service cachable="false" cacheduration="" id="obtenerEntidadesCirculacion" passwordencrypted="true" smscode="" smsenabled="false" type="soapserviceConnector">
+         <service-config>
+            <config-param name="endpointUrl" value="http://www.qa.mbfs.com.mx/cotizadorveRTI/myDFSWs"/>
+            <config-param name="soapAction" value=""/>
+            <config-param name="userid" value=""/>
+            <config-param name="soap-version" value="1.1"/>
+            <config-param name="postprocessorname" value=""/>
+            <config-param name="preprocessorname" value=""/>
+            <config-param name="urlprovider" value=""/>
+            <config-param name="dataprovider" value=""/>
+            <config-param name="sockettimeout" value=""/>
+            <config-param name="includecookies" value=""/>
+            <config-param name="proxyname" value=""/>
+            <config-param name="proxyport" value=""/>
+            <config-param name="proxyusername" value=""/>
+            <config-param name="isembedxmlpresent" value="false"/>
+            <config-param name="ignorehttpproxy" value="false"/>
+            <config-param name="responseEncoding" value="UTF-8"/>
+            <config-param name="server.auth.mode" value="basic"/>
+            <config-param name="server.auth.host" value=""/>
+            <config-param name="server.auth.ntlm.domain" value=""/>
+         </service-config>
+         <service-input>
+            <template-param name="message" value="&lt;soapenv:Envelope xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:del=&quot;http://delegate.cotizador.mydfs.ws.daimler.com/&quot;&gt;&lt;soapenv:Header/&gt;&lt;soapenv:Body&gt;&lt;del:obtenerEntidadesCirculacion/&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;"/>
+         </service-input>
+         <service-output>
+            <param datatype="string" format="None" formatvalue="" name="codigo" sms-name="" src="//ns2:obtenerEntidadesCirculacionResponse/MyDfsResponse/codigo" srcformatvalue="" target="response"/>
+            <dataset id="lstEstados" src="//ns2:obtenerEntidadesCirculacionResponse/MyDfsResponse/contenido">
+               <param datatype="string" format="None" formatvalue="" name="id" sms-name="" src="lstResponse/id" srcformatvalue="" target="response"/>
+               <param datatype="string" format="None" formatvalue="" name="clave" sms-name="" src="lstResponse/clave" srcformatvalue="" target="response"/>
+               <param datatype="string" format="None" formatvalue="" name="descripcion" sms-name="" src="lstResponse/descripcion" srcformatvalue="" target="response"/>
+            </dataset>
+            <param datatype="number" format="None" formatvalue="" name="opstatus" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="errmsg" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="number" format="None" formatvalue="" name="httpStatusCode" sms-name="" src="" srcformatvalue="" target=""/>
+         </service-output>
+      </service>
+      <service cachable="false" cacheduration="" id="obtenerEstados" passwordencrypted="true" smscode="" smsenabled="false" type="soapserviceConnector">
+         <service-config>
+            <config-param name="endpointUrl" value="http://www.qa.mbfs.com.mx/SiteClientes/mydfs/distribuidorGpsWS"/>
+            <config-param name="soapAction" value=""/>
+            <config-param name="userid" value=""/>
+            <config-param name="soap-version" value="1.1"/>
+            <config-param name="postprocessorname" value=""/>
+            <config-param name="preprocessorname" value=""/>
+            <config-param name="urlprovider" value=""/>
+            <config-param name="dataprovider" value=""/>
+            <config-param name="sockettimeout" value=""/>
+            <config-param name="includecookies" value=""/>
+            <config-param name="proxyname" value=""/>
+            <config-param name="proxyport" value=""/>
+            <config-param name="proxyusername" value=""/>
+            <config-param name="isembedxmlpresent" value="false"/>
+            <config-param name="ignorehttpproxy" value="false"/>
+            <config-param name="responseEncoding" value="UTF-8"/>
+            <config-param name="server.auth.mode" value="basic"/>
+            <config-param name="server.auth.host" value=""/>
+            <config-param name="server.auth.ntlm.domain" value=""/>
+         </service-config>
+         <service-input>
+            <template-param name="message" value="&lt;soapenv:Envelope xmlns:del=&quot;http://delegate.mydfs.ws.daimler.com/&quot; xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&lt;soapenv:Header/&gt;&lt;soapenv:Body&gt;&lt;del:obtenerEstados&gt;&lt;!--Optional:--&gt;&lt;rubro&gt;$rubro&lt;/rubro&gt;&lt;/del:obtenerEstados&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;">
+               <param datatype="string" encode="true" name="rubro" sms-name="" src="request" value=""/>
+            </template-param>
+         </service-input>
+         <service-output>
+            <param datatype="string" format="None" formatvalue="" name="codigo" sms-name="" src="//ns2:obtenerEstadosResponse/MyDfsResponse/codigo" srcformatvalue="" target="response"/>
+            <dataset id="lstEstados" src="//ns2:obtenerEstadosResponse/MyDfsResponse/contenido">
+               <param datatype="string" format="None" formatvalue="" name="id" sms-name="" src="lstResponse/id" srcformatvalue="" target="response"/>
+               <param datatype="string" format="None" formatvalue="" name="nombre" sms-name="" src="lstResponse/descripcion" srcformatvalue="" target="response"/>
+            </dataset>
+            <param datatype="number" format="None" formatvalue="" name="opstatus" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="errmsg" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="number" format="None" formatvalue="" name="httpStatusCode" sms-name="" src="" srcformatvalue="" target=""/>
+         </service-output>
+      </service>
+      <service cachable="false" cacheduration="" id="obtenerEstadosDeCuenta" passwordencrypted="true" smscode="" smsenabled="false" type="soapserviceConnector">
+         <service-config>
+            <config-param name="endpointUrl" value="http://www.qa.mbfs.com.mx/SiteClientes/mydfs/loginWS"/>
+            <config-param name="soapAction" value=""/>
+            <config-param name="userid" value=""/>
+            <config-param name="soap-version" value="1.1"/>
+            <config-param name="postprocessorname" value=""/>
+            <config-param name="preprocessorname" value=""/>
+            <config-param name="urlprovider" value=""/>
+            <config-param name="dataprovider" value=""/>
+            <config-param name="sockettimeout" value=""/>
+            <config-param name="includecookies" value=""/>
+            <config-param name="proxyname" value=""/>
+            <config-param name="proxyport" value=""/>
+            <config-param name="proxyusername" value=""/>
+            <config-param name="isembedxmlpresent" value="false"/>
+            <config-param name="ignorehttpproxy" value="false"/>
+            <config-param name="responseEncoding" value="UTF-8"/>
+            <config-param name="server.auth.mode" value="basic"/>
+            <config-param name="server.auth.host" value=""/>
+            <config-param name="server.auth.ntlm.domain" value=""/>
+         </service-config>
+         <service-input>
+            <template-param name="message" value="&lt;soapenv:Envelope xmlns:del=&quot;http://delegate.mydfs.ws.daimler.com/&quot; xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&lt;soapenv:Header/&gt;&lt;soapenv:Body&gt;&lt;del:obtenerEstadosDeCuenta&gt;&lt;!--Optional:--&gt;&lt;contrato&gt;$contrato&lt;/contrato&gt;&lt;!--Optional:--&gt;&lt;numeroCliente&gt;$numCliente&lt;/numeroCliente&gt;&lt;/del:obtenerEstadosDeCuenta&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;">
+               <param datatype="string" encode="true" name="contrato" sms-name="" src="" value=""/>
+               <param datatype="string" encode="true" name="numCliente" sms-name="" src="" value=""/>
+            </template-param>
+         </service-input>
+         <service-output>
+            <param datatype="number" format="None" formatvalue="" name="codigo" sms-name="" src="//ns2:obtenerEstadosDeCuentaResponse/respuesta/codigo" srcformatvalue="" target="response"/>
+            <param datatype="string" format="None" formatvalue="" name="numeroContrato" sms-name="" src="//ns2:obtenerEstadosDeCuentaResponse/respuesta/contenido/response/numeroContrato" srcformatvalue="" target="response"/>
+            <dataset id="periodos" src="//ns2:obtenerEstadosDeCuentaResponse/respuesta/contenido/response">
+               <param datatype="string" format="None" formatvalue="" name="descripcion" sms-name="" src="periodos/descripcion" srcformatvalue="" target="response"/>
+               <param datatype="string" format="None" formatvalue="" name="link" sms-name="" src="periodos/estadoCuenta/link" srcformatvalue="" target="response"/>
+               <param datatype="string" format="None" formatvalue="" name="nombreArchivo" sms-name="" src="periodos/estadoCuenta/nombre" srcformatvalue="" target="response"/>
+               <param datatype="string" format="None" formatvalue="" name="nombre" sms-name="" src="periodos/nombre" srcformatvalue="" target="response"/>
+               <param datatype="string" format="None" formatvalue="" name="numero" sms-name="" src="periodos/numero" srcformatvalue="" target=""/>
+            </dataset>
+            <param datatype="number" format="None" formatvalue="" name="opstatus" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="errmsg" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="number" format="None" formatvalue="" name="httpStatusCode" sms-name="" src="" srcformatvalue="" target=""/>
+         </service-output>
+      </service>
+      <service cachable="false" cacheduration="" id="obtenerFacturas" passwordencrypted="true" smscode="" smsenabled="false" type="soapserviceConnector">
+         <service-config>
+            <config-param name="endpointUrl" value="http://www.qa.mbfs.com.mx/SiteClientes/mydfs/loginWS"/>
+            <config-param name="soapAction" value=""/>
+            <config-param name="userid" value=""/>
+            <config-param name="soap-version" value="1.1"/>
+            <config-param name="postprocessorname" value=""/>
+            <config-param name="preprocessorname" value=""/>
+            <config-param name="urlprovider" value=""/>
+            <config-param name="dataprovider" value=""/>
+            <config-param name="sockettimeout" value=""/>
+            <config-param name="includecookies" value=""/>
+            <config-param name="proxyname" value=""/>
+            <config-param name="proxyport" value=""/>
+            <config-param name="proxyusername" value=""/>
+            <config-param name="isembedxmlpresent" value="false"/>
+            <config-param name="ignorehttpproxy" value="false"/>
+            <config-param name="responseEncoding" value="UTF-8"/>
+            <config-param name="server.auth.mode" value="basic"/>
+            <config-param name="server.auth.host" value=""/>
+            <config-param name="server.auth.ntlm.domain" value=""/>
+         </service-config>
+         <service-input>
+            <template-param name="message" value="&lt;soapenv:Envelope xmlns:del=&quot;http://delegate.mydfs.ws.daimler.com/&quot; xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&lt;soapenv:Header/&gt;&lt;soapenv:Body&gt;&lt;del:obtenerFacturas&gt;&lt;!--Optional:--&gt;&lt;contrato&gt;$contrato&lt;/contrato&gt;&lt;!--Optional:--&gt;&lt;empresa&gt;$empresa&lt;/empresa&gt;&lt;/del:obtenerFacturas&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;">
+               <param datatype="string" encode="true" name="contrato" sms-name="" src="" value=""/>
+               <param datatype="string" encode="true" name="empresa" sms-name="" src="" value=""/>
+            </template-param>
+         </service-input>
+         <service-output>
+            <param datatype="number" format="None" formatvalue="" name="codigo" sms-name="" src="//ns2:obtenerFacturasResponse/contrato/codigo" srcformatvalue="" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="numeroContrato" sms-name="" src="//ns2:obtenerFacturasResponse/contrato/contenido/response/numeroContrato" srcformatvalue="" target=""/>
+            <dataset id="periodos" src="//ns2:obtenerFacturasResponse/contrato/contenido/response">
+               <param datatype="string" format="None" formatvalue="" name="descripcion" sms-name="" src="periodos/descripcion" srcformatvalue="" target=""/>
+               <dataset id="facturas" src="periodos">
+                  <param datatype="string" format="None" formatvalue="" name="folio" sms-name="" src="facturas/folio" srcformatvalue="" target=""/>
+                  <param datatype="string" format="None" formatvalue="" name="linkPDF" sms-name="" src="facturas/linkPDF" srcformatvalue="" target=""/>
+                  <param datatype="string" format="None" formatvalue="" name="linkXML" sms-name="" src="facturas/linkXML" srcformatvalue="" target=""/>
+                  <param datatype="string" format="None" formatvalue="" name="nombre" sms-name="" src="facturas/nombre" srcformatvalue="" target=""/>
+               </dataset>
+               <param datatype="string" format="None" formatvalue="" name="nombre" sms-name="" src="periodos/nombre" srcformatvalue="" target=""/>
+            </dataset>
+            <param datatype="number" format="None" formatvalue="" name="opstatus" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="errmsg" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="number" format="None" formatvalue="" name="httpStatusCode" sms-name="" src="" srcformatvalue="" target=""/>
+         </service-output>
+      </service>
+      <service cachable="false" cacheduration="" id="obtenerFichaTecnica" passwordencrypted="true" smscode="" smsenabled="false" type="soapserviceConnector">
+         <service-config>
+            <config-param name="endpointUrl" value="http://www.qa.mbfs.com.mx/cotizadorveRTI/myDFSWs"/>
+            <config-param name="soapAction" value=""/>
+            <config-param name="userid" value=""/>
+            <config-param name="soap-version" value="1.1"/>
+            <config-param name="postprocessorname" value=""/>
+            <config-param name="preprocessorname" value=""/>
+            <config-param name="urlprovider" value=""/>
+            <config-param name="dataprovider" value=""/>
+            <config-param name="sockettimeout" value=""/>
+            <config-param name="includecookies" value=""/>
+            <config-param name="proxyname" value=""/>
+            <config-param name="proxyport" value=""/>
+            <config-param name="proxyusername" value=""/>
+            <config-param name="isembedxmlpresent" value="false"/>
+            <config-param name="ignorehttpproxy" value="false"/>
+            <config-param name="responseEncoding" value="UTF-8"/>
+            <config-param name="server.auth.mode" value="basic"/>
+            <config-param name="server.auth.host" value=""/>
+            <config-param name="server.auth.ntlm.domain" value=""/>
+         </service-config>
+         <service-input>
+            <template-param name="message" value="&lt;soapenv:Envelope xmlns:del=&quot;http://delegate.cotizador.mydfs.ws.daimler.com/&quot; xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&lt;soapenv:Header/&gt;&lt;soapenv:Body&gt;&lt;del:obtenerFichaTecnica&gt;&lt;!--Optional:--&gt;&lt;idTipo&gt;$idTipo&lt;/idTipo&gt;&lt;/del:obtenerFichaTecnica&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;">
+               <param datatype="string" encode="true" name="idTipo" sms-name="" src="request" value=""/>
+            </template-param>
+         </service-input>
+         <service-output>
+            <param datatype="number" format="None" formatvalue="" name="codigo" sms-name="" src="//ns2:obtenerFichaTecnicaResponse/MyDfsResponse/codigo" srcformatvalue="" target="response"/>
+            <param datatype="string" format="None" formatvalue="" name="cilindrada" sms-name="" src="//ns2:obtenerFichaTecnicaResponse/MyDfsResponse/contenido/response/cilindrada" srcformatvalue="" target="response"/>
+            <param datatype="string" format="None" formatvalue="" name="cilindrosDisposicion" sms-name="" src="//ns2:obtenerFichaTecnicaResponse/MyDfsResponse/contenido/response/cilindrosDisposicion" srcformatvalue="" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="clase" sms-name="" src="//ns2:obtenerFichaTecnicaResponse/MyDfsResponse/contenido/response/clase" srcformatvalue="" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="combustible" sms-name="" src="//ns2:obtenerFichaTecnicaResponse/MyDfsResponse/contenido/response/combustible" srcformatvalue="" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="consumoCombinado" sms-name="" src="//ns2:obtenerFichaTecnicaResponse/MyDfsResponse/contenido/response/consumoCombinado" srcformatvalue="" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="marca" sms-name="" src="//ns2:obtenerFichaTecnicaResponse/MyDfsResponse/contenido/response/marca" srcformatvalue="" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="motorTraccion" sms-name="" src="//ns2:obtenerFichaTecnicaResponse/MyDfsResponse/contenido/response/motorTraccion" srcformatvalue="" target=""/>
+            <param datatype="number" format="None" formatvalue="" name="potencia" sms-name="" src="//ns2:obtenerFichaTecnicaResponse/MyDfsResponse/contenido/response/potencia" srcformatvalue="" target=""/>
+            <param datatype="number" format="None" formatvalue="" name="torque" sms-name="" src="//ns2:obtenerFichaTecnicaResponse/MyDfsResponse/contenido/response/torque" srcformatvalue="" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="transmision" sms-name="" src="//ns2:obtenerFichaTecnicaResponse/MyDfsResponse/contenido/response/transmision" srcformatvalue="" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="unidad" sms-name="" src="//ns2:obtenerFichaTecnicaResponse/MyDfsResponse/contenido/response/unidad" srcformatvalue="" target=""/>
+            <param datatype="number" format="None" formatvalue="" name="opstatus" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="errmsg" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="number" format="None" formatvalue="" name="httpStatusCode" sms-name="" src="" srcformatvalue="" target=""/>
+         </service-output>
+      </service>
+      <service cachable="false" cacheduration="" id="obtenerInformacionContacto" passwordencrypted="true" smscode="" smsenabled="false" type="soapserviceConnector">
+         <service-config>
+            <config-param name="endpointUrl" value="http://www.qa.mbfs.com.mx:80/SiteClientes/mydfs/descargaWS"/>
+            <config-param name="soapAction" value=""/>
+            <config-param name="userid" value=""/>
+            <config-param name="soap-version" value="1.1"/>
+            <config-param name="postprocessorname" value=""/>
+            <config-param name="preprocessorname" value=""/>
+            <config-param name="urlprovider" value=""/>
+            <config-param name="dataprovider" value=""/>
+            <config-param name="sockettimeout" value=""/>
+            <config-param name="includecookies" value=""/>
+            <config-param name="proxyname" value=""/>
+            <config-param name="proxyport" value=""/>
+            <config-param name="proxyusername" value=""/>
+            <config-param name="isembedxmlpresent" value="false"/>
+            <config-param name="ignorehttpproxy" value="false"/>
+            <config-param name="responseEncoding" value="UTF-8"/>
+            <config-param name="server.auth.mode" value="basic"/>
+            <config-param name="server.auth.host" value=""/>
+            <config-param name="server.auth.ntlm.domain" value=""/>
+         </service-config>
+         <service-input>
+            <template-param name="message" value="&lt;soapenv:Envelope xmlns:del=&quot;http://delegate.mydfs.ws.daimler.com/&quot; xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&lt;soapenv:Header/&gt;&lt;soapenv:Body&gt;&lt;del:obtenerInformacionContacto&gt;&lt;!--Optional:--&gt;&lt;sitio&gt;$idSitio&lt;/sitio&gt;&lt;/del:obtenerInformacionContacto&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;">
+               <param datatype="string" encode="true" name="idSitio" sms-name="" src="request" value=""/>
+            </template-param>
+         </service-input>
+         <service-output>
+            <param datatype="string" format="None" formatvalue="" name="codigo" sms-name="" src="//ns2:obtenerInformacionContactoResponse/informacion/codigo" srcformatvalue="" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="contenido" sms-name="" src="//ns2:obtenerInformacionContactoResponse/informacion/contenido/response" srcformatvalue="" target=""/>
+            <param datatype="number" format="None" formatvalue="" name="opstatus" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="errmsg" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="number" format="None" formatvalue="" name="httpStatusCode" sms-name="" src="" srcformatvalue="" target=""/>
+         </service-output>
+      </service>
+      <service cachable="false" cacheduration="" id="obtenerModelosCotizador" passwordencrypted="true" smscode="" smsenabled="false" type="soapserviceConnector">
+         <service-config>
+            <config-param name="endpointUrl" value="http://www.qa.mbfs.com.mx/cotizadorveRTI/myDFSWs"/>
+            <config-param name="soapAction" value=""/>
+            <config-param name="userid" value=""/>
+            <config-param name="soap-version" value="1.1"/>
+            <config-param name="postprocessorname" value=""/>
+            <config-param name="preprocessorname" value=""/>
+            <config-param name="urlprovider" value=""/>
+            <config-param name="dataprovider" value=""/>
+            <config-param name="sockettimeout" value=""/>
+            <config-param name="includecookies" value=""/>
+            <config-param name="proxyname" value=""/>
+            <config-param name="proxyport" value=""/>
+            <config-param name="proxyusername" value=""/>
+            <config-param name="isembedxmlpresent" value="false"/>
+            <config-param name="ignorehttpproxy" value="false"/>
+            <config-param name="responseEncoding" value="UTF-8"/>
+            <config-param name="server.auth.mode" value="basic"/>
+            <config-param name="server.auth.host" value=""/>
+            <config-param name="server.auth.ntlm.domain" value=""/>
+         </service-config>
+         <service-input>
+            <template-param name="message" value="&lt;soapenv:Envelope xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:del=&quot;http://delegate.cotizador.mydfs.ws.daimler.com/&quot;&gt;&lt;soapenv:Header/&gt;&lt;soapenv:Body&gt;&lt;del:obtenerModelosCotizador/&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;"/>
+         </service-input>
+         <service-output>
+            <param datatype="string" format="None" formatvalue="" name="codigo" sms-name="" src="//ns2:obtenerModelosCotizadorResponse/MyDfsResponse/codigo" srcformatvalue="" target="response"/>
+            <dataset id="lstModelos" src="//ns2:obtenerModelosCotizadorResponse/MyDfsResponse/contenido">
+               <param datatype="string" format="None" formatvalue="" name="id" sms-name="" src="lstResponse/id" srcformatvalue="" target="response"/>
+               <param datatype="string" format="None" formatvalue="" name="descripcion" sms-name="" src="lstResponse/descripcion" srcformatvalue="" target="response"/>
+               <dataset id="lstTipos" src="lstResponse/lstTipo">
+                  <param datatype="string" format="None" formatvalue="" name="id" sms-name="" src="lstTipoBO/id" srcformatvalue="" target="response"/>
+                  <param datatype="string" format="None" formatvalue="" name="descripcion" sms-name="" src="lstTipoBO/descripcion" srcformatvalue="" target="response"/>
+               </dataset>
+            </dataset>
+            <param datatype="number" format="None" formatvalue="" name="opstatus" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="errmsg" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="number" format="None" formatvalue="" name="httpStatusCode" sms-name="" src="" srcformatvalue="" target=""/>
+         </service-output>
+      </service>
+      <service cachable="false" cacheduration="" id="obtenerPlanesCotizador" passwordencrypted="true" smscode="" smsenabled="false" type="soapserviceConnector">
+         <service-config>
+            <config-param name="endpointUrl" value="http://www.qa.mbfs.com.mx/cotizadorveRTI/myDFSWs"/>
+            <config-param name="soapAction" value=""/>
+            <config-param name="userid" value=""/>
+            <config-param name="soap-version" value="1.1"/>
+            <config-param name="postprocessorname" value=""/>
+            <config-param name="preprocessorname" value=""/>
+            <config-param name="urlprovider" value=""/>
+            <config-param name="dataprovider" value=""/>
+            <config-param name="sockettimeout" value=""/>
+            <config-param name="includecookies" value=""/>
+            <config-param name="proxyname" value=""/>
+            <config-param name="proxyport" value=""/>
+            <config-param name="proxyusername" value=""/>
+            <config-param name="isembedxmlpresent" value="false"/>
+            <config-param name="ignorehttpproxy" value="false"/>
+            <config-param name="responseEncoding" value="UTF-8"/>
+            <config-param name="server.auth.mode" value="basic"/>
+            <config-param name="server.auth.host" value=""/>
+            <config-param name="server.auth.ntlm.domain" value=""/>
+         </service-config>
+         <service-input>
+            <template-param name="message" value="&lt;soapenv:Envelope xmlns:del=&quot;http://delegate.cotizador.mydfs.ws.daimler.com/&quot; xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&lt;soapenv:Header/&gt;&lt;soapenv:Body&gt;&lt;del:obtenerPlanesCotizador&gt;&lt;!--Optional:--&gt;&lt;idTipo&gt;$idTipo&lt;/idTipo&gt;&lt;!--Optional:--&gt;&lt;tipoPersona&gt;$tipoPersona&lt;/tipoPersona&gt;&lt;!--Optional:--&gt;&lt;tipoFinanciamiento&gt;$tipoFinanciamiento&lt;/tipoFinanciamiento&gt;&lt;/del:obtenerPlanesCotizador&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;">
+               <param datatype="string" encode="true" name="idTipo" sms-name="" src="request" value=""/>
+               <param datatype="string" encode="true" name="tipoPersona" sms-name="" src="request" value=""/>
+               <param datatype="string" encode="true" name="tipoFinanciamiento" sms-name="" src="request" value=""/>
+            </template-param>
+         </service-input>
+         <service-output>
+            <param datatype="string" format="None" formatvalue="" name="codigo" sms-name="" src="//ns2:obtenerPlanesCotizadorResponse/MyDfsResponse/codigo" srcformatvalue="" target="response"/>
+            <dataset id="lstPlanes" src="//ns2:obtenerPlanesCotizadorResponse/MyDfsResponse/contenido">
+               <param datatype="string" format="None" formatvalue="" name="id" sms-name="" src="lstResponse/id" srcformatvalue="" target="response"/>
+               <param datatype="string" format="None" formatvalue="" name="descripcion" sms-name="" src="lstResponse/descripcion" srcformatvalue="" target="response"/>
+               <param datatype="boolean" format="None" formatvalue="" name="esPlanAlternativo" sms-name="" src="lstResponse/esPlanAlternativo" srcformatvalue="" target="response"/>
+            </dataset>
+            <param datatype="number" format="None" formatvalue="" name="opstatus" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="errmsg" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="number" format="None" formatvalue="" name="httpStatusCode" sms-name="" src="" srcformatvalue="" target=""/>
+         </service-output>
+      </service>
+      <service cachable="false" cacheduration="" id="obtenerPlanesCotizadorPorDistribuidor" passwordencrypted="true" smscode="" smsenabled="false" type="soapserviceConnector">
+         <service-config>
+            <config-param name="endpointUrl" value="http://www.qa.mbfs.com.mx/cotizadorveRTI/myDFSWs"/>
+            <config-param name="soapAction" value=""/>
+            <config-param name="userid" value=""/>
+            <config-param name="soap-version" value="1.1"/>
+            <config-param name="postprocessorname" value=""/>
+            <config-param name="preprocessorname" value=""/>
+            <config-param name="urlprovider" value=""/>
+            <config-param name="dataprovider" value=""/>
+            <config-param name="sockettimeout" value=""/>
+            <config-param name="includecookies" value=""/>
+            <config-param name="proxyname" value=""/>
+            <config-param name="proxyport" value=""/>
+            <config-param name="proxyusername" value=""/>
+            <config-param name="isembedxmlpresent" value="false"/>
+            <config-param name="ignorehttpproxy" value="false"/>
+            <config-param name="responseEncoding" value="UTF-8"/>
+            <config-param name="server.auth.mode" value="basic"/>
+            <config-param name="server.auth.host" value=""/>
+            <config-param name="server.auth.ntlm.domain" value=""/>
+         </service-config>
+         <service-input>
+            <template-param name="message" value="&lt;soapenv:Envelope xmlns:del=&quot;http://delegate.cotizador.mydfs.ws.daimler.com/&quot; xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&lt;soapenv:Header/&gt;&lt;soapenv:Body&gt;&lt;del:obtenerPlanesCotizadorPorDistribuidor&gt;&lt;!--Optional:--&gt;&lt;idTipo&gt;$idTipo&lt;/idTipo&gt;&lt;!--Optional:--&gt;&lt;tipoPersona&gt;$tipoPersona&lt;/tipoPersona&gt;&lt;!--Optional:--&gt;&lt;tipoFinanciamiento&gt;$tipoFinanciamiento&lt;/tipoFinanciamiento&gt;&lt;!--Optional:--&gt;&lt;idDistribuidor&gt;$idDistribuidor&lt;/idDistribuidor&gt;&lt;/del:obtenerPlanesCotizadorPorDistribuidor&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;">
+               <param datatype="string" encode="true" name="idTipo" sms-name="" src="request" value=""/>
+               <param datatype="string" encode="true" name="tipoPersona" sms-name="" src="request" value=""/>
+               <param datatype="string" encode="true" name="tipoFinanciamiento" sms-name="" src="request" value=""/>
+               <param datatype="string" encode="true" name="idDistribuidor" sms-name="" src="request" value=""/>
+            </template-param>
+         </service-input>
+         <service-output>
+            <param datatype="string" format="None" formatvalue="" name="codigo" sms-name="" src="//ns2:obtenerPlanesCotizadorPorDistribuidorResponse/MyDfsResponse/codigo" srcformatvalue="" target="response"/>
+            <dataset id="lstPlanes" src="//ns2:obtenerPlanesCotizadorPorDistribuidorResponse/MyDfsResponse/contenido">
+               <param datatype="string" format="None" formatvalue="" name="id" sms-name="" src="lstResponse/id" srcformatvalue="" target="response"/>
+               <param datatype="string" format="None" formatvalue="" name="descripcion" sms-name="" src="lstResponse/descripcion" srcformatvalue="" target="response"/>
+            </dataset>
+            <param datatype="number" format="None" formatvalue="" name="opstatus" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="errmsg" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="number" format="None" formatvalue="" name="httpStatusCode" sms-name="" src="" srcformatvalue="" target=""/>
+         </service-output>
+      </service>
+      <service cachable="false" cacheduration="" id="obtenerPlazos" passwordencrypted="true" smscode="" smsenabled="false" type="soapserviceConnector">
+         <service-config>
+            <config-param name="endpointUrl" value="http://www.qa.mbfs.com.mx/cotizadorveRTI/myDFSWs"/>
+            <config-param name="soapAction" value=""/>
+            <config-param name="userid" value=""/>
+            <config-param name="soap-version" value="1.1"/>
+            <config-param name="postprocessorname" value=""/>
+            <config-param name="preprocessorname" value=""/>
+            <config-param name="urlprovider" value=""/>
+            <config-param name="dataprovider" value=""/>
+            <config-param name="sockettimeout" value=""/>
+            <config-param name="includecookies" value=""/>
+            <config-param name="proxyname" value=""/>
+            <config-param name="proxyport" value=""/>
+            <config-param name="proxyusername" value=""/>
+            <config-param name="isembedxmlpresent" value="false"/>
+            <config-param name="ignorehttpproxy" value="false"/>
+            <config-param name="responseEncoding" value="UTF-8"/>
+            <config-param name="server.auth.mode" value="basic"/>
+            <config-param name="server.auth.host" value=""/>
+            <config-param name="server.auth.ntlm.domain" value=""/>
+         </service-config>
+         <service-input>
+            <template-param name="message" value="&lt;soapenv:Envelope xmlns:del=&quot;http://delegate.cotizador.mydfs.ws.daimler.com/&quot; xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&lt;soapenv:Header/&gt;&lt;soapenv:Body&gt;&lt;del:obtenerPlazos&gt;&lt;!--Optional:--&gt;&lt;idPlan&gt;$idPlan&lt;/idPlan&gt;&lt;!--Optional:--&gt;&lt;tipoPlazo&gt;$tipoPlazo&lt;/tipoPlazo&gt;&lt;/del:obtenerPlazos&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;">
+               <param datatype="string" encode="true" name="idPlan" sms-name="" src="request" value=""/>
+               <param datatype="string" encode="true" name="tipoPlazo" sms-name="" src="request" value=""/>
+            </template-param>
+         </service-input>
+         <service-output>
+            <param datatype="string" format="None" formatvalue="" name="codigo" sms-name="" src="//ns2:obtenerPlazosResponse/MyDfsResponse/codigo" srcformatvalue="" target="response"/>
+            <dataset id="lstPlazos" src="//ns2:obtenerPlazosResponse/MyDfsResponse/contenido">
+               <param datatype="number" format="Number" formatvalue="" name="mesInicial" sms-name="" src="lstResponse/mesInicial/valor" srcformatvalue="" target="response"/>
+               <param datatype="number" format="None" formatvalue="" name="mesFinal" sms-name="" src="lstResponse/mesFinal/valor" srcformatvalue="" target="response"/>
+               <param datatype="string" format="None" formatvalue="" name="engancheMinimo" sms-name="" src="lstResponse/sengancheMin" srcformatvalue="" target="response"/>
+               <param datatype="string" format="None" formatvalue="" name="engancheMaximo" sms-name="" src="lstResponse/sengancheMax" srcformatvalue="" target="response"/>
+            </dataset>
+            <param datatype="number" format="None" formatvalue="" name="opstatus" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="errmsg" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="number" format="None" formatvalue="" name="httpStatusCode" sms-name="" src="" srcformatvalue="" target=""/>
+         </service-output>
+      </service>
+      <service cachable="false" cacheduration="" id="obtenerPrecioUnidad" passwordencrypted="true" smscode="" smsenabled="false" type="soapserviceConnector">
+         <service-config>
+            <config-param name="endpointUrl" value="http://www.qa.mbfs.com.mx/cotizadorveRTI/myDFSWs"/>
+            <config-param name="soapAction" value=""/>
+            <config-param name="userid" value=""/>
+            <config-param name="soap-version" value="1.1"/>
+            <config-param name="postprocessorname" value=""/>
+            <config-param name="preprocessorname" value=""/>
+            <config-param name="urlprovider" value=""/>
+            <config-param name="dataprovider" value=""/>
+            <config-param name="sockettimeout" value=""/>
+            <config-param name="includecookies" value=""/>
+            <config-param name="proxyname" value=""/>
+            <config-param name="proxyport" value=""/>
+            <config-param name="proxyusername" value=""/>
+            <config-param name="isembedxmlpresent" value="false"/>
+            <config-param name="ignorehttpproxy" value="false"/>
+            <config-param name="responseEncoding" value="UTF-8"/>
+            <config-param name="server.auth.mode" value="basic"/>
+            <config-param name="server.auth.host" value=""/>
+            <config-param name="server.auth.ntlm.domain" value=""/>
+         </service-config>
+         <service-input>
+            <template-param name="message" value="&lt;soapenv:Envelope xmlns:del=&quot;http://delegate.cotizador.mydfs.ws.daimler.com/&quot; xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&lt;soapenv:Header/&gt;&lt;soapenv:Body&gt;&lt;del:obtenerPrecioUnidad&gt;&lt;!--Optional:--&gt;&lt;idTipo&gt;$idTipo&lt;/idTipo&gt;&lt;/del:obtenerPrecioUnidad&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;">
+               <param datatype="string" encode="true" name="idTipo" sms-name="" src="request" value=""/>
+            </template-param>
+         </service-input>
+         <service-output>
+            <param datatype="string" format="None" formatvalue="" name="codigo" sms-name="" src="//ns2:obtenerPrecioUnidadResponse/MyDfsResponse/codigo" srcformatvalue="" target="response"/>
+            <param datatype="number" format="None" formatvalue="" name="precio" sms-name="" src="//ns2:obtenerPrecioUnidadResponse/MyDfsResponse/contenido/response/precio" srcformatvalue="" target="response"/>
+            <param datatype="number" format="None" formatvalue="" name="precioMaximo" sms-name="" src="//ns2:obtenerPrecioUnidadResponse/MyDfsResponse/contenido/response/precioMaximo" srcformatvalue="" target="response"/>
+            <param datatype="number" format="None" formatvalue="" name="precionMinimo" sms-name="" src="//ns2:obtenerPrecioUnidadResponse/MyDfsResponse/contenido/response/precioMinimo" srcformatvalue="" target="response"/>
+            <param datatype="string" format="None" formatvalue="" name="sPrecio" sms-name="" src="//ns2:obtenerPrecioUnidadResponse/MyDfsResponse/contenido/response/sprecio" srcformatvalue="" target="response"/>
+            <param datatype="string" format="None" formatvalue="" name="sPrecioMinimo" sms-name="" src="//ns2:obtenerPrecioUnidadResponse/MyDfsResponse/contenido/response/sprecioMinimo" srcformatvalue="" target="response"/>
+            <param datatype="string" format="None" formatvalue="" name="sPrecioMaximo" sms-name="" src="//ns2:obtenerPrecioUnidadResponse/MyDfsResponse/contenido/response/sprecioMaximo" srcformatvalue="" target="response"/>
+            <param datatype="number" format="None" formatvalue="" name="opstatus" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="errmsg" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="number" format="None" formatvalue="" name="httpStatusCode" sms-name="" src="" srcformatvalue="" target=""/>
+         </service-output>
+      </service>
+      <service cachable="false" cacheduration="" id="obtenerSaldosMovimientosDetalle" passwordencrypted="true" smscode="" smsenabled="false" type="soapserviceConnector">
+         <service-config>
+            <config-param name="endpointUrl" value="http://www.qa.mbfs.com.mx/SiteClientes/mydfs/obtenerSaldosMovimientosWS"/>
+            <config-param name="soapAction" value=""/>
+            <config-param name="userid" value=""/>
+            <config-param name="soap-version" value="1.1"/>
+            <config-param name="postprocessorname" value=""/>
+            <config-param name="preprocessorname" value=""/>
+            <config-param name="urlprovider" value=""/>
+            <config-param name="dataprovider" value=""/>
+            <config-param name="sockettimeout" value=""/>
+            <config-param name="includecookies" value=""/>
+            <config-param name="proxyname" value=""/>
+            <config-param name="proxyport" value=""/>
+            <config-param name="proxyusername" value=""/>
+            <config-param name="isembedxmlpresent" value="false"/>
+            <config-param name="ignorehttpproxy" value="false"/>
+            <config-param name="responseEncoding" value="UTF-8"/>
+            <config-param name="server.auth.mode" value="basic"/>
+            <config-param name="server.auth.host" value=""/>
+            <config-param name="server.auth.ntlm.domain" value=""/>
+         </service-config>
+         <service-input>
+            <template-param name="message" value="&lt;soapenv:Envelope xmlns:del=&quot;http://delegate.mydfs.ws.daimler.com/&quot; xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&lt;soapenv:Header/&gt;&lt;soapenv:Body&gt;&lt;del:obtenerSaldosMovimientosDetalle&gt;&lt;persona&gt;$persona&lt;/persona&gt;&lt;!--Optional:--&gt;&lt;fechaInicio&gt;$fechaInicio&lt;/fechaInicio&gt;&lt;!--Optional:--&gt;&lt;fechaFin&gt;$fechaFin&lt;/fechaFin&gt;&lt;!--Optional:--&gt;&lt;operacionMaestra&gt;$operacionMaestra&lt;/operacionMaestra&gt;&lt;renta&gt;$renta&lt;/renta&gt;&lt;!--Optional:--&gt;&lt;fechaDetalle&gt;$fechaDetalle&lt;/fechaDetalle&gt;&lt;!--Optional:--&gt;&lt;cOa&gt;$coa&lt;/cOa&gt;&lt;/del:obtenerSaldosMovimientosDetalle&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;">
+               <param datatype="number" encode="true" name="persona" sms-name="" src="request" value=""/>
+               <param datatype="string" encode="true" name="fechaInicio" sms-name="" src="request" value=""/>
+               <param datatype="string" encode="true" name="fechaFin" sms-name="" src="request" value=""/>
+               <param datatype="string" encode="true" name="operacionMaestra" sms-name="" src="request" value=""/>
+               <param datatype="number" encode="true" name="renta" sms-name="" src="request" value=""/>
+               <param datatype="string" encode="true" name="fechaDetalle" sms-name="" src="request" value=""/>
+               <param datatype="string" encode="true" name="coa" sms-name="" src="request" value=""/>
+            </template-param>
+         </service-input>
+         <service-output>
+            <param datatype="string" format="None" formatvalue="" name="codigo" sms-name="" src="//ns2:obtenerSaldosMovimientosDetalleResponse/MyDfsResponse/codigo" srcformatvalue="" target="response"/>
+            <dataset id="lstDetalle" src="//ns2:obtenerSaldosMovimientosDetalleResponse/MyDfsResponse/contenido">
+               <param datatype="string" format="None" formatvalue="" name="cargo" sms-name="" src="lstResponse/cargo" srcformatvalue="" target="response"/>
+               <param datatype="string" format="None" formatvalue="" name="descripcion" sms-name="" src="lstResponse/descripcion" srcformatvalue="" target="response"/>
+               <param datatype="string" format="None" formatvalue="" name="fecha" sms-name="" src="lstResponse/fecha" srcformatvalue="" target="response"/>
+               <param datatype="string" format="None" formatvalue="" name="interes" sms-name="" src="lstResponse/interes" srcformatvalue="" target="response"/>
+               <param datatype="string" format="None" formatvalue="" name="interesIva" sms-name="" src="lstResponse/interesIva" srcformatvalue="" target="response"/>
+               <param datatype="string" format="None" formatvalue="" name="iva" sms-name="" src="lstResponse/iva" srcformatvalue="" target="response"/>
+               <param datatype="string" format="None" formatvalue="" name="monto" sms-name="" src="lstResponse/monto" srcformatvalue="" target="response"/>
+               <param datatype="string" format="None" formatvalue="" name="coa" sms-name="" src="lstResponse/cOa" srcformatvalue="" target="response"/>
+            </dataset>
+            <param datatype="number" format="None" formatvalue="" name="opstatus" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="errmsg" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="number" format="None" formatvalue="" name="httpStatusCode" sms-name="" src="" srcformatvalue="" target=""/>
+         </service-output>
+      </service>
+      <service cachable="false" cacheduration="" id="obtenerSaldosMovimientosDetalleAbono" passwordencrypted="true" smscode="" smsenabled="false" type="soapserviceConnector">
+         <service-config>
+            <config-param name="endpointUrl" value="http://www.qa.mbfs.com.mx/SiteClientes/mydfs/obtenerSaldosMovimientosWS"/>
+            <config-param name="soapAction" value=""/>
+            <config-param name="userid" value=""/>
+            <config-param name="soap-version" value="1.1"/>
+            <config-param name="postprocessorname" value=""/>
+            <config-param name="preprocessorname" value=""/>
+            <config-param name="urlprovider" value=""/>
+            <config-param name="dataprovider" value=""/>
+            <config-param name="sockettimeout" value=""/>
+            <config-param name="includecookies" value=""/>
+            <config-param name="proxyname" value=""/>
+            <config-param name="proxyport" value=""/>
+            <config-param name="proxyusername" value=""/>
+            <config-param name="isembedxmlpresent" value="false"/>
+            <config-param name="ignorehttpproxy" value="false"/>
+            <config-param name="responseEncoding" value="UTF-8"/>
+            <config-param name="server.auth.mode" value="basic"/>
+            <config-param name="server.auth.host" value=""/>
+            <config-param name="server.auth.ntlm.domain" value=""/>
+         </service-config>
+         <service-input>
+            <template-param name="message" value="&lt;soapenv:Envelope xmlns:del=&quot;http://delegate.mydfs.ws.daimler.com/&quot; xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&lt;soapenv:Header/&gt;&lt;soapenv:Body&gt;&lt;del:obtenerSaldosMovimientosDetalleAbono&gt;&lt;idPago&gt;$idPago&lt;/idPago&gt;&lt;/del:obtenerSaldosMovimientosDetalleAbono&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;">
+               <param datatype="number" encode="true" name="idPago" sms-name="" src="request" value=""/>
+            </template-param>
+         </service-input>
+         <service-output>
+            <param datatype="string" format="None" formatvalue="" name="codigo" sms-name="" src="//ns2:obtenerSaldosMovimientosDetalleAbonoResponse/MyDfsResponse/codigo" srcformatvalue="" target="response"/>
+            <dataset id="lstDetalle" src="//ns2:obtenerSaldosMovimientosDetalleAbonoResponse/MyDfsResponse/contenido">
+               <param datatype="string" format="None" formatvalue="" name="descripcion" sms-name="" src="lstResponse/descripcion" srcformatvalue="" target="response"/>
+               <param datatype="string" format="None" formatvalue="" name="montoIva" sms-name="" src="lstResponse/montoIva" srcformatvalue="" target="response"/>
+               <param datatype="string" format="None" formatvalue="" name="montoMovimiento" sms-name="" src="lstResponse/montoMovimiento" srcformatvalue="" target="response"/>
+               <param datatype="string" format="None" formatvalue="" name="montoTotal" sms-name="" src="lstResponse/montoTotal" srcformatvalue="" target="response"/>
+               <param datatype="string" format="None" formatvalue="" name="operacion" sms-name="" src="lstResponse/operacion" srcformatvalue="" target="response"/>
+            </dataset>
+            <param datatype="number" format="None" formatvalue="" name="opstatus" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="errmsg" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="number" format="None" formatvalue="" name="httpStatusCode" sms-name="" src="" srcformatvalue="" target=""/>
+         </service-output>
+      </service>
+      <service cachable="false" cacheduration="" id="obtenerSaldosMovimientosEncabezado" passwordencrypted="true" smscode="" smsenabled="false" type="soapserviceConnector">
+         <service-config>
+            <config-param name="endpointUrl" value="http://www.qa.mbfs.com.mx/SiteClientes/mydfs/obtenerSaldosMovimientosWS"/>
+            <config-param name="soapAction" value=""/>
+            <config-param name="userid" value=""/>
+            <config-param name="soap-version" value="1.1"/>
+            <config-param name="postprocessorname" value=""/>
+            <config-param name="preprocessorname" value=""/>
+            <config-param name="urlprovider" value=""/>
+            <config-param name="dataprovider" value=""/>
+            <config-param name="sockettimeout" value=""/>
+            <config-param name="includecookies" value=""/>
+            <config-param name="proxyname" value=""/>
+            <config-param name="proxyport" value=""/>
+            <config-param name="proxyusername" value=""/>
+            <config-param name="isembedxmlpresent" value="false"/>
+            <config-param name="ignorehttpproxy" value="false"/>
+            <config-param name="responseEncoding" value="UTF-8"/>
+            <config-param name="server.auth.mode" value="basic"/>
+            <config-param name="server.auth.host" value=""/>
+            <config-param name="server.auth.ntlm.domain" value=""/>
+         </service-config>
+         <service-input>
+            <template-param name="message" value="&lt;soapenv:Envelope xmlns:del=&quot;http://delegate.mydfs.ws.daimler.com/&quot; xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&lt;soapenv:Header/&gt;&lt;soapenv:Body&gt;&lt;del:obtenerSaldosMovimientosEncabezado&gt;&lt;persona&gt;$persona&lt;/persona&gt;&lt;!--Optional:--&gt;&lt;fechaInicio&gt;$fechaInicio&lt;/fechaInicio&gt;&lt;!--Optional:--&gt;&lt;fechaFin&gt;$fechaFin&lt;/fechaFin&gt;&lt;!--Optional:--&gt;&lt;operacionMaestra&gt;$operacionMaestra&lt;/operacionMaestra&gt;&lt;/del:obtenerSaldosMovimientosEncabezado&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;">
+               <param datatype="number" encode="true" name="persona" sms-name="" src="request" value=""/>
+               <param datatype="string" encode="true" name="fechaInicio" sms-name="" src="request" value=""/>
+               <param datatype="string" encode="true" name="fechaFin" sms-name="" src="request" value=""/>
+               <param datatype="string" encode="true" name="operacionMaestra" sms-name="" src="request" value=""/>
+            </template-param>
+         </service-input>
+         <service-output>
+            <param datatype="string" format="None" formatvalue="" name="codigo" sms-name="" src="//ns2:obtenerSaldosMovimientosEncabezadoResponse/MyDfsResponse/codigo" srcformatvalue="" target="response"/>
+            <dataset id="lstContenido" src="//ns2:obtenerSaldosMovimientosEncabezadoResponse/MyDfsResponse/contenido">
+               <param datatype="string" format="None" formatvalue="" name="capital" sms-name="" src="response/capital" srcformatvalue="" target="response"/>
+               <param datatype="string" format="None" formatvalue="" name="fechaCorte" sms-name="" src="response/fechaCorte" srcformatvalue="" target="response"/>
+               <param datatype="string" format="None" formatvalue="" name="lstFechasCorte" sms-name="" src="response/lstFechasCorte" srcformatvalue="" target="response"/>
+               <param datatype="string" format="None" formatvalue="" name="saldo" sms-name="" src="response/saldo" srcformatvalue="" target="response"/>
+               <param datatype="string" format="None" formatvalue="" name="saldoActual" sms-name="" src="response/saldoActual" srcformatvalue="" target="response"/>
+               <param datatype="string" format="None" formatvalue="" name="saldoInicial" sms-name="" src="response/saldoInicial" srcformatvalue="" target="response"/>
+            </dataset>
+            <param datatype="number" format="None" formatvalue="" name="opstatus" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="errmsg" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="number" format="None" formatvalue="" name="httpStatusCode" sms-name="" src="" srcformatvalue="" target=""/>
+         </service-output>
+      </service>
+      <service cachable="false" cacheduration="" id="obtenerSaldosMovimientosPagina" passwordencrypted="true" smscode="" smsenabled="false" type="soapserviceConnector">
+         <service-config>
+            <config-param name="endpointUrl" value="http://www.qa.mbfs.com.mx/SiteClientes/mydfs/obtenerSaldosMovimientosWS"/>
+            <config-param name="soapAction" value=""/>
+            <config-param name="userid" value=""/>
+            <config-param name="soap-version" value="1.1"/>
+            <config-param name="postprocessorname" value=""/>
+            <config-param name="preprocessorname" value=""/>
+            <config-param name="urlprovider" value=""/>
+            <config-param name="dataprovider" value=""/>
+            <config-param name="sockettimeout" value=""/>
+            <config-param name="includecookies" value=""/>
+            <config-param name="proxyname" value=""/>
+            <config-param name="proxyport" value=""/>
+            <config-param name="proxyusername" value=""/>
+            <config-param name="isembedxmlpresent" value="false"/>
+            <config-param name="ignorehttpproxy" value="false"/>
+            <config-param name="responseEncoding" value="UTF-8"/>
+            <config-param name="server.auth.mode" value="basic"/>
+            <config-param name="server.auth.host" value=""/>
+            <config-param name="server.auth.ntlm.domain" value=""/>
+         </service-config>
+         <service-input>
+            <template-param name="message" value="&lt;soapenv:Envelope xmlns:del=&quot;http://delegate.mydfs.ws.daimler.com/&quot; xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&lt;soapenv:Header/&gt;&lt;soapenv:Body&gt;&lt;del:obtenerSaldosMovimientosPagina&gt;&lt;pagina&gt;$pagina&lt;/pagina&gt;&lt;registrosPagina&gt;$registrosPagina&lt;/registrosPagina&gt;&lt;persona&gt;$persona&lt;/persona&gt;&lt;!--Optional:--&gt;&lt;fechaInicio&gt;$fechaInicio&lt;/fechaInicio&gt;&lt;!--Optional:--&gt;&lt;fechaFin&gt;$fechaFin&lt;/fechaFin&gt;&lt;!--Optional:--&gt;&lt;operacionMaestra&gt;$operacionMaestra&lt;/operacionMaestra&gt;&lt;/del:obtenerSaldosMovimientosPagina&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;">
+               <param datatype="number" encode="true" name="pagina" sms-name="" src="request" value=""/>
+               <param datatype="number" encode="true" name="registrosPagina" sms-name="" src="request" value=""/>
+               <param datatype="number" encode="true" name="persona" sms-name="" src="request" value=""/>
+               <param datatype="string" encode="true" name="fechaInicio" sms-name="" src="request" value=""/>
+               <param datatype="string" encode="true" name="fechaFin" sms-name="" src="request" value=""/>
+               <param datatype="string" encode="true" name="operacionMaestra" sms-name="" src="request" value=""/>
+            </template-param>
+         </service-input>
+         <service-output>
+            <param datatype="string" format="None" formatvalue="" name="codigo" sms-name="" src="//ns2:obtenerSaldosMovimientosPaginaResponse/MyDfsResponse/codigo" srcformatvalue="" target="response"/>
+            <dataset id="lstContenido" src="//ns2:obtenerSaldosMovimientosPaginaResponse/MyDfsResponse/contenido">
+               <param datatype="string" format="None" formatvalue="" name="pgActual" sms-name="" src="lstResponse/actual" srcformatvalue="" target="response"/>
+               <param datatype="string" format="None" formatvalue="" name="totalRegistros" sms-name="" src="lstResponse/total" srcformatvalue="" target="response"/>
+               <dataset id="lstMovimientos" src="lstResponse/contenido">
+                  <param datatype="string" format="None" formatvalue="" name="abono" sms-name="" src="//abono" srcformatvalue="" target="response"/>
+                  <param datatype="string" format="None" formatvalue="" name="cargo" sms-name="" src="//cargo" srcformatvalue="" target="response"/>
+                  <param datatype="string" format="None" formatvalue="" name="descripcion" sms-name="" src="//descripcion" srcformatvalue="" target="response"/>
+                  <param datatype="string" format="None" formatvalue="" name="fechaMovimiento" sms-name="" src="//fechaMovimiento" srcformatvalue="" target="response"/>
+                  <param datatype="string" format="None" formatvalue="" name="plazo" sms-name="" src="//plazo" srcformatvalue="" target="response"/>
+                  <param datatype="string" format="None" formatvalue="" name="renta" sms-name="" src="//renta" srcformatvalue="" target="response"/>
+                  <param datatype="string" format="None" formatvalue="" name="coa" sms-name="" src="//cOa" srcformatvalue="" target="response"/>
+                  <param datatype="string" format="None" formatvalue="" name="idPago" sms-name="" src="//idPago" srcformatvalue="" target="response"/>
+               </dataset>
+            </dataset>
+            <param datatype="number" format="None" formatvalue="" name="opstatus" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="errmsg" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="number" format="None" formatvalue="" name="httpStatusCode" sms-name="" src="" srcformatvalue="" target=""/>
+         </service-output>
+      </service>
+      <service cachable="false" cacheduration="" id="obtenerSolicitudDerechosArco" passwordencrypted="true" smscode="" smsenabled="false" type="soapserviceConnector">
+         <service-config>
+            <config-param name="endpointUrl" value="http://www.qa.mbfs.com.mx:80/SiteClientes/mydfs/descargaWS"/>
+            <config-param name="soapAction" value=""/>
+            <config-param name="userid" value=""/>
+            <config-param name="soap-version" value="1.1"/>
+            <config-param name="postprocessorname" value=""/>
+            <config-param name="preprocessorname" value=""/>
+            <config-param name="urlprovider" value=""/>
+            <config-param name="dataprovider" value=""/>
+            <config-param name="sockettimeout" value=""/>
+            <config-param name="includecookies" value=""/>
+            <config-param name="proxyname" value=""/>
+            <config-param name="proxyport" value=""/>
+            <config-param name="proxyusername" value=""/>
+            <config-param name="isembedxmlpresent" value="false"/>
+            <config-param name="ignorehttpproxy" value="false"/>
+            <config-param name="responseEncoding" value="UTF-8"/>
+            <config-param name="server.auth.mode" value="basic"/>
+            <config-param name="server.auth.host" value=""/>
+            <config-param name="server.auth.ntlm.domain" value=""/>
+         </service-config>
+         <service-input>
+            <template-param name="message" value="&lt;soapenv:Envelope xmlns:del=&quot;http://delegate.mydfs.ws.daimler.com/&quot; xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&lt;soapenv:Header/&gt;&lt;soapenv:Body&gt;&lt;del:obtenerSolicitudDerechosArco&gt;&lt;!--Optional:--&gt;&lt;sitio&gt;$idSitio&lt;/sitio&gt;&lt;/del:obtenerSolicitudDerechosArco&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;">
+               <param datatype="string" encode="true" name="idSitio" sms-name="" src="" value=""/>
+            </template-param>
+         </service-input>
+         <service-output>
+            <param datatype="string" format="None" formatvalue="" name="codigo" sms-name="" src="//ns2:obtenerSolicitudDerechosArcoResponse/linkPDF/codigo" srcformatvalue="" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="linkPDF" sms-name="" src="//ns2:obtenerSolicitudDerechosArcoResponse/linkPDF/contenido/response" srcformatvalue="" target=""/>
+            <param datatype="number" format="None" formatvalue="" name="opstatus" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="errmsg" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="number" format="None" formatvalue="" name="httpStatusCode" sms-name="" src="" srcformatvalue="" target=""/>
+         </service-output>
+      </service>
+      <service cachable="false" cacheduration="" id="obtenerTerminosCondiciones" passwordencrypted="true" smscode="" smsenabled="false" type="soapserviceConnector">
+         <service-config>
+            <config-param name="endpointUrl" value="http://www.qa.mbfs.com.mx:80/SiteClientes/mydfs/descargaWS"/>
+            <config-param name="soapAction" value=""/>
+            <config-param name="userid" value=""/>
+            <config-param name="soap-version" value="1.1"/>
+            <config-param name="postprocessorname" value=""/>
+            <config-param name="preprocessorname" value=""/>
+            <config-param name="urlprovider" value=""/>
+            <config-param name="dataprovider" value=""/>
+            <config-param name="sockettimeout" value=""/>
+            <config-param name="includecookies" value=""/>
+            <config-param name="proxyname" value=""/>
+            <config-param name="proxyport" value=""/>
+            <config-param name="proxyusername" value=""/>
+            <config-param name="isembedxmlpresent" value="false"/>
+            <config-param name="ignorehttpproxy" value="false"/>
+            <config-param name="responseEncoding" value="UTF-8"/>
+            <config-param name="server.auth.mode" value="basic"/>
+            <config-param name="server.auth.host" value=""/>
+            <config-param name="server.auth.ntlm.domain" value=""/>
+         </service-config>
+         <service-input>
+            <template-param name="message" value="&lt;soapenv:Envelope xmlns:del=&quot;http://delegate.mydfs.ws.daimler.com/&quot; xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&lt;soapenv:Header/&gt;&lt;soapenv:Body&gt;&lt;del:obtenerTerminosCondiciones&gt;&lt;!--Optional:--&gt;&lt;sitio&gt;$idSitio&lt;/sitio&gt;&lt;/del:obtenerTerminosCondiciones&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;">
+               <param datatype="string" encode="true" name="idSitio" sms-name="" src="" value=""/>
+            </template-param>
+         </service-input>
+         <service-output>
+            <param datatype="string" format="None" formatvalue="" name="codigo" sms-name="" src="//ns2:obtenerTerminosCondicionesResponse/informacion/codigo" srcformatvalue="" target="response"/>
+            <param datatype="string" format="None" formatvalue="" name="contenido" sms-name="" src="//ns2:obtenerTerminosCondicionesResponse/informacion/contenido/response" srcformatvalue="" target="response"/>
+            <param datatype="number" format="None" formatvalue="" name="opstatus" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="errmsg" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="number" format="None" formatvalue="" name="httpStatusCode" sms-name="" src="" srcformatvalue="" target=""/>
+         </service-output>
+      </service>
+      <service cachable="false" cacheduration="" id="obtenerTiposFinanciamiento" passwordencrypted="true" smscode="" smsenabled="false" type="soapserviceConnector">
+         <service-config>
+            <config-param name="endpointUrl" value="http://www.qa.mbfs.com.mx/cotizadorveRTI/myDFSWs"/>
+            <config-param name="soapAction" value=""/>
+            <config-param name="userid" value=""/>
+            <config-param name="soap-version" value="1.1"/>
+            <config-param name="postprocessorname" value=""/>
+            <config-param name="preprocessorname" value=""/>
+            <config-param name="urlprovider" value=""/>
+            <config-param name="dataprovider" value=""/>
+            <config-param name="sockettimeout" value=""/>
+            <config-param name="includecookies" value=""/>
+            <config-param name="proxyname" value=""/>
+            <config-param name="proxyport" value=""/>
+            <config-param name="proxyusername" value=""/>
+            <config-param name="isembedxmlpresent" value="false"/>
+            <config-param name="ignorehttpproxy" value="false"/>
+            <config-param name="responseEncoding" value="UTF-8"/>
+            <config-param name="server.auth.mode" value="basic"/>
+            <config-param name="server.auth.host" value=""/>
+            <config-param name="server.auth.ntlm.domain" value=""/>
+         </service-config>
+         <service-input>
+            <template-param name="message" value="&lt;soapenv:Envelope xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:del=&quot;http://delegate.cotizador.mydfs.ws.daimler.com/&quot;&gt;&lt;soapenv:Header/&gt;&lt;soapenv:Body&gt;&lt;del:obtenerTiposFinanciamiento/&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;"/>
+         </service-input>
+         <service-output>
+            <param datatype="string" format="None" formatvalue="" name="codigo" sms-name="" src="//ns2:obtenerTiposFinanciamientoResponse/MyDfsResponse/codigo" srcformatvalue="" target="response"/>
+            <dataset id="lstFinanciamientos" src="//ns2:obtenerTiposFinanciamientoResponse/MyDfsResponse/contenido">
+               <param datatype="string" format="None" formatvalue="" name="id" sms-name="" src="lstResponse/id" srcformatvalue="" target="response"/>
+               <param datatype="string" format="None" formatvalue="" name="nombre" sms-name="" src="lstResponse/nombre" srcformatvalue="" target="response"/>
+            </dataset>
+            <param datatype="number" format="None" formatvalue="" name="opstatus" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="errmsg" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="number" format="None" formatvalue="" name="httpStatusCode" sms-name="" src="" srcformatvalue="" target=""/>
+         </service-output>
+      </service>
+      <service cachable="false" cacheduration="" id="obtenerTiposFinanciamientoConFlexibility" passwordencrypted="true" smscode="" smsenabled="false" type="soapserviceConnector">
+         <service-config>
+            <config-param name="endpointUrl" value="http://www.qa.mbfs.com.mx/cotizadorveRTI/myDFSWs"/>
+            <config-param name="soapAction" value=""/>
+            <config-param name="userid" value=""/>
+            <config-param name="soap-version" value="1.1"/>
+            <config-param name="postprocessorname" value=""/>
+            <config-param name="preprocessorname" value=""/>
+            <config-param name="urlprovider" value=""/>
+            <config-param name="dataprovider" value=""/>
+            <config-param name="sockettimeout" value=""/>
+            <config-param name="includecookies" value=""/>
+            <config-param name="proxyname" value=""/>
+            <config-param name="proxyport" value=""/>
+            <config-param name="proxyusername" value=""/>
+            <config-param name="isembedxmlpresent" value="false"/>
+            <config-param name="ignorehttpproxy" value="false"/>
+            <config-param name="responseEncoding" value="UTF-8"/>
+            <config-param name="server.auth.mode" value="basic"/>
+            <config-param name="server.auth.host" value=""/>
+            <config-param name="server.auth.ntlm.domain" value=""/>
+         </service-config>
+         <service-input>
+            <template-param name="message" value="&lt;soapenv:Envelope xmlns:del=&quot;http://delegate.cotizador.mydfs.ws.daimler.com/&quot; xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&lt;soapenv:Header/&gt;&lt;soapenv:Body&gt;&lt;del:obtenerTiposFinanciamientoConFlexibility&gt;&lt;!--Optional:--&gt;&lt;idTipo&gt;$idTipo&lt;/idTipo&gt;&lt;!--Optional:--&gt;&lt;tipoPersona&gt;$tipoPersona&lt;/tipoPersona&gt;&lt;!--Optional:--&gt;&lt;tipoFinanciamiento&gt;$tipoFinanciamiento&lt;/tipoFinanciamiento&gt;&lt;/del:obtenerTiposFinanciamientoConFlexibility&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;">
+               <param datatype="string" encode="true" name="idTipo" sms-name="" src="request" value=""/>
+               <param datatype="string" encode="true" name="tipoPersona" sms-name="" src="request" value=""/>
+               <param datatype="string" encode="true" name="tipoFinanciamiento" sms-name="" src="request" value=""/>
+            </template-param>
+         </service-input>
+         <service-output>
+            <param datatype="string" format="None" formatvalue="" name="codigo" sms-name="" src="//ns2:obtenerTiposFinanciamientoConFlexibilityResponse/MyDfsResponse/codigo" srcformatvalue="" target="response"/>
+            <dataset id="lstFinanciamientos" src="//ns2:obtenerTiposFinanciamientoConFlexibilityResponse/MyDfsResponse/contenido">
+               <param datatype="string" format="None" formatvalue="" name="id" sms-name="" src="lstResponse/id" srcformatvalue="" target="response"/>
+               <param datatype="string" format="None" formatvalue="" name="nombre" sms-name="" src="lstResponse/nombre" srcformatvalue="" target="response"/>
+               <param datatype="string" format="None" formatvalue="" name="clave" sms-name="" src="lstResponse/clave" srcformatvalue="" target="response"/>
+               <dataset id="lstPlanes" src="lstResponse/lstPlanes">
+                  <param datatype="string" format="None" formatvalue="" name="id" sms-name="" src="lstPlanes/id" srcformatvalue="" target="response"/>
+                  <param datatype="string" format="None" formatvalue="" name="descripcion" sms-name="" src="lstPlanes/descripcion" srcformatvalue="" target="response"/>
+                  <param datatype="boolean" format="None" formatvalue="" name="esPlanAlternativo" sms-name="" src="lstPlanes/esPlanAlternativo" srcformatvalue="" target="response"/>
+               </dataset>
+            </dataset>
+            <param datatype="number" format="None" formatvalue="" name="opstatus" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="errmsg" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="number" format="None" formatvalue="" name="httpStatusCode" sms-name="" src="" srcformatvalue="" target=""/>
+         </service-output>
+      </service>
+      <service cachable="false" cacheduration="" id="recuperarContrasena" passwordencrypted="true" smscode="" smsenabled="false" type="soapserviceConnector">
+         <service-config>
+            <config-param name="endpointUrl" value="http://www.qa.mbfs.com.mx/SiteClientes/mydfs/loginWS"/>
+            <config-param name="soapAction" value=""/>
+            <config-param name="userid" value=""/>
+            <config-param name="soap-version" value="1.1"/>
+            <config-param name="postprocessorname" value=""/>
+            <config-param name="preprocessorname" value=""/>
+            <config-param name="urlprovider" value=""/>
+            <config-param name="dataprovider" value=""/>
+            <config-param name="sockettimeout" value=""/>
+            <config-param name="includecookies" value=""/>
+            <config-param name="proxyname" value=""/>
+            <config-param name="proxyport" value=""/>
+            <config-param name="proxyusername" value=""/>
+            <config-param name="isembedxmlpresent" value="false"/>
+            <config-param name="ignorehttpproxy" value="false"/>
+            <config-param name="responseEncoding" value="UTF-8"/>
+            <config-param name="server.auth.mode" value="basic"/>
+            <config-param name="server.auth.host" value=""/>
+            <config-param name="server.auth.ntlm.domain" value=""/>
+         </service-config>
+         <service-input>
+            <template-param name="message" value="&lt;soapenv:Envelope xmlns:del=&quot;http://delegate.mydfs.ws.daimler.com/&quot; xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&lt;soapenv:Header/&gt;&lt;soapenv:Body&gt;&lt;del:recuperarContrasena&gt;&lt;!--Optional:--&gt;&lt;correoElectronico&gt;$correoElectronico&lt;/correoElectronico&gt;&lt;!--Optional:--&gt;&lt;idSitio&gt;$idSitio&lt;/idSitio&gt;&lt;/del:recuperarContrasena&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;">
+               <param datatype="string" encode="true" name="correoElectronico" sms-name="" src="" value=""/>
+               <param datatype="string" encode="true" name="idSitio" sms-name="" src="" value=""/>
+            </template-param>
+         </service-input>
+         <service-output>
+            <param datatype="number" format="None" formatvalue="" name="codigo" sms-name="" src="//ns2:recuperarContrasenaResponse/mensaje/codigo" srcformatvalue="" target=""/>
+            <param datatype="number" format="None" formatvalue="" name="opstatus" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="errmsg" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="number" format="None" formatvalue="" name="httpStatusCode" sms-name="" src="" srcformatvalue="" target=""/>
+         </service-output>
+      </service>
+      <service cachable="false" cacheduration="" id="registrarCliente" passwordencrypted="true" smscode="" smsenabled="false" type="soapserviceConnector">
+         <service-config>
+            <config-param name="endpointUrl" value="http://www.qa.mbfs.com.mx/SiteClientes/mydfs/loginWS"/>
+            <config-param name="soapAction" value=""/>
+            <config-param name="userid" value=""/>
+            <config-param name="soap-version" value="1.1"/>
+            <config-param name="postprocessorname" value=""/>
+            <config-param name="preprocessorname" value=""/>
+            <config-param name="urlprovider" value=""/>
+            <config-param name="dataprovider" value=""/>
+            <config-param name="sockettimeout" value=""/>
+            <config-param name="includecookies" value=""/>
+            <config-param name="proxyname" value=""/>
+            <config-param name="proxyport" value=""/>
+            <config-param name="proxyusername" value=""/>
+            <config-param name="isembedxmlpresent" value="false"/>
+            <config-param name="ignorehttpproxy" value="false"/>
+            <config-param name="responseEncoding" value="UTF-8"/>
+            <config-param name="server.auth.mode" value="basic"/>
+            <config-param name="server.auth.host" value=""/>
+            <config-param name="server.auth.ntlm.domain" value=""/>
+         </service-config>
+         <service-input>
+            <template-param name="message" value="&lt;soapenv:Envelope xmlns:del=&quot;http://delegate.mydfs.ws.daimler.com/&quot; xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&lt;soapenv:Header/&gt;&lt;soapenv:Body&gt;&lt;del:registrarCliente&gt;&lt;!--Optional:--&gt;&lt;rfc&gt;$rfc&lt;/rfc&gt;&lt;!--Optional:--&gt;&lt;nombre&gt;$nombre&lt;/nombre&gt;&lt;!--Optional:--&gt;&lt;nombreUsuario&gt;$usuario&lt;/nombreUsuario&gt;&lt;!--Optional:--&gt;&lt;contrasena&gt;$contrasena&lt;/contrasena&gt;&lt;!--Optional:--&gt;&lt;correoElectronico&gt;$correo&lt;/correoElectronico&gt;&lt;!--Optional:--&gt;&lt;numeroCelular&gt;$celular&lt;/numeroCelular&gt;&lt;!--Optional:--&gt;&lt;contrato&gt;$contrato&lt;/contrato&gt;&lt;!--Optional:--&gt;&lt;idSitio&gt;$sitio&lt;/idSitio&gt;&lt;!--Optional:--&gt;&lt;empresa&gt;$empresa&lt;/empresa&gt;&lt;/del:registrarCliente&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;">
+               <param datatype="string" encode="true" name="rfc" sms-name="" src="request" value=""/>
+               <param datatype="string" encode="true" name="nombre" sms-name="" src="" value=""/>
+               <param datatype="string" encode="true" name="usuario" sms-name="" src="" value=""/>
+               <param datatype="string" encode="true" name="contrasena" sms-name="" src="" value=""/>
+               <param datatype="string" encode="true" name="correo" sms-name="" src="" value=""/>
+               <param datatype="string" encode="true" name="celular" sms-name="" src="" value=""/>
+               <param datatype="string" encode="true" name="contrato" sms-name="" src="" value=""/>
+               <param datatype="string" encode="true" name="sitio" sms-name="" src="" value=""/>
+               <param datatype="string" encode="true" name="empresa" sms-name="" src="" value=""/>
+            </template-param>
+         </service-input>
+         <service-output>
+            <param datatype="string" format="None" formatvalue="" name="codigo" sms-name="" src="//ns2:registrarClienteResponse/usuario/codigo" srcformatvalue="" target="response"/>
+            <param datatype="number" format="None" formatvalue="" name="opstatus" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="errmsg" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="number" format="None" formatvalue="" name="httpStatusCode" sms-name="" src="" srcformatvalue="" target=""/>
+         </service-output>
+      </service>
+      <service cachable="false" cacheduration="" id="validarContrato" passwordencrypted="true" smscode="" smsenabled="false" type="soapserviceConnector">
+         <service-config>
+            <config-param name="endpointUrl" value="http://www.qa.mbfs.com.mx/SiteClientes/mydfs/loginWS"/>
+            <config-param name="soapAction" value=""/>
+            <config-param name="userid" value=""/>
+            <config-param name="soap-version" value="1.1"/>
+            <config-param name="postprocessorname" value=""/>
+            <config-param name="preprocessorname" value=""/>
+            <config-param name="urlprovider" value=""/>
+            <config-param name="dataprovider" value=""/>
+            <config-param name="sockettimeout" value=""/>
+            <config-param name="includecookies" value=""/>
+            <config-param name="proxyname" value=""/>
+            <config-param name="proxyport" value=""/>
+            <config-param name="proxyusername" value=""/>
+            <config-param name="isembedxmlpresent" value="false"/>
+            <config-param name="ignorehttpproxy" value="false"/>
+            <config-param name="responseEncoding" value="UTF-8"/>
+            <config-param name="server.auth.mode" value="basic"/>
+            <config-param name="server.auth.host" value=""/>
+            <config-param name="server.auth.ntlm.domain" value=""/>
+         </service-config>
+         <service-input>
+            <template-param name="message" value="&lt;soapenv:Envelope xmlns:del=&quot;http://delegate.mydfs.ws.daimler.com/&quot; xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&lt;soapenv:Header/&gt;&lt;soapenv:Body&gt;&lt;del:validarContrato&gt;&lt;!--Optional:--&gt;&lt;nombre&gt;$nombre&lt;/nombre&gt;&lt;!--Optional:--&gt;&lt;contrato&gt;$contrato&lt;/contrato&gt;&lt;!--Optional:--&gt;&lt;idEmpresa&gt;$empresa&lt;/idEmpresa&gt;&lt;/del:validarContrato&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;">
+               <param datatype="string" encode="true" name="nombre" sms-name="" src="" value=""/>
+               <param datatype="string" encode="true" name="contrato" sms-name="" src="" value=""/>
+               <param datatype="string" encode="true" name="empresa" sms-name="" src="" value=""/>
+            </template-param>
+         </service-input>
+         <service-output>
+            <param datatype="number" format="None" formatvalue="" name="codigo" sms-name="" src="//ns2:validarContratoResponse/respuesta/codigo" srcformatvalue="" target=""/>
+            <param datatype="number" format="None" formatvalue="" name="opstatus" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="errmsg" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="number" format="None" formatvalue="" name="httpStatusCode" sms-name="" src="" srcformatvalue="" target=""/>
+         </service-output>
+      </service>
+      <service cachable="false" cacheduration="" id="validarRFCNombre" passwordencrypted="true" smscode="" smsenabled="false" type="soapserviceConnector">
+         <service-config>
+            <config-param name="endpointUrl" value="http://www.qa.mbfs.com.mx/SiteClientes/mydfs/loginWS"/>
+            <config-param name="soapAction" value=""/>
+            <config-param name="userid" value=""/>
+            <config-param name="soap-version" value="1.1"/>
+            <config-param name="postprocessorname" value=""/>
+            <config-param name="preprocessorname" value=""/>
+            <config-param name="urlprovider" value=""/>
+            <config-param name="dataprovider" value=""/>
+            <config-param name="sockettimeout" value=""/>
+            <config-param name="includecookies" value=""/>
+            <config-param name="proxyname" value=""/>
+            <config-param name="proxyport" value=""/>
+            <config-param name="proxyusername" value=""/>
+            <config-param name="isembedxmlpresent" value="false"/>
+            <config-param name="ignorehttpproxy" value="false"/>
+            <config-param name="responseEncoding" value="UTF-8"/>
+            <config-param name="server.auth.mode" value="basic"/>
+            <config-param name="server.auth.host" value=""/>
+            <config-param name="server.auth.ntlm.domain" value=""/>
+         </service-config>
+         <service-input>
+            <template-param name="message" value="&lt;soapenv:Envelope xmlns:del=&quot;http://delegate.mydfs.ws.daimler.com/&quot; xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&lt;soapenv:Header/&gt;&lt;soapenv:Body&gt;&lt;del:validarRFCNombre&gt;&lt;!--Optional:--&gt;&lt;rfc&gt;$rfc&lt;/rfc&gt;&lt;!--Optional:--&gt;&lt;nombre&gt;$nombre&lt;/nombre&gt;&lt;/del:validarRFCNombre&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;">
+               <param datatype="string" encode="true" name="rfc" sms-name="" src="request" value=""/>
+               <param datatype="string" encode="true" name="nombre" sms-name="" src="request" value=""/>
+            </template-param>
+         </service-input>
+         <service-output>
+            <param datatype="number" format="None" formatvalue="" name="codigo" sms-name="" src="//ns2:validarRFCNombreResponse/respuesta/codigo" srcformatvalue="" target="response"/>
+            <param datatype="string" format="None" formatvalue="" name="nombre" sms-name="" src="//ns2:validarRFCNombreResponse/respuesta/contenido/response" srcformatvalue="" target=""/>
+            <param datatype="number" format="None" formatvalue="" name="opstatus" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="errmsg" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="number" format="None" formatvalue="" name="httpStatusCode" sms-name="" src="" srcformatvalue="" target=""/>
+         </service-output>
+      </service>
+      <service cachable="false" cacheduration="" id="validarUsuario" passwordencrypted="true" smscode="" smsenabled="false" type="soapserviceConnector">
+         <service-config>
+            <config-param name="endpointUrl" value="http://www.qa.mbfs.com.mx/SiteClientes/mydfs/loginWS"/>
+            <config-param name="soapAction" value=""/>
+            <config-param name="userid" value=""/>
+            <config-param name="soap-version" value="1.1"/>
+            <config-param name="postprocessorname" value=""/>
+            <config-param name="preprocessorname" value=""/>
+            <config-param name="urlprovider" value=""/>
+            <config-param name="dataprovider" value=""/>
+            <config-param name="sockettimeout" value=""/>
+            <config-param name="includecookies" value=""/>
+            <config-param name="proxyname" value=""/>
+            <config-param name="proxyport" value=""/>
+            <config-param name="proxyusername" value=""/>
+            <config-param name="isembedxmlpresent" value="true"/>
+            <config-param name="ignorehttpproxy" value="true"/>
+            <config-param name="responseEncoding" value="UTF-8"/>
+            <config-param name="server.auth.mode" value="basic"/>
+            <config-param name="server.auth.host" value=""/>
+            <config-param name="server.auth.ntlm.domain" value=""/>
+         </service-config>
+         <service-input>
+            <template-param name="message" value="&lt;soapenv:Envelope xmlns:del=&quot;http://delegate.mydfs.ws.daimler.com/&quot; xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&lt;soapenv:Header/&gt;&lt;soapenv:Body&gt;&lt;del:validarUsuario&gt;&lt;!--Optional:--&gt;&lt;usuario&gt;$usuario&lt;/usuario&gt;&lt;!--Optional:--&gt;&lt;contrasena&gt;$contrasena&lt;/contrasena&gt;&lt;!--Optional:--&gt;&lt;dispositivoid&gt;$dispositivo&lt;/dispositivoid&gt;&lt;/del:validarUsuario&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;">
+               <param datatype="string" encode="true" name="contrasena" sms-name="" src="request" value=""/>
+               <param datatype="string" encode="true" name="usuario" sms-name="" src="request" value=""/>
+               <param datatype="string" encode="true" name="dispositivo" sms-name="" src="request" value=""/>
+            </template-param>
+         </service-input>
+         <service-output>
+            <param datatype="number" format="None" formatvalue="" name="codigo" sms-name="" src="//ns2:validarUsuarioResponse/MyDfsResponse/codigo" srcformatvalue="" target="response"/>
+            <param datatype="string" format="None" formatvalue="" name="correo" sms-name="" src="//ns2:validarUsuarioResponse/MyDfsResponse/contenido/response/cliente/correo" srcformatvalue="" target="response"/>
+            <param datatype="string" format="None" formatvalue="" name="nombre" sms-name="" src="//ns2:validarUsuarioResponse/MyDfsResponse/contenido/response/cliente/nombre" srcformatvalue="" target="response"/>
+            <param datatype="string" format="None" formatvalue="" name="rfc" sms-name="" src="//ns2:validarUsuarioResponse/MyDfsResponse/contenido/response/cliente/rfc" srcformatvalue="" target="response"/>
+            <param datatype="boolean" format="None" formatvalue="" name="passwordGenerado" sms-name="" src="//ns2:validarUsuarioResponse/MyDfsResponse/contenido/response/passwordGenerado" srcformatvalue="" target="response"/>
+            <param datatype="string" format="None" formatvalue="" name="usuario" sms-name="" src="//ns2:validarUsuarioResponse/MyDfsResponse/contenido/response/usuario" srcformatvalue="" target="response"/>
+            <param datatype="string" format="None" formatvalue="" name="idCliente" sms-name="" src="//ns2:validarUsuarioResponse/MyDfsResponse/contenido/response/cliente/idCliente" srcformatvalue="" target="response"/>
+            <param datatype="string" format="None" formatvalue="" name="idUsuario" sms-name="" src="//ns2:validarUsuarioResponse/MyDfsResponse/contenido/response/idUsuario" srcformatvalue="" target="response"/>
+            <dataset id="cliente" src="//ns2:validarUsuarioResponse/MyDfsResponse/contenido/response/cliente">
+               <dataset id="lstNumeroClientes" src="lstNumeroClientes">
+                  <param datatype="number" format="None" formatvalue="" name="idContrato" sms-name="" src="lstContratos/idContrato" srcformatvalue="" target="response"/>
+                  <param datatype="number" format="None" formatvalue="" name="mensualidadActual" sms-name="" src="lstContratos/mensualidadActual" srcformatvalue="" target="response"/>
+                  <param datatype="string" format="None" formatvalue="" name="numeroContrato" sms-name="" src="lstContratos/numeroContrato" srcformatvalue="" target="response"/>
+                  <param datatype="number" format="None" formatvalue="" name="numeroPlazos" sms-name="" src="lstContratos/numeroPlazos" srcformatvalue="" target="response"/>
+                  <param datatype="boolean" format="None" formatvalue="" name="vencido" sms-name="" src="lstContratos/vencido" srcformatvalue="" target="response"/>
+                  <param datatype="number" format="None" formatvalue="" name="numeroCliente" sms-name="" src="numeroCliente" srcformatvalue="" target="response"/>
+                  <param datatype="string" format="None" formatvalue="" name="empresa" sms-name="" src="lstContratos/empresa" srcformatvalue="" target=""/>
+               </dataset>
+            </dataset>
+            <param datatype="number" format="None" formatvalue="" name="opstatus" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="errmsg" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="number" format="None" formatvalue="" name="httpStatusCode" sms-name="" src="" srcformatvalue="" target=""/>
+         </service-output>
+      </service>
+   </services>
+</application>

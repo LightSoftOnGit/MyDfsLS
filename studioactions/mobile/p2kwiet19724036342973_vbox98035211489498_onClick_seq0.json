@@ -1,0 +1,18 @@
+{
+    "p2kwiet19724036342973_vbox98035211489498_onClick_seq0": {
+        "id": "p2kwiet19724036342973_vbox98035211489498_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "customcode_onClick_4145819724036349878",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "saldosMovimientosDetalleCerrar",
+            "display": "saldosMovimientosDetalleCerrar",
+            "inputparams": []
+        }]
+    }
+}

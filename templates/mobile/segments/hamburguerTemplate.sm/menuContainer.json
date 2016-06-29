@@ -1,0 +1,80 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "-9%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s344bbffcd3b4cf08b14de9b3682d180",
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "children": [
+        "btnInicio",
+        "btnLogin",
+        "btnCalculadora",
+        "lblDistribuidores",
+        "lblContactanos",
+        "lblParquimetro",
+        "imgInicio",
+        "imgLogin",
+        "imgCalculadora",
+        "imgDistribuidores",
+        "imgContactanos",
+        "imgParquimetro",
+        "lblConfiguracion",
+        "imgConfiguracion",
+        "btnMenuCerrarSesion",
+        "lineaContainer1",
+        "lineaContainer2",
+        "lineaContainer3",
+        "lineaContainer4",
+        "lineaContainer5",
+        "lineaContainer6",
+        "lineaContainer7"
+    ],
+    "clipbounds": true,
+    "containerId": true,
+    "containerweight": 100,
+    "enabled": false,
+    "enablescrolling": true,
+    "id": "menuContainer",
+    "info": null,
+    "isvisible": true,
+    "kuid": "693c041a2dfa4113be6dc666bfc44b8f",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "orientation": 6,
+    "parent": "flexMenu",
+    "percent": true,
+    "pf": "hamburguerTemplate",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}

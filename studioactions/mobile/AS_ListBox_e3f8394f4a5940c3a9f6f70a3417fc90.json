@@ -1,0 +1,26 @@
+{
+    "AS_ListBox_e3f8394f4a5940c3a9f6f70a3417fc90": {
+        "id": "AS_ListBox_e3f8394f4a5940c3a9f6f70a3417fc90",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmDistribuidoresCotizador",
+            "type": "forms",
+            "platform": "",
+            "KUID": "91db089f9de544d7ae01037e7924a4ba"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___e5aa033c1b924b3796152caf599544dd",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "gpsObtenerDistribuidorPorEstado",
+            "display": "gpsObtenerDistribuidorPorEstado",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

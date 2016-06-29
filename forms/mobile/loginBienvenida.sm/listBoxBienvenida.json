@@ -1,0 +1,99 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizListBox",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        3,
+        0
+    ],
+    "_placeholder_": "CONTRATO: 0000000",
+    "_skin_": "s54b38319d0f4101aac95de69fac45cd",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "android": {
+        "psp": {
+            "placeholder": "CONTRATO: 0000000",
+            "popupIcon": "flechadropdown.png",
+            "popupTitle": "No. Contrato"
+        }
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "context": {
+        "channel": "mobile",
+        "formID": "loginBienvenida",
+        "ispercent": true,
+        "platform": "iphone",
+        "templateType": "forms",
+        "topLevelBox": null
+    },
+    "dropdownimage": "flechadropdowndos.png",
+    "enabled": false,
+    "focusskin": "s54b38319d0f4101aac95de69fac45cd",
+    "groupcells": false,
+    "id": "listBoxBienvenida",
+    "info": null,
+    "iphone": {
+        "psp": {
+            "placeholder": "CONTRATO: 0000000"
+        },
+        "viewType": 0
+    },
+    "isvisible": true,
+    "kuid": "5dcaf3b99d1e4b5e97f3fda51f3c24a7",
+    "masterdata": [
+        [
+            "lb1",
+            "CONTRATO: 00000000"
+        ],
+        [
+            "lb2",
+            "CONTRATO: 00000001"
+        ],
+        [
+            "lb3",
+            "CONTRATO: 00000002"
+        ]
+    ],
+    "name": "kony.ui.ListBox",
+    "paddinginpixel": false,
+    "parent": "flexContainerContratoListBox",
+    "pf": "loginBienvenida",
+    "selectedkey": "lb1",
+    "selectedkeys": null,
+    "selectedkeyvalue": [
+        "lb1",
+        "CONTRATO: 00000000"
+    ],
+    "selectedkeyvalues": null,
+    "size": 18,
+    "viewtype": 0,
+    "wType": "ListBox"
+}

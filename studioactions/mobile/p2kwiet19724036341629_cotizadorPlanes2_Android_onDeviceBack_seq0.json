@@ -1,0 +1,18 @@
+{
+    "p2kwiet19724036341629_cotizadorPlanes2_Android_onDeviceBack_seq0": {
+        "id": "p2kwiet19724036341629_cotizadorPlanes2_Android_onDeviceBack_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "customcode_onDeviceBack_52971972403634351",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "backGeneral",
+            "display": "backGeneral",
+            "inputparams": []
+        }]
+    }
+}

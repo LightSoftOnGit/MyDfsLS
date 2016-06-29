@@ -1,0 +1,781 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xsObject>
+    <appSmsCode></appSmsCode>
+    <soapservice>
+        <authenticationMode>basic</authenticationMode>
+        <cacheduration></cacheduration>
+        <cacheable>false</cacheable>
+        <includecookies></includecookies>
+        <dataprovider></dataprovider>
+        <dcResponse/>
+        <encryptPwd>true</encryptPwd>
+        <escapeXML>false</escapeXML>
+        <id>obtenerModelosCotizador</id>
+        <ignoreProxy>false</ignoreProxy>
+        <intemplate>&lt;soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:del="http://delegate.cotizador.mydfs.ws.daimler.com/"&gt;
+   &lt;soapenv:Header/&gt;
+   &lt;soapenv:Body&gt;
+      &lt;del:obtenerModelosCotizador/&gt;
+   &lt;/soapenv:Body&gt;
+&lt;/soapenv:Envelope&gt;</intemplate>
+        <inputStructure>
+            <index>-1</index>
+            <order>0</order>
+            <id>obtenerModelosCotizador</id>
+        </inputStructure>
+        <ntlmDomain></ntlmDomain>
+        <ntlmHost></ntlmHost>
+        <operationname>obtenerModelosCotizador</operationname>
+        <outtemplate>&lt;S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"&gt;
+   &lt;S:Body&gt;
+      &lt;ns2:obtenerModelosCotizadorResponse xmlns:ns2="http://delegate.cotizador.mydfs.ws.daimler.com/"&gt;
+         &lt;MyDfsResponse&gt;
+            &lt;codigo&gt;1&lt;/codigo&gt;
+            &lt;contenido&gt;
+               &lt;lstResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:modelo"&gt;
+                  &lt;descripcion&gt;Clase A&lt;/descripcion&gt;
+                  &lt;id&gt;73&lt;/id&gt;
+                  &lt;lstTipo&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;A 200&lt;/descripcion&gt;
+                        &lt;id&gt;20292&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;A 200 C/ PAQ NAVI&lt;/descripcion&gt;
+                        &lt;id&gt;20293&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;A 200 Sport&lt;/descripcion&gt;
+                        &lt;id&gt;20311&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;A 200 Sport C/ PAQ NAVI&lt;/descripcion&gt;
+                        &lt;id&gt;20312&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;A 200 Style&lt;/descripcion&gt;
+                        &lt;id&gt;19400&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;A 200 Style C/PAQ. NAVI&lt;/descripcion&gt;
+                        &lt;id&gt;19401&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;A 200 Urban&lt;/descripcion&gt;
+                        &lt;id&gt;19402&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;A 200 Urban C/PAQ. NAVI&lt;/descripcion&gt;
+                        &lt;id&gt;19403&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;A 250 Motor Sport Edition&lt;/descripcion&gt;
+                        &lt;id&gt;28897&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;A 45 AMG&lt;/descripcion&gt;
+                        &lt;id&gt;8675&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;Mercedes-AMG A 45 World Champion Edition&lt;/descripcion&gt;
+                        &lt;id&gt;28898&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                  &lt;/lstTipo&gt;
+               &lt;/lstResponse&gt;
+               &lt;lstResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:modelo"&gt;
+                  &lt;descripcion&gt;Clase AMG GT&lt;/descripcion&gt;
+                  &lt;id&gt;510&lt;/id&gt;
+                  &lt;lstTipo&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;Mercedes-AMG GT&lt;/descripcion&gt;
+                        &lt;id&gt;28905&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;Mercedes-AMG GT S&lt;/descripcion&gt;
+                        &lt;id&gt;8726&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                  &lt;/lstTipo&gt;
+               &lt;/lstResponse&gt;
+               &lt;lstResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:modelo"&gt;
+                  &lt;descripcion&gt;Clase B&lt;/descripcion&gt;
+                  &lt;id&gt;74&lt;/id&gt;
+                  &lt;lstTipo&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;B 180 CGI&lt;/descripcion&gt;
+                        &lt;id&gt;3859&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;B 180 CGI C/PAQ. NAVI&lt;/descripcion&gt;
+                        &lt;id&gt;3920&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                  &lt;/lstTipo&gt;
+               &lt;/lstResponse&gt;
+               &lt;lstResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:modelo"&gt;
+                  &lt;descripcion&gt;Clase C&lt;/descripcion&gt;
+                  &lt;id&gt;75&lt;/id&gt;
+                  &lt;lstTipo&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;C 180 CGI&lt;/descripcion&gt;
+                        &lt;id&gt;824&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;C 180 CGI C/PAQ. NAVI&lt;/descripcion&gt;
+                        &lt;id&gt;3921&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;C 180 Coupé&lt;/descripcion&gt;
+                        &lt;id&gt;19412&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;C 200 C Coupé C/ PAQ NAVI&lt;/descripcion&gt;
+                        &lt;id&gt;28892&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;C 200 CGI Exclusive&lt;/descripcion&gt;
+                        &lt;id&gt;817&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;C 200 CGI Exclusive C/PAQ. NAVI&lt;/descripcion&gt;
+                        &lt;id&gt;3922&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;C 200 CGI Sport&lt;/descripcion&gt;
+                        &lt;id&gt;596&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;C 200 CGI Sport C/PAQ. NAVI&lt;/descripcion&gt;
+                        &lt;id&gt;3923&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;C 200 Coupé&lt;/descripcion&gt;
+                        &lt;id&gt;19413&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;C 250 C Coupé C/ PAQ NAVI&lt;/descripcion&gt;
+                        &lt;id&gt;28891&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;C 250 CGI Sport&lt;/descripcion&gt;
+                        &lt;id&gt;832&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;C 250 CGI Sport C/PAQ. NAVI&lt;/descripcion&gt;
+                        &lt;id&gt;8628&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;C 250 Coupé&lt;/descripcion&gt;
+                        &lt;id&gt;19414&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;C 450 AMG 4MATIC Sport&lt;/descripcion&gt;
+                        &lt;id&gt;8730&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;Mercedes-AMG C 63&lt;/descripcion&gt;
+                        &lt;id&gt;8728&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;Mercedes-AMG C 63 S&lt;/descripcion&gt;
+                        &lt;id&gt;8729&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                  &lt;/lstTipo&gt;
+               &lt;/lstResponse&gt;
+               &lt;lstResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:modelo"&gt;
+                  &lt;descripcion&gt;Clase CLA&lt;/descripcion&gt;
+                  &lt;id&gt;458&lt;/id&gt;
+                  &lt;lstTipo&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;CLA 180 CGI&lt;/descripcion&gt;
+                        &lt;id&gt;8704&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;CLA 180 CGI C/PAQ. NAVI&lt;/descripcion&gt;
+                        &lt;id&gt;8705&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;CLA 200 CGI Sport&lt;/descripcion&gt;
+                        &lt;id&gt;4097&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;CLA 200 CGI Sport C/PAQ. NAVI&lt;/descripcion&gt;
+                        &lt;id&gt;4101&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;CLA 250 CGI Sport&lt;/descripcion&gt;
+                        &lt;id&gt;4098&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;CLA 250 CGI Sport C/PAQ. NAVI&lt;/descripcion&gt;
+                        &lt;id&gt;4104&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;CLA 45 AMG&lt;/descripcion&gt;
+                        &lt;id&gt;4412&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                  &lt;/lstTipo&gt;
+               &lt;/lstResponse&gt;
+               &lt;lstResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:modelo"&gt;
+                  &lt;descripcion&gt;Clase CLS&lt;/descripcion&gt;
+                  &lt;id&gt;78&lt;/id&gt;
+                  &lt;lstTipo&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;CLS 400 CGI Biturbo&lt;/descripcion&gt;
+                        &lt;id&gt;8692&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;CLS 500 CGI Biturbo&lt;/descripcion&gt;
+                        &lt;id&gt;852&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;CLS 63 AMG S 4MATIC&lt;/descripcion&gt;
+                        &lt;id&gt;8717&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                  &lt;/lstTipo&gt;
+               &lt;/lstResponse&gt;
+               &lt;lstResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:modelo"&gt;
+                  &lt;descripcion&gt;Clase E&lt;/descripcion&gt;
+                  &lt;id&gt;79&lt;/id&gt;
+                  &lt;lstTipo&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;E 200 Avantgarde&lt;/descripcion&gt;
+                        &lt;id&gt;28901&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;E 200 Exclusive&lt;/descripcion&gt;
+                        &lt;id&gt;28902&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;E 250 CGI Convertible&lt;/descripcion&gt;
+                        &lt;id&gt;4187&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;E 250 CGI Convertible C/PAQ. NAVI&lt;/descripcion&gt;
+                        &lt;id&gt;4218&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;E 250 CGI Coupe C/ PAQ. NAVI&lt;/descripcion&gt;
+                        &lt;id&gt;28903&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;E 250 CGI Coupé&lt;/descripcion&gt;
+                        &lt;id&gt;4162&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;E 400 CGI Convertible&lt;/descripcion&gt;
+                        &lt;id&gt;4169&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;E 400 CGI Coupé&lt;/descripcion&gt;
+                        &lt;id&gt;4167&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;E 500 CGI Convertible&lt;/descripcion&gt;
+                        &lt;id&gt;3828&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;E 500 CGI Coupé&lt;/descripcion&gt;
+                        &lt;id&gt;28904&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                  &lt;/lstTipo&gt;
+               &lt;/lstResponse&gt;
+               &lt;lstResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:modelo"&gt;
+                  &lt;descripcion&gt;Clase G&lt;/descripcion&gt;
+                  &lt;id&gt;80&lt;/id&gt;
+                  &lt;lstTipo&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;G 500 L&lt;/descripcion&gt;
+                        &lt;id&gt;389&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;Mercedes-AMG G 63&lt;/descripcion&gt;
+                        &lt;id&gt;28911&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                  &lt;/lstTipo&gt;
+               &lt;/lstResponse&gt;
+               &lt;lstResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:modelo"&gt;
+                  &lt;descripcion&gt;Clase GL&lt;/descripcion&gt;
+                  &lt;id&gt;37&lt;/id&gt;
+                  &lt;lstTipo&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;GL 500 CGI Biturbo&lt;/descripcion&gt;
+                        &lt;id&gt;3945&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;GL 63 AMG Biturbo&lt;/descripcion&gt;
+                        &lt;id&gt;4161&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                  &lt;/lstTipo&gt;
+               &lt;/lstResponse&gt;
+               &lt;lstResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:modelo"&gt;
+                  &lt;descripcion&gt;Clase GLA&lt;/descripcion&gt;
+                  &lt;id&gt;460&lt;/id&gt;
+                  &lt;lstTipo&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;GLA 180 CGI&lt;/descripcion&gt;
+                        &lt;id&gt;8721&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;GLA 180 CGI C/PAQ. NAVI&lt;/descripcion&gt;
+                        &lt;id&gt;8722&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;GLA 200 CGI Sport&lt;/descripcion&gt;
+                        &lt;id&gt;4435&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;GLA 200 CGI Sport C/ PAQ. NAVI&lt;/descripcion&gt;
+                        &lt;id&gt;8647&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;GLA 250 CGI Sport&lt;/descripcion&gt;
+                        &lt;id&gt;4436&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;GLA 250 CGI Sport C/PAQ. NAVI&lt;/descripcion&gt;
+                        &lt;id&gt;8670&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;GLA 45 AMG Edition 1&lt;/descripcion&gt;
+                        &lt;id&gt;8649&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                  &lt;/lstTipo&gt;
+               &lt;/lstResponse&gt;
+               &lt;lstResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:modelo"&gt;
+                  &lt;descripcion&gt;Clase GLC&lt;/descripcion&gt;
+                  &lt;id&gt;512&lt;/id&gt;
+                  &lt;lstTipo&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;GLC 300 Off Road&lt;/descripcion&gt;
+                        &lt;id&gt;8738&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;GLC 300 Off Road C/ PAQ. NAVI&lt;/descripcion&gt;
+                        &lt;id&gt;8739&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;GLC 300 Sport&lt;/descripcion&gt;
+                        &lt;id&gt;8740&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;GLC 300 Sport C/ PAQ. NAVI&lt;/descripcion&gt;
+                        &lt;id&gt;8741&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                  &lt;/lstTipo&gt;
+               &lt;/lstResponse&gt;
+               &lt;lstResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:modelo"&gt;
+                  &lt;descripcion&gt;Clase GLE&lt;/descripcion&gt;
+                  &lt;id&gt;511&lt;/id&gt;
+                  &lt;lstTipo&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;GLE 350 Exclusive&lt;/descripcion&gt;
+                        &lt;id&gt;8731&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;GLE 400 Sport&lt;/descripcion&gt;
+                        &lt;id&gt;8732&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;GLE 500 Biturbo&lt;/descripcion&gt;
+                        &lt;id&gt;8733&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;Mercedes-AMG GLE 43 Coupe&lt;/descripcion&gt;
+                        &lt;id&gt;28906&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;Mercedes-AMG GLE 63 &lt;/descripcion&gt;
+                        &lt;id&gt;8737&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;Mercedes-AMG GLE 63 Coupé&lt;/descripcion&gt;
+                        &lt;id&gt;28907&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                  &lt;/lstTipo&gt;
+               &lt;/lstResponse&gt;
+               &lt;lstResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:modelo"&gt;
+                  &lt;descripcion&gt;Clase GLK&lt;/descripcion&gt;
+                  &lt;id&gt;126&lt;/id&gt;
+                  &lt;lstTipo&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;GLK 300 CGI Off Road&lt;/descripcion&gt;
+                        &lt;id&gt;3928&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;GLK 300 CGI Off Road C/PAQ. NAVI&lt;/descripcion&gt;
+                        &lt;id&gt;3929&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;GLK 300 CGI Sport&lt;/descripcion&gt;
+                        &lt;id&gt;4276&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;GLK 300 CGI Sport C/PAQ. NAVI&lt;/descripcion&gt;
+                        &lt;id&gt;4277&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;GLK 350 CGI Sport&lt;/descripcion&gt;
+                        &lt;id&gt;3932&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                  &lt;/lstTipo&gt;
+               &lt;/lstResponse&gt;
+               &lt;lstResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:modelo"&gt;
+                  &lt;descripcion&gt;Clase GLS&lt;/descripcion&gt;
+                  &lt;id&gt;795&lt;/id&gt;
+                  &lt;lstTipo&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;GLS 500 Biturbo&lt;/descripcion&gt;
+                        &lt;id&gt;20314&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                  &lt;/lstTipo&gt;
+               &lt;/lstResponse&gt;
+               &lt;lstResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:modelo"&gt;
+                  &lt;descripcion&gt;Clase M&lt;/descripcion&gt;
+                  &lt;id&gt;81&lt;/id&gt;
+                  &lt;lstTipo&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;ML 350 CGI Exclusive&lt;/descripcion&gt;
+                        &lt;id&gt;8681&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;ML 350 CGI Sport AMG&lt;/descripcion&gt;
+                        &lt;id&gt;3830&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;ML 400 CGI Sport AMG&lt;/descripcion&gt;
+                        &lt;id&gt;8676&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;ML 400 CGI Sport AMG C/PAQ. ILS-MNT&lt;/descripcion&gt;
+                        &lt;id&gt;8736&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;ML 400 Guard VR4&lt;/descripcion&gt;
+                        &lt;id&gt;8688&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;ML 500 CGI Biturbo&lt;/descripcion&gt;
+                        &lt;id&gt;3856&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;ML 500 Guard VR6&lt;/descripcion&gt;
+                        &lt;id&gt;8687&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;ML 63 AMG Biturbo&lt;/descripcion&gt;
+                        &lt;id&gt;3857&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                  &lt;/lstTipo&gt;
+               &lt;/lstResponse&gt;
+               &lt;lstResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:modelo"&gt;
+                  &lt;descripcion&gt;Clase S&lt;/descripcion&gt;
+                  &lt;id&gt;83&lt;/id&gt;
+                  &lt;lstTipo&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;S 400 L CGI Biturbo&lt;/descripcion&gt;
+                        &lt;id&gt;8617&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;S 500 CGI Coupé Biturbo&lt;/descripcion&gt;
+                        &lt;id&gt;28908&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;S 500 L CGI  Biturbo&lt;/descripcion&gt;
+                        &lt;id&gt;839&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;S 600 L&lt;/descripcion&gt;
+                        &lt;id&gt;69&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;S 63 L AMG 4MATIC&lt;/descripcion&gt;
+                        &lt;id&gt;28910&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                  &lt;/lstTipo&gt;
+               &lt;/lstResponse&gt;
+               &lt;lstResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:modelo"&gt;
+                  &lt;descripcion&gt;Clase SL&lt;/descripcion&gt;
+                  &lt;id&gt;84&lt;/id&gt;
+                  &lt;lstTipo&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;SL 500 CGI Biturbo&lt;/descripcion&gt;
+                        &lt;id&gt;3904&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;SL 63 AMG Biturbo&lt;/descripcion&gt;
+                        &lt;id&gt;3956&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                  &lt;/lstTipo&gt;
+               &lt;/lstResponse&gt;
+               &lt;lstResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:modelo"&gt;
+                  &lt;descripcion&gt;Clase SLC&lt;/descripcion&gt;
+                  &lt;id&gt;1286&lt;/id&gt;
+                  &lt;lstTipo&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;SLC 180&lt;/descripcion&gt;
+                        &lt;id&gt;28913&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;SLC 200&lt;/descripcion&gt;
+                        &lt;id&gt;28914&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                  &lt;/lstTipo&gt;
+               &lt;/lstResponse&gt;
+               &lt;lstResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:modelo"&gt;
+                  &lt;descripcion&gt;Clase SLK&lt;/descripcion&gt;
+                  &lt;id&gt;85&lt;/id&gt;
+                  &lt;lstTipo&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;SLK 200 CGI&lt;/descripcion&gt;
+                        &lt;id&gt;847&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;SLK 200 CGI C/PAQ. NAVI&lt;/descripcion&gt;
+                        &lt;id&gt;3844&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;SLK 350 CGI&lt;/descripcion&gt;
+                        &lt;id&gt;848&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                     &lt;lstTipoBO&gt;
+                        &lt;descripcion&gt;SLK 55 AMG&lt;/descripcion&gt;
+                        &lt;id&gt;85&lt;/id&gt;
+                     &lt;/lstTipoBO&gt;
+                  &lt;/lstTipo&gt;
+               &lt;/lstResponse&gt;
+            &lt;/contenido&gt;
+         &lt;/MyDfsResponse&gt;
+      &lt;/ns2:obtenerModelosCotizadorResponse&gt;
+   &lt;/S:Body&gt;
+&lt;/S:Envelope&gt;
+</outtemplate>
+        <outTemplateHeader>X-Frame-Options: SAMEORIGIN
+Date: Wed, 18 May 2016 14:58:43 GMT
+Content-Length: 11636
+Content-Type: text/xml;charset=utf-8
+X-Powered-By: ASP.NET
+Server: Microsoft-IIS/7.5
+</outTemplateHeader>
+        <outputStructure>
+            <index>-1</index>
+            <order>0</order>
+            <id>obtenerModelosCotizadorResponse</id>
+            <records>
+                <index>-1</index>
+                <order>0</order>
+                <id>MyDfsResponse</id>
+                <params>
+                    <accessType></accessType>
+                    <format>int</format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>codigo</name>
+                    <type>java.lang.Integer</type>
+                    <value></value>
+                </params>
+                <records>
+                    <index>-1</index>
+                    <order>0</order>
+                    <id>contenido</id>
+                    <params>
+                        <accessType></accessType>
+                        <format>anyType</format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>lstResponse</name>
+                        <type>anyType</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType></accessType>
+                        <format>anyType</format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>response</name>
+                        <type>anyType</type>
+                        <value></value>
+                    </params>
+                </records>
+            </records>
+        </outputStructure>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>codigo</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>//ns2:obtenerModelosCotizadorResponse/MyDfsResponse/codigo</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value></value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>lstModelos</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>//ns2:obtenerModelosCotizadorResponse/MyDfsResponse/contenido</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value></value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>id</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>lstResponse/id</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>lstModelos</value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>descripcion</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>lstResponse/descripcion</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>lstModelos</value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>lstTipos</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>lstResponse/lstTipo</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>lstModelos</value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>id</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>lstTipoBO/id</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>lstTipos</value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>descripcion</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>lstTipoBO/descripcion</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>lstTipos</value>
+        </outparam>
+        <password></password>
+        <postclassname></postclassname>
+        <preclassname></preclassname>
+        <proxyname></proxyname>
+        <proxyport></proxyport>
+        <proxypwd></proxypwd>
+        <proxyuserid></proxyuserid>
+        <responseencoding>UTF-8</responseencoding>
+        <sharePoint>false</sharePoint>
+        <smscode></smscode>
+        <smsenabled>false</smsenabled>
+        <soapaction></soapaction>
+        <timeout></timeout>
+        <url>http://www.qa.mbfs.com.mx/cotizadorveRTI/myDFSWs</url>
+        <urlprovider></urlprovider>
+        <userid></userid>
+        <version>1.1</version>
+        <wsdlurl>http://dfsqa01.cloudapp.net/cotizadorveRTI/myDFSWs?wsdl</wsdlurl>
+    </soapservice>
+    <sharePointRoot>
+        <name>SharePoint Servers</name>
+    </sharePointRoot>
+    <wsdlroot>
+        <wsdltree>
+            <name>Web Services</name>
+        </wsdltree>
+    </wsdlroot>
+</xsObject>

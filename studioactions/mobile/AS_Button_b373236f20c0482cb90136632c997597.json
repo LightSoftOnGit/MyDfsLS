@@ -1,0 +1,29 @@
+{
+    "AS_Button_b373236f20c0482cb90136632c997597": {
+        "id": "AS_Button_b373236f20c0482cb90136632c997597",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "distribuidorTemplate",
+            "type": "templates",
+            "platform": "",
+            "KUID": "0a89526bfc5c403f8df205df5ca43813"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___c342d5913ae0404182f81c5e56e5ff35",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "gpsVerMapa",
+            "display": "gpsVerMapa",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

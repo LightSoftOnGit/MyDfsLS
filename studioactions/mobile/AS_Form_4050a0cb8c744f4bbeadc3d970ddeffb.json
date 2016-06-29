@@ -1,0 +1,26 @@
+{
+    "AS_Form_4050a0cb8c744f4bbeadc3d970ddeffb": {
+        "id": "AS_Form_4050a0cb8c744f4bbeadc3d970ddeffb",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "loginRegistroNombre",
+            "type": "forms",
+            "platform": "",
+            "KUID": "bcd9e2b237e44de494e5d133cc7fde19"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___1257deb6424647f0a80a41195a839166",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "popNavegacionFrm",
+            "display": "popNavegacionFrm",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

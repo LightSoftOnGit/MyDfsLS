@@ -1,0 +1,26 @@
+{
+    "AS_Button_211805c94e634988a627f7f0ba88111b": {
+        "id": "AS_Button_211805c94e634988a627f7f0ba88111b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmSeguros",
+            "type": "forms",
+            "platform": "",
+            "KUID": "deccabb8d3564a5fbf03d53efe81cfee"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___9706597a1be248338948a4630e93a830",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "popNavegacionFrm",
+            "display": "popNavegacionFrm",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

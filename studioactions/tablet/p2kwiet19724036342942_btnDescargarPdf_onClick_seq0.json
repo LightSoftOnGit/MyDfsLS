@@ -1,0 +1,18 @@
+{
+    "p2kwiet19724036342942_btnDescargarPdf_onClick_seq0": {
+        "id": "p2kwiet19724036342942_btnDescargarPdf_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "customcode_onClick_5399719724036343784",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "saldosMovimientosVerCorreo",
+            "display": "saldosMovimientosVerCorreo",
+            "inputparams": []
+        }]
+    }
+}

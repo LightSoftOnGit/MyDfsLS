@@ -1,0 +1,18 @@
+{
+    "p2kwiet19724036342102_CopybtnBack0a860d4ad009f49_onClick_seq0": {
+        "id": "p2kwiet19724036342102_CopybtnBack0a860d4ad009f49_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "customcode_onClick_12219724036347507",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "popNavegacionFrm",
+            "display": "popNavegacionFrm",
+            "inputparams": []
+        }]
+    }
+}

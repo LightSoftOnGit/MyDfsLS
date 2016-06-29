@@ -1,0 +1,32 @@
+{
+    "AS_FlexContainer_b0319fbf336441bea468bee8ca389494": {
+        "id": "AS_FlexContainer_b0319fbf336441bea468bee8ca389494",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmContacto",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f2d72e30364343ce9d2a70f31c13dfd2"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___3e0f6a7c933441fe83f400e651d10c42",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "contactoCorreoElectronico",
+            "display": "contactoCorreoElectronico",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

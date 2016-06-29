@@ -1,0 +1,18 @@
+{
+    "p2kwiet19724036342040_CopybtnRegistrate05522792b42c34e_onClick_seq0": {
+        "id": "p2kwiet19724036342040_CopybtnRegistrate05522792b42c34e_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "customcode_onClick_3542119724036348827",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "init_loginRegistroNombre",
+            "display": "init_loginRegistroNombre",
+            "inputparams": []
+        }]
+    }
+}

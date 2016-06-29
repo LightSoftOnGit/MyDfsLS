@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "20%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s9a9b121cc834fb4bc4f6459adfc3b79",
+    "_text_": "Correo Electrónico:\n",
+    "_top_": {
+        "type": "string",
+        "value": "10%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "_wrapping_": 2,
+    "annotationId": "418009b5ec1c4e55aa844f8958206f7b",
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "disabledSkins": {},
+    "enabled": false,
+    "id": "richTextCorreo",
+    "info": null,
+    "isvisible": true,
+    "kuid": "ade11af01732442aa07c054521da60c7",
+    "linkskin": "s5dca0991f8f4c4e891e85bd901b1b12",
+    "name": "kony.ui.RichText",
+    "parent": "flexContainerCorreo",
+    "pf": "frmContacto",
+    "wType": "RichText",
+    "widgetalignment": 5,
+    "zindex": 1
+}

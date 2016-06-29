@@ -1,0 +1,50 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "number",
+        "value": "0"
+    },
+    "_height_": {
+        "type": "string",
+        "value": "50%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "20%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s4c561a30b3a40068e5713c3f9bbed7f",
+    "_text_": "clientes.financial@daimler.com",
+    "_width_": {
+        "type": "string",
+        "value": "85%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "disabledSkins": {},
+    "displaytext": true,
+    "focusskin": "s54c56e90fd747d8a63096587d7a692c",
+    "id": "btnCorreo",
+    "info": null,
+    "isvisible": true,
+    "kuid": "324dfbdd38c04c3aa7cedcdb4d474698",
+    "name": "kony.ui.Button",
+    "parent": "flexContainerCorreo",
+    "pf": "frmContacto",
+    "wType": "Button",
+    "zindex": 1
+}

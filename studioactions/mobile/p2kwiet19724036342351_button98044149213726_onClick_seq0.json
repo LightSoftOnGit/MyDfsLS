@@ -1,0 +1,18 @@
+{
+    "p2kwiet19724036342351_button98044149213726_onClick_seq0": {
+        "id": "p2kwiet19724036342351_button98044149213726_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "customcode_onClick_1586019724036344991",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "mostrarMenu",
+            "display": "mostrarMenu",
+            "inputparams": []
+        }]
+    }
+}

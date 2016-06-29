@@ -1,0 +1,1 @@
+{"AS_Button_d5f0caf4e80447bdaaedf7dab72655ea":{"id":"AS_Button_d5f0caf4e80447bdaaedf7dab72655ea","type":"ACTION_SEQUENCE","params":[{"datatype":"collection","name":"eventobject"}],"actions":[{"id":"SEND_SMS__e43699ee96974d30930109da098da5b9","type":"SEND_SMS","phoneNumber":"2721392088","message":"Test Kony Visualizer","parentId":null,"callbackType":null}]}}

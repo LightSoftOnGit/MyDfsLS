@@ -1,0 +1,18 @@
+{
+    "p2kwiet19724036342351_button980441492127660_onClick_seq0": {
+        "id": "p2kwiet19724036342351_button980441492127660_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "customcode_onClick_673961972403634436",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "menuCerrarSesion",
+            "display": "menuCerrarSesion",
+            "inputparams": []
+        }]
+    }
+}

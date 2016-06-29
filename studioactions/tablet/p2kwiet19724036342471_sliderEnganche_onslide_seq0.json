@@ -1,0 +1,27 @@
+{
+    "p2kwiet19724036342471_sliderEnganche_onslide_seq0": {
+        "id": "p2kwiet19724036342471_sliderEnganche_onslide_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }, {
+            "name": "selectedvalue",
+            "value": "selectedvalue"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "customcode_onslide_1815419724036342406",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onSliderEngancheSelect",
+            "display": "onSliderEngancheSelect",
+            "inputparams": []
+        }, {
+            "id": "customcode_onslide_971321972403634923",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "validarPrecioUnidad",
+            "display": "validarPrecioUnidad",
+            "inputparams": []
+        }]
+    }
+}

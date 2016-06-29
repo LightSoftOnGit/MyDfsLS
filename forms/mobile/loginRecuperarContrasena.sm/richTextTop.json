@@ -1,0 +1,56 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "35%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        5,
+        0,
+        0
+    ],
+    "_skin_": "sfaf612f68c3483da24463301dc24f31",
+    "_text_": "Para recuperar su contraseña será necesario que escriba el correo electrónico con el cual se registró.<br><br>A dicho correo le llegará una contraseña temporal.",
+    "_top_": {
+        "type": "string",
+        "value": "18%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "95%"
+    },
+    "_wrapping_": 2,
+    "annotationId": "7620b71d504749b0b43b673070faf577",
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 1,
+    "enabled": false,
+    "id": "richTextTop",
+    "info": null,
+    "isvisible": true,
+    "kuid": "7620b71d504749b0b43b673070faf577",
+    "name": "kony.ui.RichText",
+    "paddinginpixel": false,
+    "parent": "FlexContainer0d8f88386897341",
+    "pf": "loginRecuperarContrasena",
+    "wType": "RichText",
+    "widgetalignment": 5,
+    "zindex": 2
+}

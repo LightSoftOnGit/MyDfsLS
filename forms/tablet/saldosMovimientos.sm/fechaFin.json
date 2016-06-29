@@ -1,0 +1,126 @@
+{
+    "DNDConfig": null,
+    "Image": "default.png",
+    "_enabled_": false,
+    "_height_": {
+        "type": "string",
+        "value": "40%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "53.25%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s5c57113e5ef43a4a7047eb272f2f22e",
+    "_text_": "",
+    "_width_": {
+        "type": "string",
+        "value": "35%"
+    },
+    "advview": "default",
+    "android": {
+        "@class": "com.kony.gen.viz.model.component.property.datefield.AndroidDateFieldProperty",
+        "calendarIcon": "calbtn.png",
+        "psp": {
+            "containerHeightReference": 1,
+            "data": {},
+            "dayTextAlignmentInCell": 5,
+            "hideDaysHeader": false,
+            "hideMonthsHeader": false
+        },
+        "render": true,
+        "viewType": "default"
+    },
+    "calendaricon": "calbtn.png",
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50.00%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "dateeditable": true,
+    "dateformat": "dd/MM/yyyy",
+    "enddate": [
+        30,
+        8,
+        2013
+    ],
+    "format": "dd/MM/yyyy",
+    "formatteddate": "",
+    "hexpand": true,
+    "id": "fechaFin",
+    "info": null,
+    "ipad": {
+        "@class": "com.kony.gen.viz.model.component.property.datefield.IPadDateFieldProperty",
+        "calendarIcon": "calbtn.png",
+        "psp": {
+            "containerHeightReference": 1,
+            "data": {},
+            "dayTextAlignmentInCell": 5,
+            "hideDaysHeader": false,
+            "hideMonthsHeader": false,
+            "mode": 0
+        },
+        "render": true,
+        "viewType": "default"
+    },
+    "isvisible": true,
+    "kuid": "p2kwiet19724036342919",
+    "margininpixel": false,
+    "name": "kony.ui.Calendar",
+    "paddinginpixel": false,
+    "pagedate": "8/2013",
+    "parent": "flxcRango",
+    "pf": "saldosMovimientos",
+    "selectdate": "8/0/2013",
+    "spa": {
+        "@class": "com.kony.gen.viz.model.component.property.datefield.SPADateFieldProperty",
+        "calendarIcon": "calbtn.png"
+    },
+    "spaandroidtablet": {
+        "@class": "com.kony.gen.viz.model.component.property.datefield.SPAAndroidTabletDateFieldProperty",
+        "render": true
+    },
+    "spaipad": {
+        "@class": "com.kony.gen.viz.model.component.property.datefield.SPAIPadDateFieldProperty",
+        "render": true
+    },
+    "spawindowstablet": {
+        "@class": "com.kony.gen.viz.model.component.property.datefield.SPAWindowsTabletDateFieldProperty",
+        "render": true
+    },
+    "startdate": [
+        1,
+        8,
+        2013
+    ],
+    "vexpand": false,
+    "viewconfig": {
+        "gridConfig": {
+            "allowWeekendSelectable": true,
+            "leftNavigationImage": "",
+            "rightNavigationImage": ""
+        }
+    },
+    "viewtype": "default",
+    "wType": "Calendar",
+    "widgetalignment": 5,
+    "windows8": {
+        "@class": "com.kony.gen.viz.model.component.property.datefield.Windows8DateFieldProperty",
+        "render": true,
+        "viewType": "default"
+    },
+    "zindex": 1
+}

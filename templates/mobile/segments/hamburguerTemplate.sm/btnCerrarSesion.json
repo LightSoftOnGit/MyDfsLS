@@ -1,0 +1,60 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "80%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sea9df4f7eab43d0b107d636048ddcc5",
+    "_text_": "CERRAR SESION",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "70%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerId": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "disabledSkins": {},
+    "displaytext": true,
+    "focusskin": "s790512d39fb4490afedf3dc67e7a29a",
+    "id": "btnCerrarSesion",
+    "info": null,
+    "isvisible": true,
+    "kuid": "2637a7f051704ccd9eac0553eeccc818",
+    "name": "kony.ui.Button",
+    "paddinginpixel": false,
+    "parent": "btnMenuCerrarSesion",
+    "pf": "hamburguerTemplate",
+    "wType": "Button",
+    "zindex": 1
+}

@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "10%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        5,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s6a5e594c58a4c4aa5aa98fcb08a5cbd",
+    "_text_": "WWW.DISTRIBUIDORES.COM.MX",
+    "_top_": {
+        "type": "string",
+        "value": "70%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerId": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "disabledSkins": {},
+    "displaytext": true,
+    "focusskin": "sddff2d7b93d4be98bb934b9490e54bc",
+    "id": "btnPagina",
+    "ide_onClick": "AS_Button_7053feed06194855a509fbc03fe97aaa",
+    "info": null,
+    "isvisible": true,
+    "kuid": "f46aabcbf31249d8a8335240799c9ef8",
+    "name": "kony.ui.Button",
+    "paddinginpixel": false,
+    "parent": "FlexContainer0348a5feae1b94c",
+    "pf": "distribuidorTemplate",
+    "wType": "Button",
+    "zindex": 1
+}

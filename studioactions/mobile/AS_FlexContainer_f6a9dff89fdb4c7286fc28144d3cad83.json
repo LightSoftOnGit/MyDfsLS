@@ -1,0 +1,32 @@
+{
+    "AS_FlexContainer_f6a9dff89fdb4c7286fc28144d3cad83": {
+        "id": "AS_FlexContainer_f6a9dff89fdb4c7286fc28144d3cad83",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmSeguros",
+            "type": "forms",
+            "platform": "",
+            "KUID": "deccabb8d3564a5fbf03d53efe81cfee"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___901567ac5b0643b0bca8064305d6ddc3",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "segurosLlamadaTelefono",
+            "display": "segurosLlamadaTelefono",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

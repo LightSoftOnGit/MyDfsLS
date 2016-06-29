@@ -1,0 +1,18 @@
+{
+    "p2kwiet19724036341503_Button0c9770c99e42745_onClick_seq0": {
+        "id": "p2kwiet19724036341503_Button0c9770c99e42745_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "customcode_onClick_700501972403634255",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "alternarFichaTecnica2",
+            "display": "alternarFichaTecnica2",
+            "inputparams": []
+        }]
+    }
+}

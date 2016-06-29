@@ -1,0 +1,121 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        {
+            "lblNoCliente": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "No Cliente: 000000"
+            }
+        },
+        {
+            "lblNoCliente": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "No Cliente: 000001"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "android": {
+        "viewType": "coverflow"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "01",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segmentCliente",
+    "info": null,
+    "invokedProperty": "pageOnDotImage",
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect",
+            "progressIndicatorColor": "grey"
+        }
+    },
+    "isvisible": true,
+    "kuid": "ea8076a879e9486ca0327a4acc9bb9ed",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": false,
+    "pageoffdotimage": "pageOffDot.png",
+    "pageondotimage": "pageOnDot.png",
+    "paginationconfig": {
+        "position": "bottom",
+        "vdistance": 1
+    },
+    "parent": "flexContainerNoCliente",
+    "pf": "loginBienvenida",
+    "progressindicatorcolor": "grey",
+    "retainselection": false,
+    "rowTemplateId": "13a7c9ba4a6f4fb185ed8ec6da9910ba",
+    "rowcounter": 1,
+    "rowfocusskin": "s579d5e56c384afbac6a1b576ba24649",
+    "rowskin": "s11866e071574ac49a2f461acf8b0d66",
+    "rowtemplate": "templateContainer",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "sd2ea33ffa944f2c89e722d2deb68dd8",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "64646400",
+    "separatorrequired": false,
+    "separatorthickness": 0,
+    "showscrollbars": false,
+    "swipeContext": {
+        "currentPage": 0,
+        "imageWidth": 750,
+        "widthRatio": 0
+    },
+    "viewtype": "pageview",
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "lblNoCliente": "lblNoCliente",
+        "templateContainer": "templateContainer"
+    },
+    "zindex": 1
+}

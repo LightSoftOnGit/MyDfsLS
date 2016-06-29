@@ -1,0 +1,29 @@
+{
+    "AS_Button_3178806f7f7b4dfcae472c95b843138f": {
+        "id": "AS_Button_3178806f7f7b4dfcae472c95b843138f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "distribuidorTemplate",
+            "type": "templates",
+            "platform": "",
+            "KUID": "0a89526bfc5c403f8df205df5ca43813"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___8dd7722b3d6d49d7a3f8432d1999bfec",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "gpsLlamadaTelefono",
+            "display": "gpsLlamadaTelefono",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

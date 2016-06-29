@@ -1,0 +1,18 @@
+{
+    "p2kwiet19724036341437_cotizadorCalculo2_Android_onDeviceBack_seq0": {
+        "id": "p2kwiet19724036341437_cotizadorCalculo2_Android_onDeviceBack_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "customcode_onDeviceBack_9717419724036347156",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "backGeneral",
+            "display": "backGeneral",
+            "inputparams": []
+        }]
+    }
+}

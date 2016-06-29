@@ -1,0 +1,26 @@
+{
+    "AS_Button_f809299ff78540d7a913384c508c886c": {
+        "id": "AS_Button_f809299ff78540d7a913384c508c886c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "loginRecuperarContrasena",
+            "type": "forms",
+            "platform": "",
+            "KUID": "5f14a7052fc1494684002708fe6fede6"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___a8cc91ffbc3641cc8f14377cc107413a",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "popNavegacionFrm",
+            "display": "popNavegacionFrm",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

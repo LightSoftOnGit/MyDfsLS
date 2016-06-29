@@ -1,0 +1,18 @@
+{
+    "p2kwiet19724036342203_btnEnviar_onClick_seq0": {
+        "id": "p2kwiet19724036342203_btnEnviar_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "customcode_onClick_706611972403634754",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "recuperarContrasena",
+            "display": "recuperarContrasena",
+            "inputparams": []
+        }]
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "p2kwiet19724036342942_btnPrimero_onClick_seq0": {
+        "id": "p2kwiet19724036342942_btnPrimero_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "customcode_onClick_3785119724036346594",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "saldosMovimientosPrimero",
+            "display": "saldosMovimientosPrimero",
+            "inputparams": []
+        }]
+    }
+}

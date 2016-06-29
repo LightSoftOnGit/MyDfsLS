@@ -1,0 +1,16 @@
+{
+  "background_image": "camarachat.png",
+  "bg_type": "image",
+  "border_color": "000000ff",
+  "border_style": "plain",
+  "border_type": 0,
+  "border_width": 0,
+  "font_color": "000000ff",
+  "font_name": "Helvetica",
+  "font_size": 100,
+  "font_style": "normal",
+  "font_weight": "normal",
+  "isDefaultSkin": false,
+  "kuid": "scf36e8043a24edf9e3e65e83ff88a19",
+  "wType": "Camera"
+}

@@ -1,0 +1,18 @@
+{
+    "p2kwiet19724036342411_btnDescargar_onClick_seq0": {
+        "id": "p2kwiet19724036342411_btnDescargar_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "customcode_onClick_546111972403634703",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "construccionVer",
+            "display": "construccionVer",
+            "inputparams": []
+        }]
+    }
+}

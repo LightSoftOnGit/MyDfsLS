@@ -1,0 +1,51 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "120%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        1,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s66a7fbee0914eaa83bd45063cdc82c1",
+    "_text_": "<br/>\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam bibendum urna in mi fringilla finibus. In dictum quis justo id pellentesque.\n<br/>\n<br/>\nCurabitur a facilisis augue, sed ultrices sem. Vestibulum vulputate tincidunt nisi, ut tempus sapien dignissim ac. Quisque congue ac nibh at suscipit. In at odio vulputate, mollis ex sit amet, facilisis ex. Aliquam porta lorem id velit imperdiet facilisis.\n<br/>\n<br/>\n Aliquam vel eros rutrum, aliquet erat at, fermentum nunc. Cras pharetra turpis ut sem rutrum vestibulum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam id turpis ut purus semper condimentum at nec libero.  \n<br/>\n<br/>\nMaecenas dictum, lacus in finibus molestie, turpis nisi bibendum purus, id consequat augue massa a dui. Aenean nisl erat, aliquet sed mi dictum, feugiat egestas libero. Aenean rhoncus finibus justo sed pellentesque.\n <br/>\n",
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 1,
+    "enabled": false,
+    "id": "richTextTxt",
+    "info": null,
+    "isvisible": true,
+    "kuid": "f41b7dc49fd84a2bb7230cad72170566",
+    "name": "kony.ui.RichText",
+    "paddinginpixel": false,
+    "parent": "scrollContainerTC",
+    "pf": "frmTermsAndConditions2",
+    "wType": "RichText",
+    "widgetalignment": 5,
+    "zindex": 1
+}

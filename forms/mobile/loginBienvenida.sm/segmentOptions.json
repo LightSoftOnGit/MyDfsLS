@@ -1,0 +1,200 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        {
+            "Label0425032fbc16b49": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Detalle"
+            },
+            "imgFlechaPagos": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "flecha.png"
+            },
+            "lblPagosEnLinea": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Información de Contrato"
+            }
+        },
+        {
+            "Label0425032fbc16b49": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Pagos en Línea"
+            },
+            "imgFlechaPagos": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "flecha.png"
+            },
+            "lblPagosEnLinea": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Pagos en Línea"
+            }
+        },
+        {
+            "Label0425032fbc16b49": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Saldos y Movimientos"
+            },
+            "imgFlechaPagos": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "flecha.png"
+            },
+            "lblPagosEnLinea": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Saldos y Movimientos"
+            }
+        },
+        {
+            "Label0425032fbc16b49": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Estados de Cuenta"
+            },
+            "imgFlechaPagos": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "flecha.png"
+            },
+            "lblPagosEnLinea": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Estados de Cuenta"
+            }
+        },
+        {
+            "Label0425032fbc16b49": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Facturación"
+            },
+            "imgFlechaPagos": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "flecha.png"
+            },
+            "lblPagosEnLinea": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Facturación"
+            }
+        },
+        {
+            "Label0425032fbc16b49": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Seguros"
+            },
+            "imgFlechaPagos": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "flecha.png"
+            },
+            "lblPagosEnLinea": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Seguros"
+            }
+        },
+        {
+            "Label0425032fbc16b49": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Loyalty"
+            },
+            "imgFlechaPagos": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "flecha.png"
+            },
+            "lblPagosEnLinea": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Loyalty"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "06",
+    "disabledSkins": {
+        "alternateRowSkin": "s7cf1ed48a14416c8be507c0d62eca50"
+    },
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segmentOptions",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "none"
+        }
+    },
+    "isvisible": true,
+    "kuid": "abc8f2f2ff9d4bad8a3023a286e6ed91",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageOffDot.png",
+    "pageondotimage": "pageOnDot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flexContainerBottom",
+    "pf": "loginBienvenida",
+    "retainselection": false,
+    "rowTemplateId": "4294ff2905a741feb953a04295095287",
+    "rowcounter": 6,
+    "rowfocusskin": "s579d5e56c384afbac6a1b576ba24649",
+    "rowskin": "s20716ba42804159b1b2369d506fd93e",
+    "rowtemplate": "flexContainerPagos",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "sd2ea33ffa944f2c89e722d2deb68dd8",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "64646400",
+    "separatorrequired": true,
+    "separatorthickness": 1,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "Label0425032fbc16b49": "Label0425032fbc16b49",
+        "flexContainerPagos": "flexContainerPagos",
+        "imgFlechaPagos": "imgFlechaPagos",
+        "lblPagosEnLinea": "lblPagosEnLinea"
+    },
+    "zindex": 2
+}

@@ -1,0 +1,21 @@
+{
+    "p2kwiet19724036343291_lblPaginaWeb_onClick_seq0": {
+        "id": "p2kwiet19724036343291_lblPaginaWeb_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }, {
+            "name": "context",
+            "value": "context"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "customcode_onClick_2781719724036341451",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "gpsVerPaginaWeb",
+            "display": "gpsVerPaginaWeb",
+            "inputparams": []
+        }]
+    }
+}

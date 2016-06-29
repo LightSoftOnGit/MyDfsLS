@@ -1,0 +1,62 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "10%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_padding_": [
+        5,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s83b3bec37804847943a8eb67564397d",
+    "_text_": "CENTRO DE CIUDAD SANTA FE CP01210",
+    "_top_": {
+        "type": "string",
+        "value": "41.70%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "containerId": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "enabled": false,
+    "id": "lblDireccion2",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iphone": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "isvisible": true,
+    "kuid": "af3ad55699ce4654a9a77ab4b3822622",
+    "name": "kony.ui.Label",
+    "paddinginpixel": false,
+    "parent": "CopyFlexContainer025c999267ce944",
+    "pf": "distribuidorCotizadorTemplate",
+    "tooltip": "",
+    "wType": "Label",
+    "zindex": 1
+}

@@ -1,0 +1,16 @@
+{
+    "p2kwiet19724036342973_btnCerrar_onClick_seq0": {
+        "id": "p2kwiet19724036342973_btnCerrar_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_onClick_809419724036347805",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "popUpArco.dismiss();"
+        }]
+    }
+}

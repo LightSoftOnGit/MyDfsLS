@@ -1,0 +1,27 @@
+{
+    "p2kwiet19724036341600_segmentCalculadora_onRowClick_seq0": {
+        "id": "p2kwiet19724036341600_segmentCalculadora_onRowClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }, {
+            "name": "sectionNumber",
+            "value": "sectionNumber"
+        }, {
+            "name": "rowNumber",
+            "value": "rowNumber"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "customcode_onRowClick_7697819724036345556",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "seleccionarModelo",
+            "display": "seleccionarModelo",
+            "inputparams": [{
+                "name": "index",
+                "value": " rowNumber"
+            }]
+        }]
+    }
+}

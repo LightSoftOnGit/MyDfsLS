@@ -1,0 +1,33 @@
+{
+    "p2kwiet19724036342582_smgtoOpciones_onRowClick_seq0": {
+        "id": "p2kwiet19724036342582_smgtoOpciones_onRowClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }, {
+            "name": "sectionNumber",
+            "value": "sectionNumber"
+        }, {
+            "name": "rowNumber",
+            "value": "rowNumber"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "customcode_onRowClick_5118819724036343214",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "gpsDistribuidorOpcionesNav",
+            "display": "gpsDistribuidorOpcionesNav",
+            "inputparams": [{
+                "name": "eventobject",
+                "value": " eventobject"
+            }, {
+                "name": "sectionNumber",
+                "value": " sectionNumber"
+            }, {
+                "name": "rowNumber",
+                "value": " rowNumber"
+            }]
+        }]
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "AS_CheckBoxGroup_7c7994211e514d62a871a51dea090fc0": {
+        "id": "AS_CheckBoxGroup_7c7994211e514d62a871a51dea090fc0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmUbicacionActual",
+            "type": "forms",
+            "platform": "",
+            "KUID": "e2c4d7fbe95e40319d752bc757c23b45"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___0b80821e6d524c33979ca1769d8d247c",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "infGpsVisible",
+            "display": "infGpsVisible",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

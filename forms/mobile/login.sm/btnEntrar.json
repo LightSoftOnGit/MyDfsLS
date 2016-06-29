@@ -1,0 +1,56 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "8%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "80dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s5bf91654fe74702a6459c0ee66fb73b",
+    "_text_": "Entrar",
+    "_top_": {
+        "type": "string",
+        "value": "68%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "50%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "disabledSkins": {},
+    "displaytext": true,
+    "focusskin": "s790512d39fb4490afedf3dc67e7a29a",
+    "id": "btnEntrar",
+    "ide_onClick": "AS_Button_a0a9b54ba5f24154ac958a81b6a19ddd",
+    "info": null,
+    "isvisible": true,
+    "kuid": "da668997b4d84eaabe339111fb606ed1",
+    "name": "kony.ui.Button",
+    "paddinginpixel": false,
+    "parent": "CopyflexContent058c0354f4a7043",
+    "pf": "login",
+    "wType": "Button",
+    "zindex": 2
+}

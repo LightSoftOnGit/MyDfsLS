@@ -1,0 +1,32 @@
+{
+    "AS_FlexContainer_cea26198d4204f3b95dc04bb68ae6ebe": {
+        "id": "AS_FlexContainer_cea26198d4204f3b95dc04bb68ae6ebe",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmContrato",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f60a45d65344493892cdd9690259f973"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___72cffe3f09084eabad2c8e40a8c288da",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "DetalleContratoInfoVer",
+            "display": "DetalleContratoInfoVer",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

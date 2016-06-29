@@ -1,0 +1,21 @@
+{
+    "p2kwiet19724036342488_btnRegresar_onClick_seq0": {
+        "id": "p2kwiet19724036342488_btnRegresar_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "navigation_onClick_7817319724036346064",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "cotizadorCalculo",
+            "formKUID": "p2kwiet19724036342471",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "enableMappingEditor": true
+        }]
+    }
+}

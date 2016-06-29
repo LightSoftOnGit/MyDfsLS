@@ -1,0 +1,54 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        20,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sc714a23a60042ceb1585ffd39dbb499",
+    "_text_": "Mi Seguro",
+    "_top_": {
+        "type": "string",
+        "value": "7dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50.11%"
+    },
+    "containerweight": 100,
+    "contentalignment": 4,
+    "displaytext": true,
+    "focusskin": "s964208bae714992bc0f8893293b5b09",
+    "id": "CopyButton0fc4e0d07bd7746",
+    "info": null,
+    "isvisible": true,
+    "kuid": "710a82234ae9434fbf62808ea80f9a1c",
+    "name": "kony.ui.Button",
+    "paddinginpixel": false,
+    "parent": "flexContainerDistribuidores",
+    "pf": "frmSeguros",
+    "wType": "Button",
+    "zindex": 2
+}
