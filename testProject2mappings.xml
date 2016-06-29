@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<application id="testProject2" name="testProject2">
+    <container isflex="false" displayname="Popup" id="headerLogin" type="dialog"/>
+    <container isflex="false" displayname="Popup" id="headerLoginBack" type="dialog"/>
+    <container isflex="false" displayname="Popup" id="heder2" type="dialog"/>
+    <container isflex="false" displayname="Popup" id="hederGray1" type="dialog"/>
+    <container isflex="false" displayname="Popup" id="footerGray1" type="dialog"/>
+    <container isflex="false" displayname="Form" id="ajustes" type="form"/>
+    <container isflex="false" displayname="Form" id="contacto" type="form"/>
+    <container isflex="false" displayname="Form" id="cotizadorCalculo" type="form"/>
+    <container isflex="false" displayname="Form" id="cotizadorCotizacion" type="form"/>
+    <container isflex="false" displayname="Form" id="cotizadorEnviar" type="form">
+        <component displayname="TextBox2" id="txtUserName" type="textbox2"/>
+        <component displayname="TextBox2" id="txtUserLastName" type="textbox2"/>
+        <component displayname="TextBox2" id="txtUserEmail" type="textbox2"/>
+        <component displayname="TextBox2" id="txtUserPhone" type="textbox2"/>
+        <component displayname="TextBox2" id="txtUserAddress" type="textbox2"/>
+    </container>
+    <container isflex="false" displayname="Form" id="cotizadorFinanciamiento" type="form"/>
+    <container isflex="false" displayname="Form" id="cotizadorModelos" type="form"/>
+    <container isflex="false" displayname="Form" id="cotizadorPlanes" type="form"/>
+    <container isflex="false" displayname="Form" id="facturaElectronica" type="form"/>
+    <container isflex="false" displayname="Form" id="facturaElectronicaMes" type="form"/>
+    <container isflex="false" displayname="Form" id="frmContact" type="form"/>
+    <container isflex="false" displayname="Form" id="frmDfs" type="form"/>
+    <container isflex="false" displayname="Form" id="frmGeneralContact" type="form"/>
+    <container isflex="false" displayname="Form" id="frmMap" type="form">
+        <component displayname="Map" id="generalMap" type="map">
+            <attributes datatype="string" name="key" platform="general" value="Google map key is not defined in application properties"/>
+        </component>
+    </container>
+    <container isflex="false" displayname="Form" id="frmParkingMeter" type="form"/>
+    <container isflex="false" displayname="Form" id="frmPayConfirm" type="form"/>
+    <container isflex="false" displayname="Form" id="frmPayOnline" type="form"/>
+    <container isflex="false" displayname="Form" id="frmPayOnlineAccount" type="form">
+        <component displayname="TextBox2" id="txtEditAmount" type="textbox2"/>
+    </container>
+    <container isflex="false" displayname="Form" id="frmPayUpdate" type="form">
+        <component displayname="TextBox2" id="txtCardDigits" type="textbox2"/>
+        <component displayname="TextBox2" id="txtCardDate" type="textbox2"/>
+        <component displayname="TextBox2" id="txtCardCode" type="textbox2"/>
+    </container>
+    <container isflex="false" displayname="Form" id="frmQuoteSecure" type="form">
+        <component displayname="TextBox2" id="txtPrice" type="textbox2"/>
+        <component displayname="TextBox2" id="txtInsurance" type="textbox2"/>
+        <component displayname="ListBox" id="listBoxMark" type="listbox"/>
+        <component displayname="ListBox" id="listBoxState" type="listbox"/>
+    </container>
+    <container isflex="false" displayname="Form" id="frmRenew" type="form"/>
+    <container isflex="false" displayname="Form" id="frmSecure" type="form"/>
+    <container isflex="false" displayname="Form" id="frmSinister" type="form"/>
+    <container isflex="false" displayname="Form" id="gpsDistribuidor" type="form"/>
+    <container isflex="false" displayname="Form" id="gpsEstado" type="form">
+        <component displayname="ListBox" id="listStates" type="listbox"/>
+    </container>
+    <container isflex="false" displayname="Form" id="gpsUbicacion" type="form"/>
+    <container isflex="false" displayname="Form" id="inicio" type="form"/>
+    <container isflex="false" displayname="Form" id="login" type="form">
+        <component displayname="TextBox2" id="txtUser" type="textbox2"/>
+        <component displayname="TextBox2" id="txtPassword" type="textbox2"/>
+    </container>
+    <container isflex="false" displayname="Form" id="loginBienvenida" type="form"/>
+    <container isflex="false" displayname="Form" id="loginCambiarContrasena" type="form">
+        <component displayname="TextBox2" id="txtPassword" type="textbox2"/>
+        <component displayname="TextBox2" id="CopytxtPassword0bfdc9d05dba44e" type="textbox2"/>
+    </container>
+    <container isflex="false" displayname="Form" id="loginRecuperarContrasena" type="form">
+        <component displayname="TextBox2" id="txtPassword" type="textbox2"/>
+    </container>
+    <container isflex="false" displayname="Form" id="loginRegistroEmpresa" type="form">
+        <component displayname="TextBox2" id="txtPassword" type="textbox2"/>
+        <component displayname="TextBox2" id="CopytxtPassword0bfdc9d05dba44e" type="textbox2"/>
+        <component displayname="TextBox2" id="CopytxtPassword0cefb3728bb3648" type="textbox2"/>
+        <component displayname="TextBox2" id="CopytxtPassword05c580782303d4c" type="textbox2"/>
+        <component displayname="TextBox2" id="CopytxtPassword08dddd73f06e54d" type="textbox2"/>
+    </container>
+    <container isflex="false" displayname="Form" id="loginRegistroNombre" type="form">
+        <component displayname="TextBox2" id="txtUser" type="textbox2"/>
+        <component displayname="TextBox2" id="txtPassword" type="textbox2"/>
+    </container>
+    <container isflex="false" displayname="Form" id="loyalty" type="form"/>
+    <container isflex="false" displayname="Form" id="parquimetro" type="form"/>
+    <container isflex="false" displayname="Form" id="saldoDetalle" type="form"/>
+    <container isflex="false" displayname="Form" id="saldoEstadoCuenta" type="form"/>
+    <container isflex="false" displayname="Form" id="saldos" type="form">
+        <component displayname="Calendar" id="dateStart" type="calendar"/>
+        <component displayname="Calendar" id="dateEnd" type="calendar"/>
+    </container>
+    <container isflex="false" displayname="Popup" id="cotizadorTerminos" type="dialog"/>
+    <container isflex="false" displayname="Popup" id="gpsOpciones" type="dialog"/>
+    <container isflex="false" displayname="Popup" id="popupEndPayment" type="dialog"/>
+    <container isflex="false" displayname="Popup" id="popupSentMail" type="dialog"/>
+    <container isflex="false" displayname="Popup" id="registroTerminos" type="dialog"/>
+    <globalsequences/>
+    <skins/>
+</application>
